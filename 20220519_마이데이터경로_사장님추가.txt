@@ -1,0 +1,333 @@
+PC
+
+마이데이터 > 사장님 신용 (Intro)
+
+MO
+
+마이데이터 > 사장님 신용 (Intro)
+rzm/2my/mct/RZM2MYMCT01.html
+
+마이데이터 > 사업장 관리 > 사업장 등록
+rzm/2my/mcm/RZM2MYMCM01.html
+
+마이데이터 > 사업장 관리 > 사업장 등록 이용안내(팝업)
+rzm/2my/mcm/RZM2MYMCM01_popup.html
+
+마이데이터 > 사업장 관리 > 사업자용 범용공동인증서 등록
+rzm/2my/mcm/RZM2MYMCM02.html
+
+마이데이터 > 사업장 관리 > 사업자용 보유 공인인증서 목록(팝업)
+rzm/2my/mcm/RZM2MYMCM02_popup.html
+
+마이데이터 > 사업장 관리 > 공동인증서 인증(보유내역없음)
+rzm/2my/mcm/RZM2MYMCM02_none.html
+
+마이데이터 > 사업장 관리 > 사업장 등록 현황
+rzm/2my/mcm/RZM2MYMCM03.html
+
+마이데이터 > 사업장 관리 > 사업장 등록 현황(내역없음)
+rzm/2my/mcm/RZM2MYMCM03_none.html
+
+마이데이터 > 사업장 관리 > 등록/삭제 이력
+rzm/2my/mcm/RZM2MYMCM04.html
+
+마이데이터 > 사업장 관리 > 등록/삭제 이력(내역없음)
+rzm/2my/mcm/RZM2MYMCM04_none.html
+
+마이데이터 > 사장님 신용 > 사업장
+rzm/2my/mct/RZM2MYMCT02.html
+
+마이데이터 > 사장님 신용 > 사업장 (산출불가)
+rzm/2my/mct/RZM2MYMCT02_none.html
+
+마이데이터 > 사장님 신용 > 사업장 스코어(상세)
+rzm/2my/mct/RZM2MYMCT03.html
+
+마이데이터 > 사장님 신용 > 사업장 신용 컨설팅 (4case)
+rzm/2my/mct/RZM2MYMCT04.html
+
+마이데이터 > 사장님 신용 > 사업장 가맹점 정보
+rzm/2my/mct/RZM2MYMCT05.html
+
+마이데이터 > 사장님 신용 > 사업장 가맹점 상세 (팝업)
+rzm/2my/mct/RZM2MYMCT05_popup.html
+
+마이데이터 > 사장님 신용 > 신용정보 상세 (카드)
+rzm/2my/mct/RZM2MYMCT06_01.html
+
+마이데이터 > 사장님 신용 > 신용정보 상세 (카드/내역없음)
+rzm/2my/mct/RZM2MYMCT06_01_none.html
+
+마이데이터 > 사장님 신용 > 신용정보 상세 (대출)
+rzm/2my/mct/RZM2MYMCT06_02.html
+
+마이데이터 > 사장님 신용 > 신용정보 상세 (대출/내역없음)
+rzm/2my/mct/RZM2MYMCT06_02_none.html
+
+마이데이터 > 사장님 신용 > 신용정보 상세 (연체)
+rzm/2my/mct/RZM2MYMCT06_03.html
+
+마이데이터 > 사장님 신용 > 신용정보 상세 (연체/내역없음)
+rzm/2my/mct/RZM2MYMCT06_03_none.html
+
+
+==============================================
+
+마이데이터 > MY자산 > 자산목록
+rza/2my/ast/RZA2MYAST10.html 
+
+마이데이터 > MY자산 > 시작하기
+rza/api/int/RZAAPIINT10.html 
+
+마이데이터 > MY자산 > 자산관리 서비스가입 이용약관 동의
+rza/2my/rac/RZA2MYRAC10_2107_A1.html 
+
+마이데이터 > MY자산 > 자산 등록/관리
+rza/2my/rac/RZA2MYRAC10_tab_1.html
+
+마이데이터 > MY자산 > 은행 > 개별인증 - 개인(신용)정보 수집이용동의서
+rza/2my/rac/RZA2MYRAC10_A1.html
+
+마이데이터 > MY자산 > 은행 > 개별인증 - 개인(신용)정보 제공동의서
+rza/2my/rac/RZA2MYRAC10_A2.html
+
+마이데이터 > MY자산 > 은행 > 연동해제 팝업 - 연체방지서비스 해제 경고
+rza/2my/rac/RZA2MYRAC10_P3.html
+
+마이데이터 > MY자산 > 은행 > 통합인증 - 계좌정보 연동하기 - 선택
+rza/2my/rac/RZA2MYRAC10_P4.html
+
+마이데이터 > MY자산 > 카드 연동하기(은행)
+rza/2my/rac/RZA2MYRAC10_tab_1.html
+
+마이데이터 > MY자산 > 카드 연동하기(카드)
+rza/2my/rac/RZA2MYRCD10_tab.html
+
+마이데이터 > MY자산 > 계좌연동 연동하기(은행)
+rza/2my/rac/RZA2MYRAC10_2107_bank.html
+
+마이데이터 > MY자산 > 계좌연동 연동하기(카드)
+rza/2my/rac/RZA2MYRAC10_2107_card.html
+
+마이데이터 > MY자산 > 계좌연동 연동하기(보험)
+rza/2my/rac/RZA2MYRAC10_2107_ins.html
+
+마이데이터 > MY자산 > 계좌연동 연동하기(증권)
+rza/2my/rac/RZA2MYRAC10_2107_stock.html
+
+마이데이터 > MY자산.계좌 > 메인
+rza/2my/ast/RZA2MYAST21.html
+
+마이데이터 > MY자산.계좌 > 상세 (수신 및 마이너스 통장)
+rza/2my/ast/RZA2MYAST22.html
+
+마이데이터 > MY자산.계좌 > 상세 (거래내역 없을 경우)
+rza/2my/ast/RZA2MYAST22_N.html
+
+마이데이터 > MY자산.계좌 > 상세 (여신_기존페이지수정)
+rza/2my/ast/RZA2MYAST23.html
+
+마이데이터 > MY자산.계좌 > 상세 (증권)
+rza/2my/ast/RZA2MYAST24.html
+
+마이데이터 > MY자산.계좌 > 상세 (증권) 로딩중
+rza/2my/ast/RZA2MYAST24_loading.html
+
+마이데이터 > MY자산.카드 > 메인
+rza/2my/ast/RZA2MYAST31.html
+
+마이데이터 > MY자산.카드 > 상세
+rza/2my/ast/RZA2MYAST21.html
+
+마이데이터 > MY자산.카드 > 카드이용실적
+rza/2my/ast/RZA2MYAST32.html
+
+마이데이터 > MY자산.카드 > 카드이용실적
+rza/2my/ast/RZA2MYAST32_P.html
+
+마이데이터 > MY카드 > 카드현황
+rza/2my/cad/RZA2MYCAD11_2107.html
+
+마이데이터 > MY카드 > 보유현황
+rza/2my/cad/RZA2MYCAD30.html
+
+마이데이터 > MY카드 > 보유현황 (데이터없음)
+rza/2my/cad/RZA2MYCAD30_nodata.html
+
+마이데이터 > MY카드 > 이용현황
+rza/2my/cad/RZA2MYCAD40.html
+
+마이데이터 > MY카드 > 이용현황 (데이터없음)
+rza/2my/cad/RZA2MYCAD40_nodata.html
+
+마이데이터 > MY연체방지
+rza/2my/ovr/RZA2MYOVR11.html
+
+마이데이터 > MY연체방지
+rza/2my/ovr/RZA2MYOVR12.html
+
+마이데이터 > MY크레딧
+rza/2my/crd/RZA2MYCRD10.html
+
+마이데이터 > MY대출 > 대출현황
+rza/2my/lon/RZA2MYLON10.html
+
+마이데이터 > MY대출 > 맞춤대출 > 약관동의 > 팝업
+rza/2my/lon/RZA2MYLON20_03_CL.html
+
+마이데이터 > MY대출 > 한도예측
+rza/2my/lon/RZA2MYLON20_CL.html
+
+마이데이터 > MY대출 > 메인
+rza/2my/lon/RZA2MYLON20_CL_v02.html
+
+마이데이터 > MY대출 > 약관동의
+rza/2my/lon/RZA2MYLON20_CL_v02_02.html
+
+마이데이터 > MY대출 > 약관보기
+rza/2my/lon/RZA2MYLON20_CL_v02_03.html
+
+마이데이터 > MY대출 > 소득정보
+rza/2my/lon/RZA2MYLON20_CL_v02_07.html
+
+마이데이터 > MY대출 > 소득정보 (직장인, 공무원)
+rza/2my/lon/RZA2MYLON20_CL_v02_08_1.html
+
+마이데이터 > MY대출 > 소득정보 (직장인, 공무원_팝업)
+rza/2my/lon/RZA2MYLON20_CL_v02_08_P.html
+
+마이데이터 > MY대출 > 소득정보 (개인사업자)
+rza/2my/lon/RZA2MYLON20_CL_v02_08_2.html
+
+마이데이터 > MY대출 > 소득정보 (프리랜서)
+rza/2my/lon/RZA2MYLON20_CL_v02_08_4.html
+
+마이데이터 > MY대출 > 소득정보 (주부, 기타)
+rza/2my/lon/RZA2MYLON20_CL_v02_08_5.html
+
+마이데이터 > MY대출 > 결과조회
+rza/2my/lon/RZA2MYLON20_CL_v02_11.html
+
+마이데이터 > MY대출 > 결과조회 (신청가능대출)
+rza/2my/lon/RZA2MYLON20_CL_v02_11_01.html
+
+마이데이터 > MY대출 > 결과조회 (정보없음)
+rza/2my/lon/RZA2MYLON20_CL_v02_11_02.html
+
+마이데이터 > MY대출 > 결과조회 (특수경우)
+rza/2my/lon/RZA2MYLON20_CL_v02_11_03.html
+
+마이데이터 > MY대출 > 상세정보 (신청중)
+rza/2my/lon/RZA2MYLON20_CL_v02_12.html
+
+마이데이터 > MY체크업 > 내역조회
+rza/2my/ast/RZA2MYAST51.html
+
+마이데이터 > MY체크업 > 알람설정
+rza/2my/ast/RZA2MYAST53.html
+
+마이데이터 > MY부스터 > MY부스터란?
+rzm/occ/nca/RZMOCCNCA01_bst.html
+
+마이데이터 > MY부스터 > 부스터등록 > 온라인등록
+rzm/occ/nca/RZMOCCNCA04_bst_01.html
+
+마이데이터 > MY부스터 > 부스터등록 > 오프라인등록
+rzm/occ/nca/RZMOCCNCA04_bst_02.html
+
+마이데이터 > MY부스터 > 부스터등록 > 부스터 결과확인
+rzm/occ/nca/RZMOCCNCA06_bst_01.html
+
+마이데이터 > MY부스터 > 부스터등록 > 부스터 결과
+rzm/occ/nca/RZMOCCNCA06_bst_02.html
+
+마이데이터 > MY네임 > 내 이름분석
+rza/occ/nam/RZAOCCNAM10.html
+
+마이데이터 > MY네임 > 내 이름분석 > 오류
+rza/occ/nam/RZAOCCNAM10_v2.html
+
+마이데이터 > MY네임 > 관심이름 분석
+rza/occ/nam/RZAOCCNAM20.html
+
+마이데이터 > MY네임 > 이름 랭킹
+rza/occ/nam/RZAOCCNAM30.html
+
+마이데이터 > MY네임 > 이름 추천
+rza/occ/nam/RZAOCCNAM40.html
+
+마이데이터 > MY펫 > MY펫 등록
+rzm/occ/dnh/RZMOCCDNH60.html
+
+마이데이터 > MY펫 > MY펫 등록 ver3
+rza/occ/dnh/RZAOCCDNH60_v3.html
+
+마이데이터 > MY펫 > 리스트
+rzm/occ/dnh/RZMOCCDNH60.html
+
+마이데이터 > MY펫 > 입력
+rza/occ/dnh/RZAOCCDNH60_v1.html
+
+마이데이터 > MY펫 > 수정
+rza/occ/dnh/RZAOCCDNH60_modify.html
+
+마이데이터 > MY펫 > MY펫 나이 계산기
+rza/occ/dnh/RZAOCCDNH70.html
+
+마이데이터 > MY펫 > MY펫 나이 계산기 > 결과
+rza/occ/dnh/RZAOCCDNH70_result.html
+
+마이데이터 > MY펫 > 이름 추천
+rza/occ/dnh/RZAOCCDNH20_v1.html
+
+마이데이터 > MY펫 > 이름 추천 > 결과
+rza/occ/dnh/RZAOCCDNH20_v2.html
+
+마이데이터 > MY펫 > 이름 추천 > 자세히
+rza/occ/dnh/RZAOCCDNH20_detail.html
+
+마이데이터 > MY펫 > 이름 랭킹
+rza/occ/dnh/RZAOCCDNH10.html
+
+마이데이터 > MY펫 > 이름 랭킹 > 결과
+rza/occ/dnh/RZAOCCDNH10_detail.html
+
+마이데이터 > MY펫 > 색상별 랭킹
+rza/occ/dnh/RZAOCCDNH40.html
+
+마이데이터 > MY펫 > 개 이름 VS 사람 이름
+rza/occ/dnh/RZAOCCDNH50.html
+
+(공공) 마이데이터 약관 : 건강보험 > 개인(신용)정보 수집이용동의서.고유식별정보 수집이용내역
+rza/2my/rac/RZA2MYRAC10_AZ62_v4.html
+
+(공공) 마이데이터 약관 : 건강보험 > 개인(신용)정보 제3자 제공동의서
+rza/2my/rac/RZA2MYRAC10_AZ65_v5.html
+
+(공공) 마이데이터 약관 : 건강보험 > 본인 행정정보 제3자 제공요구서
+rza/2my/rac/RZA2MYRAC10_AZ66_v5.html
+
+(공공) 마이데이터 약관 : 국세청 > 개인(신용)정보 수집이용동의서.고유식별정보 수집이용내역
+rza/2my/rac/RZA2MYRAC10_AZ62_v5.html
+
+(공공) 마이데이터 약관 : 국세청 > 개인(신용)정보 제3자 제공동의서
+rza/2my/rac/RZA2MYRAC10_AZ65_v5.html
+
+(공공) 마이데이터 약관 : 국세청 > 본인 행정정보 제3자 제공 요구서
+rza/2my/rac/RZA2MYRAC10_AZ66_v5.html
+
+(공공) 마이데이터 약관 : 국민연금 > 개인(신용)정보 수집이용동의서, 고유식별정보 수집이용내역
+rza/2my/rac/RZA2MYRAC10_AZ62_v6.html
+
+(공공) 마이데이터 약관 : 국민연금 > 개인(신용)정보 제3자 제공 동의서
+rza/2my/rac/RZA2MYRAC10_AZ65_v6.html
+
+(공공) 마이데이터 약관 : 국민연금 > 본인 행정정보 제3자 제공 요구서
+rza/2my/rac/RZA2MYRAC10_AZ66_v6.html
+
+개인정보 처리방침 개정 비교표
+rza/2my/rac/RZA2MYRAC10_AZ67.html
+
+
+
+
