@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0; padding:0;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,input,select,textarea,button {margin:0; padding:0}
+fieldset,img {margin:0;border:0;}
+dl,ul,ol,menu,li {list-style:none}
+blockquote:before, blockquote:after,q:before, q:after {content:''; content:none}
+input,select,textarea,button,img{vertical-align:middle}
+body {background:#fff;}
+body,th,td,input,select,textarea,button {color:#666; font-family:NanumGothic,'³ª´®°íµñ',dotum,'¸¼Àº °íµñ',sans-serif;font-size:12px;}
+a {color:#666;text-decoration:none}
+a:link, a:visited, a:active, a:hover {text-decoration:none}
+address,caption,cite,code,dfn,em,var {font-style:normal; font-weight:normal}
+legend,caption {overflow:hidden; width:0; height:0; font-size:0; line-height:0; text-indent:-9999px;}
+select{height:27px;font-size:13px;border:1px solid #ddd;padding:2px}
+input[type="text"],
+input[type="password"]{font-size:13px;padding:0 10px;height:25px;line-height:23px;border:1px solid #ddd;color:#555;}
+.blind {position: absolute;left: -1000%; top: 0; width: 1px; height: 1px; font-size: 0; line-height: 0; overflow: hidden;}
+
+
+/* background */
+.b_wrap_mc{width:100%; height:916px; background-color:#333;}
+.b_wrap_cb{width:100%; height:936px; background-color:#333;}
+.b_wrap2{width:100%; height:461px; background-color:#333;}
+.b_wrap3{width:100%; height:104px; background-color:#767676;}
+.contents{margin:0px auto; position:relative; padding:0 177px;}
+.contents .logo {text-align:center; padding-top:50px;}
+.contents .b_text01 {padding-top:32px; padding-bottom:25px; text-align:center;}
+.contents .b_imgbox01 {position:absolute; bottom:0px; right:177px; z-index:999;}
+.contents .b_imgbox02 {margin-top:59px; text-align:center; padding-bottom:50px;}
+.b_imgbox {position:relative; width:695px; height:363px; margin:0 auto; text-align:center; background-image:url(/resource/img/bzw/help/b_img_01.png);}
+
+/*210111 ³×ÀÌ¹ö Å°¿öµå±¤°í ·£µùÆäÀÌÁö ¼öÁ¤*/
+.wrap{max-width:1920px;margin:0 auto;height:auto;background-color:#fff}
+.conBx{position:relative;min-width:1024px;margin:0px auto;text-align:center;padding: 60px 0;box-sizing: border-box}
+.conBx .logo {width:242px;height:60px;text-align:center;margin:0 auto}
+.conBx .logo img{width:100%}
+.conBx .tit{margin-top:38px}
+.conBx .keywordBx{width:1020px;margin:54px auto 0;text-align:center}
+.conBx .keywordBx:after{display:block;clear:both;content:''}
+.conBx .keywordBx li{float:left;width:480px;margin-left:60px}
+.conBx .keywordBx li:first-child{margin-left:0}
+.conBx .keywordBx li .btnTp{display:inline-block;width:300px;height:52px;font-family:'OpenSans-Regular', 'NanumGothic-Regular';line-height: 48px;font-size: 28px;color:#fff;background:#353535;border-radius: 24px;letter-spacing: -1.5px}
+.conBx .keywordBx li .imgWrap{margin-top: 8px;}
+.conBx .keywordBx li .imgWrap img{width:auto}
+
+
+/* .contents .b_text01 {padding-top:32px; padding-bottom:25px; text-align:center;}
+.contents .b_imgbox01 {position:absolute; bottom:0px; right:177px; z-index:999;}
+.contents .b_imgbox02 {margin-top:59px; text-align:center; padding-bottom:50px;}
+.b_imgbox {position:relative; width:695px; height:363px; margin:0 auto; text-align:center; background-image:url(/resource/img/bzw/help/b_img_01.png);} */
+
+
+.slides {position:relative; width:625px; height:345px; margin:0 auto; /* overflow:hidden; */ z-index:10; padding-top:18px; }
+.slides ul.image {position:absolute;}
+.slides ul.image li {float:left; width:625px;}
+ul.bt-roll {width:92px;; margin:0 auto; margin-top:15px;}
+ul.bt-roll li {float:left; margin-right:10px;}
+
+.b_text02 {padding-bottom:40px; text-align:center; width:100%; padding-top:50px; }
+.b_text03 {text-align:center; width:100%;}
+/*
+.contents .slidesjs-stop, .contents .slidesjs-play { width:12px; overflow: hidden; position: absolute; top: 59px; left: 125px; z-index: 100; }
+.contents .slidesjs-stop {background: url("/mycredit/newservice/images/button/stop_btn.gif") no-repeat 0 0; text-indent: -9999px}
+.contents .slidesjs-play {background: url("/mycredit/newservice/images/button/play_btn.gif") no-repeat 0 0; text-indent: -9999px; title: è«›ê³•ê¼«ï¿½

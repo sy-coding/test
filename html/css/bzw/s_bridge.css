@@ -1,0 +1,44 @@
+/* CSS Document */
+/- default *-
+
+html,body{width:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
+body{font-family:'Dotum';color:#666666;font-size:12px;}
+img,fieldset,iframe{border:0 none}
+li{list-style:none}
+input,select,button{vertical-align:middle}
+img{vertical-align:top}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+button{margin:0;padding:0}
+a{color:#2f3743;text-decoration:none}
+a:hover{color:#390;text-decoration:underline}
+button *{position:relative}
+button img{left:-3px;*left:auto}
+html:first-child select{height:20px;padding-right:6px}
+option{padding-right:6px}
+legend{*width:0}
+table{border-collapse:collapse;border-spacing:0}
+caption{visibility:hidden;overflow:hidden;width:0;height:0;font-size:0;line-height:0}
+
+a:link		{text-decoration:none; color:#333;}
+a:visited	{text-decoration:none; color:#333;}
+a:hover		{text-decoration:none; color:#333;}
+a:active	{text-decoration:none; color:#333;}
+
+.hidden {position:absolute; top:-9999em; display:block; height:0; line-height:0;}
+
+
+#wrap {width:100%;background:url('/resource/img/bzw/secured/bridge/bg_wrap.gif') repeat-x;}
+
+#header {width:1180px;margin:0 auto;}
+
+#container {width:1180px;margin:0 auto;}
+
+#footer {width:1180px;margin:0 auto;}
+
+/*170316 ¡∂√¢»∆ √ﬂ∞° «≤≈Õ*/
+.wrapFooter{position:relative; margin:0 auto; padding-top:30px; padding-left:228px; height:103px; width:952px; background:url(../../img/bzw/main1/footer_logo.gif) no-repeat 0 30px;}
+.wrapFooter .list{overflow:hidden;}
+.wrapFooter .list li{float:left; margin-right:10px; margin-bottom:7px; padding-right:8px; font-size:12px; background:url(../../img/bzw/main1/m_link_bg.gif) no-repeat 100% 1px;}
+.wrapFooter .copy{margin-top:12px; text-align:left;}

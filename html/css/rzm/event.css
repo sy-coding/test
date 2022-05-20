@@ -1,0 +1,1063 @@
+@charset "euc-kr";
+
+/* 20201201 수정 운영 */
+
+/* s: 이벤트 상세 - 신규 이벤트 페이지 180531  */
+.eventView .eventCont .new_event_box{position:relative;}
+.eventView .eventCont .new_event_box  .inner{position:absolute;top:0;left:13%;width:80%;}
+.eventView .eventCont .new_event_box  dl:after{display:block;clear:both;content:"";}
+.eventView .eventCont .new_event_box  dl dt{float:left;width:30%;font-size:12px;;color:#203ba7;}
+.eventView .eventCont .new_event_box  dl dd{float:left;margin-left:5%;font-size:12px;letter-spacing: -1.2px;}
+.eventView .eventCont .new_event_box  dl.list01{margin-top:5%;}
+.eventView .eventCont .new_event_box  dl.list02{margin-top:5%;line-height:1.8;}
+.eventView .eventCont .new_event_box  dl.list03{margin-top:4%;line-height:1.5;}
+.eventView .eventCont .new_event_box  dl dt span{display:inline-block;width:16px;margin-right:7px;vertical-align:middle;}
+.eventView .eventCont .new_event_box .bubble{position: absolute;right:10px;top:-10px;}
+.eventView .eventCont .new_event_box .bubble img{width:85px;}
+
+/* s: 180822 앱 푸시 이벤트 */
+.eventTab {margin:5px 0 18px;}
+.eventTab li{float:left;width:50%;}
+.eventTab li a{display:block;height:27px;line-height:27px;text-align:center;background:#f2eeea;color:#595959;}
+.eventTab li.on a{position:relative;background:#a99574;color:#fff;}
+.eventTab li.on a::after{display:block;content:"";position:absolute;bottom:-7px;left:50%;width:9px;height:7px;margin-left:-4px;background:url('../../img/rzm/event/20180911/arr_down.png') no-repeat 0 0;background-size:9px 7px}
+.eventTab::after{display:block;content:"";clear:both;}
+
+.input_secret::-webkit-input-placeholder {color: #cbcbcb;font-size:14px;font-family:'나눔스퀘어'}
+.input_secret::-moz-placeholder { color: #cbcbcb;font-size:14px;}
+.input_secret:-ms-input-placeholder { color: #cbcbcb;font-size:14px;}
+.input_secret:-moz-placeholder { color: #cbcbcb;font-size:14px;}
+
+.layerPopWrap.secretJoinPop{padding:10px 0 20px;}
+.secretJoinPop .headWrap{ position:relative;padding:31px 20px 5px;border-bottom:none;}
+.secretJoinPop  [class^="listWrap"] [class^="headWrap"] .titSc{position:relative;margin-bottom:20px;letter-spacing:-0.5px;font-size:20px;}
+.secretJoinPop  .text{text-align:center;font-size:16px;letter-spacing:-1.0px;line-height:20px;}
+.secretJoinPop  .text span{color:#f15353;}
+.secretJoinPop  .text em{display:block;margin-top:7px;}
+.secretJoinPop .img_secret_app {margin:12px 0 19px;text-align:center;}
+.secretJoinPop .img_secret_app img{width:261px;text-align:center;}
+.secretJoinPop .btnwrap02{width:65%;margin:0 auto;}
+
+.secretDetailPop .popCont {margin:5px;background:url('../../img/rzm/event/20180911/bg_line.png') no-repeat 0 0;background-size:100% 100%;}
+.secretDetailPop  [class^="listWrap"] [class^="headWrap"] .titSc{margin-bottom:22px;padding-top:35px;background:url('../../img/rzm/event/20180911/crown.png') no-repeat center 0;background-size:20px 18px;font-size:30px;letter-spacing:-0.5px;}
+.secretDetailPop .listWrap04{}
+.secretDetailPop .listWrap04 [class^="headWrap"]{border-bottom:none;}
+.secretDetailPop .textBox .tit{margin-bottom:6px;font-size:14px;font-weight:bold;}
+.secretDetailPop .textBox .txt1{margin-bottom:10px;font-size:14px;color:#222;letter-spacing:-0.25px;}
+.secretDetailPop .textBox .txt1 span{color:#f15353;font-weight:bold;}
+.secretDetailPop .textBox .txt2{line-height:18px;font-size:13px;letter-spacing:-0.25px;}
+.secretDetailPop .textBox .link{display:block;margin-top:30px;margin-bottom:15px;color:#a3824b;font-size:15px;font-weight:bold;letter-spacing:-0.25px;text-decoration:underline;}
+.secretDetailPop .btnwrap02{width:30%;margin:0 auto;}
+
+/* e: 180822 앱 푸시 이벤트 */
+
+/* s: 20181218 연말정산 이벤트 추가  */
+.receiptView {position:relative;}
+.receiptView .receipt_wrap{padding:30px 0 80px;height:100%;background:#f1f1f1  url("../../img/rzm/event/20181214/bg_zikimi.png") no-repeat 0 50%;background-size:100%;}
+.receiptView .mTitle{width:100%;margin-bottom:25px;text-align: center;font-size:17px;font-weight:700;font-family: '나눔스퀘어','NanumSquareR';line-height:22px;letter-spacing:-0.25px;}
+.receiptView .mTitle span{color:#0054a6;}
+.receipt_box .inner{min-height:100%;padding:35px 15px;margin:0 30px;position:relative;background:#fff;box-shadow: 5px 20px 20px 5px #ccc;}
+.receipt_box .inner .bgBottom{position:absolute;left:0;bottom:-27px;width:100%;}
+.receipt_box .inner .bgBottom .tri{width:100%;height:27px;background:url("../../img/rzm/event/20181214/bg_bottom.png") repeat-x 0 0;position:absolute;bottom:0; background-size:15px;}
+.receipt_box .logo{text-align:center;}
+.receipt_box .logo img{width:93px;}
+.receipt_box .logo span{display:block;margin-top:10px;font-size:15px;font-weight:700;color:#333;}
+.receipt_box .user_info{margin:30px 0 20px;}
+.receipt_box .user_info p{margin-bottom:10px;}
+.receipt_box .user_info p:last-child{margin-bottom:0;}
+.receipt_box .rp_table{width:100%;margin:10px 0;position:relative;}
+.receipt_box .rp_table > thead > tr > th{padding:15px 0;border-top: 1px dotted #ccc;border-bottom: 1px dotted #ccc;font-size:14px;}
+.receipt_box .rp_table > tbody > tr > td{padding:15px 0 0;font-size:12px;letter-spacing:-0.5px;}
+.receipt_box .rp_table > tbody > tr > td:nth-child(1){width:33%;}
+.receipt_box .rp_table > tbody > tr > td:nth-child(2){width:33%;}
+.receipt_box .rp_table > tbody > tr > td:nth-child(3){width:33%;}
+.receipt_box .rp_table > tbody > tr:last-child > td{padding-bottom:15px;}
+.receipt_box .rp_table .avg_price{display:block;padding-left:14px;padding-top:8px;margin-left:5px;line-height:20px;letter-spacing:-0.75px;background:url("../../img/rzm/event/20181214/bg_line_02.png") no-repeat 0 5px;background-size:11px auto;font-size:12px;}
+.receipt_box .rp_table .block{display:block;}
+.receipt_box .rp_table a{text-decoration: underline;}
+.receipt_box .rp_table a:hover{color:#0054a6;}
+.receipt_box .rp_table .tec{text-align:center;}
+.receipt_box .rp_table .tel{text-align:left;}
+.receipt_box .rp_table .ter{text-align:right;}
+.receipt_box .rp_table .ico_select {cursor:pointer;background:url('../../img/rzm/event/20181214/ico_select_off.gif') no-repeat center center;background-size:15px 15px;vertical-align:middle;display: inline-block;width:15px;height:15px;}
+.receipt_box .rp_table .ico_select.on {background:url('../../img/rzm/event/20181214/ico_select_on.gif') no-repeat center center;background-size:15px 15px;}
+.receiptView .avg_price {display:block;padding-left:40px;padding-top:16px;white-space:nowrap;background: url("../../img/rzm/event/20181214/bg_line_02.png") no-repeat 12px 5px;font-size:20px;}
+.receiptView .avg_price .btnOpen02{display:inline-block;width:18px;height:15px;background:url("../../img/rzm/event/20181214/arr_btn_02_off.png") no-repeat center center;background-size:8px 5px;vertical-align:middle}
+.receiptView .avg_price .btnOpen02.on{background: url("../../img/rzm/event/20181214/arr_btn_02_on.png") no-repeat center center;background-size:8px 5px}
+.receipt_box .advice{padding:10px 0;background:#f1f9fc url(../../img/bzm/receipt/ico_point.png) no-repeat 10px center; background-size:15px;}
+.receipt_box .advice p{padding-left:35px;line-height:1.5;color:#d03e4b;font-size:0.9em;}
+.receipt_box .total{display:table;width:100%;padding:15px 0;border-top:1px dotted #ccc;border-bottom:1px dotted #ccc;}
+.receipt_box .total .fl{display:table-cell;word-break:break-all;font-weight:700;}
+.receipt_box .total .fr{display:table-cell;width:auto;text-align:right;word-break:break-all;font-weight:700;}
+.receipt_box .total  span{font-weight:bold;font-size:16px;}
+.receipt_box .rank_list{margin-top:30px;}
+.receipt_box .rank_list .tit {margin-bottom:20px;text-align:center;color:#333;font-size:16px;}
+.receipt_box .rank_list dl{display:table;width:100%;margin-bottom:15px;}
+.receipt_box .rank_list dl dt{display:table-cell;width:50%;word-break: break-all;font-size:14px;line-height:20px;}
+.receipt_box .rank_list dl dd{display:table-cell;width:auto;text-align: right; word-break: break-all;font-size:14px;line-height:20px;}
+.receipt_box .rank_list a{text-decoration: underline;}
+.receipt_box .rank_list a:hover{color:#0054a6;}
+.receipt_box .rank_list .point{display:block;margin-bottom:2px;font-weight:700;}
+.receipt_box .rank_list .point.up{color:#f21414;}
+.receipt_box .rank_list .point.down{color:#0081c8;}
+.receipt_box .desc{margin-bottom:20px;padding:20px 0;border-top:1px dotted #ccc;border-bottom:1px dotted #ccc;}
+.receipt_box .desc ul li{position:relative;padding-left:10px;margin-bottom:8px;line-height:20px;font-size:14px;color:#555;}
+.receipt_box .desc ul li:after{display:block;content:"";width:4px;height:4px;position:absolute;left:0;top:8px;margin:-2px 0 0;background-color:#999}
+.receipt_box .desc ul li:last-child{margin-bottom:0;}
+.receipt_box .banner{margin-top:20px;text-align:center;}
+.receipt_box .first_td{position:relative;}
+.receipt_box .first_td > span{display:inline-block;margin-left:2px;}
+.receipt_box .popupLayer {position: absolute;display: none;background-color: #ffffff;border: solid 2px #0081c8;/*width:calc(100% + 82%);*/padding:20px 10px;top:35px; left:0; z-index:2;}
+.receipt_box .popupLayer02{top:74px;}
+.receipt_box .popupLayer p{line-height:20px;}
+.receipt_box .popupLayer div {position: absolute;top: 5px;right: 5px}
+.receipt_box .ico_bookmark{position:absolute;right:-2px;top:-5px;}
+.receipt_box .ico_bookmark img{width:50px;}
+.receipt_box .ico_barcode{position:absolute;right:5%;bottom:1%;}
+.receipt_box .ico_barcode img{width:50px;}
+.receipt_box .tip_tit{margin:17px 0 15px;text-align:center;font-weight:700;font-size:14px;color:#000;letter-spacing:-0.75px;}
+.receipt_box .tip_tit strong{color:#0083cb;}
+.receipt_box .creditTipWrap {margin-bottom:20px;}
+.receipt_box .creditTipWrap .tipCont{position:relative;padding:20px 10px 30px;border:1px solid #0081c8;}
+.receipt_box .creditTipWrap .tipCont.on .btnArea{bottom:5px}
+.receipt_box .creditTipWrap .tipContTop p{font-size:12px;line-height:15px;letter-spacing:-0.25px;color:#0b0b0b;}
+.receipt_box .creditTipWrap .tipContTop p.secCon{margin-top:10px;color:#555555;}
+.receipt_box .creditTipWrap .pointB{color:#0054a6;font-weight:700;}
+.receipt_box .creditTipWrap .tipContTop .btnArea{position:absolute;left:0;bottom:0px;width:100%;margin:0;text-align: center;}
+.receipt_box .creditTipWrap .tipContTop .btnOpen{display:block;width:30px;height:30px;text-align: center;margin:0 auto;background:url("../../img/rzm/event/20181214/arr_btn_off.png") no-repeat center center;background-size:13px 8px;}
+.receipt_box .creditTipWrap .tipContTop .btnOpen.on{background:url("../../img/rzm/event/20181214/arr_btn_on.png") no-repeat center center;background-size:13px 8px;}
+.receipt_box .creditTipWrap .tipContList{display:none;margin-top:10px;padding-top:10px;border-top:1px solid #dddd;}
+.receipt_box .creditTipWrap .tipContList dl dt{margin-bottom:10px;font-size:12px;line-height:15px;color:#555555}
+.receipt_box .creditTipWrap .tipContList dl dd{margin-bottom:10px;font-size:12px;line-height:15px;letter-spacing:-0.25px;color:#555555}
+.receipt_box .creditTipWrap .tipContList dl dd:last-child{margin-bottom:0;}
+.receipt_box .creditTipWrap .tipContList dl dd .colorRed{color:#ef0000;text-decoration:underline}
+.receipt_box .creditTipWrap .tipContList .txt{margin:17px 0 15px;text-align:center;font-size:14px;font-weight:700;font-family:'NanumSquareB';color:#0054a6}
+.receipt_box .creditTipWrap .tipContList .txt .mark{font-style:italic;}
+.receipt_box .creditTipWrap .tipContList .btnWrap {max-width:168px;margin:0 auto 13px}
+.receipt_box .btnEntry{text-align:center;}/* 190111 수정 */
+.receipt_box .btnEntry a{display:block;width:190px;height:32px;line-height:32px;margin:0 auto;animation:receiptBtn 1.5s ease-out infinite;font-size:13px;letter-spacing:-0.65px;border-radius:3px;color:#fff}
+@keyframes receiptBtn {
+  0%{background:#0054a6}
+  50%{background:#007cf3}
+  100%{background:#0054a6}
+}
+.receipt_box .btnEntry a em{font-style:italic}
+.receipt_box .graphWrap{padding: 0px 15px 10px;}
+.receipt_box .slick-prev{width:7px !important;height:15px;margin-top:-7px !important;left:-20px !important;background: url("../../img/rzm/event/20181214/btn_prev.png") no-repeat 0 center !important; background-size:7px 15px !important;opacity:1}
+.receipt_box .slick-next{width:7px !important;height:15px;margin-top:-7px !important;right:-20px !important;background: url("../../img/rzm/event/20181214/btn_next.png") no-repeat 0 center !important; background-size:7px 15px !important;opacity:1}
+.receiptView .dataTbWrap{display:none;margin:23px 10px 10px}
+.receiptView .dataTbWrap table{width:100%;text-align:center}
+.receiptView .dataTbWrap thead th{padding:10px 0;background:#f1f1f1;font-size:12px;font-weight:500}
+.receiptView .dataTbWrap tbody td{width:50%;padding:10px 0 0;background:#f8f8f8;font-size:12px}
+.receiptView .dataTbWrap tbody tr:first-child td{padding:18px 0 0 ;}
+.receiptView .dataTbWrap tbody tr:last-child td{padding:10px 0 18px;}
+.receiptView .dataTbWrap tbody td.line{text-decoration:underline;}
+.receiptView .point{font-size:12px;font-weight:bold}
+.receiptView .point.up{color:#0081c8}
+.receiptView .point.keep{color:#ddbb00}
+.receiptView .point.down{color:#f21414}
+.receiptView .total{padding:18px 0;border-top:2px dashed #999;border-bottom:2px dashed #999}
+.receiptView .total span{font-size:14px}
+.receiptView .ico_tooltip{width:20px;height:20px;display:inline-block;cursor:pointer;background:url('../../img/rzm/event/20181214/ico_tooltip.gif') no-repeat center center;background-size:11px auto;vertical-align:-6px;}
+.receiptView .line{text-decoration:underline;}
+.receipt_box .line{text-decoration:underline;border:none;margin-top:0;padding-top:0;}/* 190111 수정 */
+.receipt_box .graphWrap{display:none}
+.receipt_box .graphWrap > button.btnPrev {left: -20px;}
+.receipt_box .graphWrap > button.btnPrev:before {background-position:left top;}
+.receipt_box .graphWrap > button.btnNext {right: -15px;}
+.receipt_box .graphCont{position:relative;padding:30px 0 0;text-align:center;}
+.receipt_box .graphCont .unit{position:absolute;right:0;top:5px;font-size:9px;color:#bababa}
+.receiptView .section{position:relative}
+.receiptView .section .star{position:absolute;}
+.receiptView .section .gold{position:absolute;}
+.receiptView .section01 .star01{display:block;width:11px;height:11px;left:32px;bottom:32px;background:url('../../img/rzm/event/20191231/star_01.png') no-repeat center center;background-size:11px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section01 .star02{display:block;width:8px;height:8px;left:15px;bottom:24px;background:url('../../img/rzm/event/20191231/star_02.png') no-repeat center center;background-size:8px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section01 .star03{display:block;width:8px;height:10px;right:38px;bottom:20px;background:url('../../img/rzm/event/20191231/star_03.png') no-repeat center center;background-size:8px 10px;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section02 .gold01{left:0;top:-25px;animation:rp_ev_2 .3s linear;transform:rotate(0deg);}
+.receiptView .section02 .gold01 img{max-width:87px}
+.receiptView .section02 .star01{display:block;width:11px;height:11px;right:32px;top:18px;background:url('../../img/rzm/event/20191231/star_06.png') no-repeat center center;background-size:11px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section02 .star02{display:block;width:6px;height:6px;right:22px;top:40px;background:url('../../img/rzm/event/20191231/star_07.png') no-repeat center center;background-size:6px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section03 .btnWrap{width:85%;position:absolute;left:50%;bottom:34px;transform:translate(-50%,0);}
+.receiptView .section03 .btnWrap a{display:block;height:55px;line-height:55px;font-size:22px;background:#3e63f2;animation:rp_btn_motion 1.5s ease-out infinite;color:#fff;text-align:center}
+@keyframes rp_btn_motion {
+  0%{
+    background:#3e63f2;
+  }
+  50%{
+    background:#694bee;
+  }
+  100%{
+    background:#3e63f2;
+  }
+}
+.receiptView .section04 .star01{display:block;width:9px;height:9px;left:27px;top:60px;background:url('../../img/rzm/event/20191231/star_08.png') no-repeat center center;background-size:9px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section04 .star02{display:block;width:5px;height:5px;left:22px;top:80px;background:url('../../img/rzm/event/20191231/star_09.png') no-repeat center center;background-size:5px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section04 .star03{display:block;width:7px;height:7px;right:17px;top:217px;background:url('../../img/rzm/event/20191231/star_10.png') no-repeat center center;background-size:7px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section04 .star04{display:block;width:14px;height:14px;right:25px;top:245px;background:url('../../img/rzm/event/20191231/star_11.png') no-repeat center center;background-size:14px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section04 .star05{display:block;width:9px;height:9px;left:25px;bottom:0px;background:url('../../img/rzm/event/20191231/star_12.png') no-repeat center center;background-size:9px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section04 .star06{display:block;width:14px;height:14px;left:48px;bottom:-15px;z-index:1;background:url('../../img/rzm/event/20191231/star_13.png') no-repeat center center;background-size:14px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section04 .gold01{left:0;top:22px;}
+.receiptView .section04 .gold01 img{max-width:26px}
+.receiptView .section04 .gold02{right:0;top:260px;}
+.receiptView .section04 .gold02 img{max-width:26px}
+.receiptView .section05 .star01{display:block;width:9px;height:9px;left:49px;bottom:32px;background:url('../../img/rzm/event/20191231/star_14.png') no-repeat center center;background-size:9px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section05 .star02{display:block;width:15px;height:15px;right:99px;bottom:29px;background:url('../../img/rzm/event/20191231/star_15.png') no-repeat center center;background-size:15px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+.receiptView .section05 .star03{display:block;width:9px;height:9px;right:85px;bottom:45px;background:url('../../img/rzm/event/20191231/star_14.png') no-repeat center center;background-size:9px auto;animation: cr_ev_1 1.5s linear infinite alternate}
+
+
+/* s: 개발영역 20191216 연말정산이벤트 팝업 */
+.receiptEvPop .popCont{padding-top:35px}
+.receiptEvPop .textBox{line-height:23px;text-align:center}
+.receiptEvPop .textBox .txt1{font-size:14px;font-weight:700}
+.receiptEvPop .textBox .txt2{font-size:12px}
+.receiptEvPop [class^="btnwrap"]{margin:0 20px 20px}
+
+/* s: 이용약관 추가로 인한 팝업 분기처리 20201111 */
+.layerPopWrap.privateCollection .popCont .tbl-list{width:100%;border-collapse:inherit;border-spacing:0;border-top:1px solid #007bc2;border-left:1px solid #ddd;}
+.layerPopWrap.privateCollection .popCont .tbl-list th,
+.layerPopWrap.privateCollection .popCont .tbl-list td{border-collapse:collapse;border-spacing:0;border-right:1px solid #ddd !important;border-bottom:1px solid #ddd;border-top:none;padding:10px 0;color:#555;font-size:12px;letter-spacing:-0.5px;line-height:20px;text-align:center;}
+.layerPopWrap.privateCollection .popCont .tbl-list th{background:#fafafa;font-weight:bold;color:#333;letter-spacing:-0.25px;}
+.layerPopWrap.privateCollection .popCont .tbl-list th.tl{padding:10px 15px;text-align:left;}
+.layerPopWrap.privateCollection .popCont .tbl-list td.tl{padding:10px 15px;text-align:left;}
+.layerPopWrap.privateCollection .popCont .tbl-list .txt{text-align:left;padding:10px 20px;}
+.layerPopWrap.privateCollection .popCont .tbl-list td span.btn input[type="button"]{border:1px solid #ddd;height:27px;line-height:26px;padding:0 9px;font-weight:normal}
+/* e: 이용약관 추가로 인한 팝업 분기처리 20201111 */
+
+.layerPopWrap.privateCollection{border-radius: 0;border-top:none;}
+.layerPopWrap.privateCollection .headerG .popTit{background:#0054a6;color:#fff;font-size:16px;letter-spacing:-0.75px;}
+.layerPopWrap.privateCollection .btnPopClose{width:14px;height:14px;top:15px;background: url("../../img/rzm/event/20181214/btn_close.png") no-repeat 0 0; background-size:14px auto;}
+.layerPopWrap.privateCollection .topComment{margin:-20px -20px 0;padding:10px 22px;background:#f2f9fd;border-bottom:1px solid #92b4c7;}
+.layerPopWrap.privateCollection .topComment p{padding-left:10px;color:#0054a6;line-height:20px;font-size:14px;font-weight:700;background: url("../../img/rzm/event/20181214/bg_depth.gif") no-repeat 0 8px;}
+.layerPopWrap.privateCollection .title{position:relative;padding-left:20px;margin:15px 0;line-height:20px;font-size:14px;color:#333;letter-spacing:-0.25px;}
+.layerPopWrap.privateCollection .title:after{display:block;position:absolute;top:0;left:0;width:16px;height:17px;padding-left:20px;content:"";background: url("../../img/rzm/event/20181214/bg_tit.gif") no-repeat 0 0;}
+.layerPopWrap.privateCollection .dotList {text-align:left;}
+.layerPopWrap.privateCollection .dotList ul li{position:relative;padding-left:8px;margin-bottom:5px;line-height:20px;color:#555;font-size:13px;}
+.layerPopWrap.privateCollection .dotList ul li:after{position:absolute;top:8px;left:0;display:block;content:"";width:2px;height:2px;background:#999;}
+.layerPopWrap.privateCollection .dotList ul li:last-child{margin-bottom:0;}
+.layerPopWrap.privateCollection .dotList.type2 li{margin-left:10px;}
+.layerPopWrap.privateCollection .tbl-list tfoot td{padding-left:15px;}
+.layerPopWrap.privateCollection .inputBox {border:1px solid #ccc;}
+.layerPopWrap.privateCollection .inputBox>ul>li{border-bottom:1px solid #e9e9e9;}
+.layerPopWrap.privateCollection .inputBox>ul>li input[type="text"]{border:none;}
+.layerPopWrap.privateCollection .inputBox>ul>li input[type="text"]::placeholder{color:#999;}
+.layerPopWrap.privateCollection .inputBox .dotList{border:none;margin-bottom:0;}
+.layerPopWrap.privateCollection .agreeChk input[type="radio"]{width:21px;height:16px;margin-right:0;background: url("../../img/rzm/event/20181214/bg_agreeChk.png") no-repeat 0 0; background-size:21px 16px;}
+.layerPopWrap.privateCollection .agreeChk input[type="radio"]:checked{background: url("../../img/rzm/event/20181214/bg_agreeChk_on.png") no-repeat 0 0; background-size:21px 16px;}
+.layerPopWrap.privateCollection .btnArea{margin:25px 0 10px;text-align:center;}
+.layerPopWrap.privateCollection .btnArea a{display:inline-block;width:85px;height:42px;line-height:42px;background:#075bae;border-radius:8px;color:#fff;font-size:15px;}
+/* e: 20181218 연말정산 이벤트 추가  */
+
+/* s: 20190227 앱/설치 이벤트 추가 */
+
+.appEventBody #wrap{padding:0;}
+.appEventBody{background:url("../../img/rzm/event/20190326/bg.jpg") no-repeat 0 0;background-size:100% 100%}
+.appEventBody.v02{background:url("../../img/rzm/event/20190326/bg_02.jpg") no-repeat 0 0;background-size:100% 100%}
+.appEventBody.v03{background:none;}
+
+.appEventWrap img{width:100%;}
+
+.appEventWrap .hit{padding:32px 0 0;text-align:center;font-size:21px;font-family:'NanumSquareRoundEB';letter-spacing:-0.5px;text-shadow: 2px 1px 2px #fcf3f6;}
+.appEventWrap .hit em{vertical-align:top;text-decoration:underline;}
+.appEventWrap .dbWrap{margin:60px 0 0;text-align:center;}
+.appEventWrap .dbWrap .inner{position:relative;width:180px;height:180px;margin:0 auto;}
+.appEventWrap .dbWrap svg path {will-change:auto;stroke-width:28px;stroke-miterlimit:round;stroke-linecap:round;-webkit-transition:stroke-dashoffset 100ms ease-in-out;-moz-transition:stroke-dashoffset 100ms ease-in-out;-o-transition:stroke-dashoffset 100ms ease-in-out;transition:stroke-dashoffset 100ms ease-in-out;}
+.appEventWrap .dbWrap svg path.bg{box-shadow:2px 2px 5px gray;}
+.appEventWrap .dbWrap .dbInfo{position:absolute;top:80px;left:0;width:100%;text-align:center;}
+.appEventWrap .dbWrap .dbInfo span{position:relative;text-align:right;padding-bottom:6px;background:url("../../img/rzm/event/20190326/bar_02.gif") no-repeat center bottom;background-size:62px 1px;font-family:'NanumSquareRoundEB'}
+
+.appEventWrap .dbWrap .dbInfo em{letter-spacing:-0.25px;font-family:'NanumSquareRoundEB';font-size:34px;}
+.appEventWrap .dbWrap .step{position:absolute;left:0;top:0;width:6px;height:6px;background:#fff;border-radius:10px;text-indent:-9999px;}
+.appEventWrap .dbWrap .step.on{background:#810c6e;}
+.appEventWrap .dbWrap .step10{left:-5px;top:auto;bottom:70px;}
+.appEventWrap .dbWrap .step20{left:-5px;top:auto;bottom:110px;}
+.appEventWrap .dbWrap .step30{left:12px;top:auto;bottom:145px;}
+.appEventWrap .dbWrap .step40{left:45px;top:5px;bottom:auto;}
+.appEventWrap .dbWrap .step50{left:90px;top:-5px;bottom:auto;}
+.appEventWrap .dbWrap .step60{left:auto;right:45px;top:5px;bottom:auto;}
+.appEventWrap .dbWrap .step70{left:auto;right:15px;top:auto;bottom:145px;}
+.appEventWrap .dbWrap .step80{left:auto;right:0px;top:auto;bottom:110px;}
+.appEventWrap .dbWrap .step90{left:auto;right:0px;top:auto;bottom:70px;}
+
+.appEventWrap .dbWrap .txt1{position:absolute;left:-35%;bottom:50px;font-size:12px;color:#3e2f4a;letter-spacing:-0.75px;}
+.appEventWrap .dbWrap .txt1:after{display:block;content:"";position:absolute;left:40px;top:-6px;width:19px;height:1px;background:#8c4e7f;transform: rotate(-40deg);}
+.appEventWrap .dbWrap .txt2{position:absolute;left:-15%;top:-20px;font-size:12px;color:#3e2f4a;letter-spacing:-0.75px;}
+.appEventWrap .dbWrap .txt2:after{display:block;content:"";position:absolute;left:70px;top:15px;width:19px;height:1px;background:#8c4e7f;transform: rotate(30deg);}
+.appEventWrap .dbWrap .txt3{position:absolute;right:-65px;bottom:55px;font-size:12px;color:#3e2f4a;letter-spacing:-0.75px;}
+.appEventWrap .dbWrap .txt3:after{display:block;content:"";position:absolute;left:-10px;top:19px;width:19px;height:1px;background:#8c4e7f;transform: rotate(-20deg);}
+.appEventWrap .gradeWrap{margin:25px 0 0;text-align:center;}
+.appEventWrap .gradeWrap.active{margin:-20px 0 0;}
+.appEventWrap .gradeWrap .goalText{margin-bottom:10px;line-height:1.5;text-align:center;font-size:17px;font-family:'NanumSquareRoundEB';color:#3e304b;letter-spacing:-0.25px;}
+.appEventWrap .gradeWrap .txt1{position:relative;display:inline-block;font-size:25px;font-family:'NanumSquareRoundEB';text-align:center;letter-spacing:-0.75px;}
+.appEventWrap .gradeWrap .txt2{margin:10px 0 0;font-size:18px;font-family:'NanumSquareRoundEB';line-height:1.5;letter-spacing:-0.25px;}
+.appEventWrap .gradeWrap .txt2 .line{color:#8b2481;text-decoration:underline;}
+.appEventWrap .gradeWrap input{position:relative;width:56px;height:56px;border:2px solid #040404;text-align:center;background:#fff url("../../img/rzm/event/20190326/bar.gif") no-repeat center 45px;background-size:41px 2px}
+.appEventWrap .gradeWrap input:before{display:block;content:"";position:absolute;left:0;top:0;}
+.appEventWrap .gradeWrap input:focus{border:2px solid #040404;}
+.appEventWrap .gradeWrap .grade{display:inline-block;position:relative;width:56px;height:56px;line-height:56px;border:2px solid #040404;text-align:center;background:#fff url("../../img/rzm/event/20190326/bar.gif") no-repeat center 45px;background-size:41px 2px}
+.appEventWrap .gradeWrap .grade:before{display:block;content:"";position:absolute;left:0;top:0;}
+.appEventWrap .gradeWrap .textHere{display:block;position:absolute;right:-20px;top:-35px;width:93px;height:31px;background:url("../../img/rzm/event/20190326/text_here.png") no-repeat center bottom;background-size:93px 31px}
+
+.appEventWrap svg{-webkit-filter:  drop-shadow(-1px -1px 2px rgba(0,0,0,0.5));filter: drop-shadow(-1px -1px 2px rgba(0,0,0,0.5));}
+
+.appEventWrap .missionWrap {position:relative;padding:100px 0 0;text-align:center;}
+.appEventWrap .missionWrap .tit{margin-bottom:25px;}
+.appEventWrap .missionWrap .tit img{width:124px;}
+.appEventWrap .missionWrap .mission{position:relative;height:280px;text-align:center;}
+.appEventWrap .missionWrap .mission::before{content:"";display:inline-block; vertical-align:middle; height:100%;}
+.appEventWrap .missionWrap .mission .inner{ position:relative;max-width:100%; max-height:100%;display:inline-block;vertical-align:middle;}
+.appEventWrap .missionWrap .mission .chanceWrap{margin-bottom:20px;font-size:0;}
+.appEventWrap .missionWrap .mission .numWrap span{display:inline-block;width:62px;height:70px;line-height:1.3;margin-right:4px;vertical-align:middle;background:#91328c;border-radius:4px;font-size:59px;color:#fff;font-family:'NanumSquareEB';text-shadow: -1px 1px 2px #918693;}
+.appEventWrap .missionWrap .mission .desc{margin-bottom:50px;font-size:19px;line-height:1.5;letter-spacing:-0.5px;font-family:'NanumSquareRoundEB'}
+.appEventWrap .missionWrap .mission .desc span{text-decoration:underline;color:#91328c;}
+.appEventWrap .missionWrap .mission  .textBx{font-family:'NanumSquareRoundEB';line-height:1.5;}
+.appEventWrap .missionWrap .mission01 .txt1{margin-bottom:20px;font-size:28px;font-weight:bold;}
+.appEventWrap .missionWrap .mission02 .txt1{font-size:23px;letter-spacing:-0.75px;}
+.appEventWrap .missionWrap .mission03 .txt1{font-size:21px;letter-spacing:-0.5px;}
+.appEventWrap .missionWrap .mission03 .txt2{margin:5px 0;font-size:23px;letter-spacing:-0.75px;}
+.appEventWrap .missionWrap .mission03 .txt3{font-size:18px;letter-spacing:-0.5px;}
+.appEventWrap .missionWrap .mission03 .txt3 span{text-decoration:underline;color:#91328c;}
+
+.appEventWrap.v01 .btnWrap{position:relative;width:268px;margin:30px auto 0;text-align:center;}
+.appEventWrap.v01 .btnWrap .icoGift{position:absolute;right:10px;top:-36px;width:46px;}
+.appEventWrap.v02 .btnWrap{position:relative;width:268px;margin:55px auto 0;text-align:center;}
+.appEventWrap.v02 .btnWrap .zikimi{display:block;position:absolute;right:20px;top:-52px;width:87px;}
+.appEventWrap.v02 .textChance{display:block;position:absolute;left:50px;top:-25px;width:90px;}
+.appEventWrap.v03 .btnWrap{position:relative;width:268px;margin:0px auto 0;text-align:center;}
+.appEventWrap.v03 .btnWrap .zikimi{position:absolute;left:50%;top:-60px;width:107px;margin-left:-50px;}
+.appEventWrap.v04 .btnWrap{position:relative;width:268px;margin:0 auto;text-align:center;}
+
+
+/* e: 20190227 앱/설치 이벤트 추가 */
+
+/* e: 이벤트 상세 - 신규 이벤트 페이지 180531  */
+
+/* s: 190611 신용퀴즈 이벤트 추가 */
+.timerCount {position:absolute;top:50%;left:0;width:100%;text-align:center}
+.timerCount span{display:inline-block;width:31px;height:45px;line-height:45px;margin-right:4px;color:#fff;border-radius:7px;font-size:0;background:#0e0e0e}
+.timerCount span:last-child{margin-right:0}
+.timerCount span em{display:block;width:18px;height:32px;margin:7px auto;background: url('../../img/rzm/event/20190712/nums.png') no-repeat;background-size: 100% auto}
+.timerCount .time-bullet{width:8px !important;height:25px !important;padding:0 2px;margin-right:0;background:url("../../img/rzm/event/20190712/bullet.png") no-repeat center center !important;background-size:4px auto !important;color:#0e0e0e !important;vertical-align:middle}
+.timerCount .data-num0 em{background-position:0 3px !important}
+.timerCount .data-num1 em{background-position:0 -24px !important;}
+.timerCount .data-num2 em{background-position:0 -52px !important;}
+.timerCount .data-num3 em{background-position:0 -79px !important;}
+.timerCount .data-num4 em{background-position:0 -107px !important;}
+.timerCount .data-num5 em{background-position:0 -134px !important;}
+.timerCount .data-num6 em{background-position:0 -161px !important;}
+.timerCount .data-num7 em{background-position:0 -189px !important;}
+.timerCount .data-num8 em{background-position:0 -216px !important;}
+.timerCount .data-num9 em{background-position:0 -243px !important;}
+
+.creditQuizPrd{position:relative;min-height:330px;background:url('../../img/rzm/event/20190712/bg.gif') repeat;background-size:7px auto}
+.creditQuizPrd .prdList{width:78%;position:absolute;left:50%;top:30px;transform:translateX(-50%);margin:-20px 0 0;}
+.creditQuizPrd .prdList li{float:left;width:50%;height:150px;margin-bottom:10px;text-align:center}
+.creditQuizPrd .prdList li:last-child{margin-right:0}
+.creditQuizPrd .prdList li .prdImg{display:block;width:104px;height:104px;position:relative;margin:0 auto 10px}
+.creditQuizPrd .prdList li.prd01 .prdImg{background:url('../../img/rzm/event/20190712/prd_01.png') no-repeat;background-size:104px auto}
+.creditQuizPrd .prdList li.prd02 .prdImg{background:url('../../img/rzm/event/20190712/prd_02.png') no-repeat;background-size:104px auto}
+.creditQuizPrd .prdList li.prd03 .prdImg{background:url('../../img/rzm/event/20190712/prd_03.png') no-repeat;background-size:104px auto}
+.creditQuizPrd .prdList li.prd04 .prdImg{background:url('../../img/rzm/event/20190712/prd_04.png') no-repeat;background-size:104px auto}
+.creditQuizPrd .prdList li .qty{position:absolute;left:0;bottom:10px;width:100%;text-align:center;color:#fff;font-family:'NanumSquareRound';font-size:20px;font-weight:800;letter-spacing:-0.75px}
+.creditQuizPrd .prdList li .qty em{font-size:9px}
+.creditQuizPrd .prdList li .cont{display:block;font-family:'NanumSquareRound';font-size:9px;letter-spacing:-0.75px;color:#222}
+.creditQuizPrd .prdList li .cont em{display:block;margin-top:2px;color:#3d1d85;font-weight:800}
+
+.creditQuizWrap{position:relative}
+.creditQuiz{height:100%;color:#fff;font-family:'NanumSquareRound';
+    background-image:url('../../img/rzm/event/20190712/b_event_07_bot.jpg'), url('../../img/rzm/event/20190712/b_event_07_top.jpg'), url('../../img/rzm/event/20190712/b_event_07_middle.jpg');
+    background-position:left bottom , left top , left top;
+    background-repeat:no-repeat , no-repeat , repeat-y;
+    background-size:100% auto;
+ }
+.creditQuiz .inner{position:relative;padding:18% 0 0;}
+
+.creditQuiz p{margin-bottom:20px;font-size:14px;line-height:1.4;text-align:center;letter-spacing:-0.5px}
+.creditQuiz .answerListWrap{width:74%;margin:0 auto;text-align:center}
+.creditQuiz .answerList {display:inline-block;text-align:left}
+.creditQuiz .answerList li{position:relative;margin-bottom:15px;}
+.creditQuiz .answerList li:last-child{margin-bottom:0}
+.creditQuiz .answerList li input{position:absolute;left:-9999px;top:0}
+.creditQuiz .answerList li label{margin-left:10px;font-size:12px;letter-spacing:-1px;line-height:1.5;text-align:left;cursor:pointer;color:#fff}
+.creditQuiz .answerList li .num{margin-left:-10px;margin-right:2px}
+.creditQuiz .answerList li input:checked + label{position:relative;font-weight:800}
+.creditQuiz .answerList li input:checked + label:after{position:absolute;left:-10px;top:-5px;width:26px;height:24px;display:block;content:"";background:url('../../img/rzm/event/20190712/chk.png') no-repeat;background-size:13px 14px}
+.creditQuiz .btnSubmit{width:100%;margin:5% auto 18%;text-align:center}
+.creditQuiz .btnSubmit img{width:116px;}
+
+.creditQuiz.type2 p{margin-bottom:30px;font-size:11px;line-height:1.5}
+.creditQuiz.type2 .answerListWrap{margin-left:19%}
+.creditQuiz.type2 .answerList{display:inline-block;margin:-12px 0 0}
+.creditQuiz.type2 .answerList:after{display:block;content:"";clear:both}
+.creditQuiz.type2 .answerList li{width:50%;float:left;margin-bottom:12px;text-align:left}
+.creditQuiz.type2 ul li label span{margin-right:5px}
+.creditQuiz.type2 .answerList li{width:50%;float:left;margin-bottom:12px;text-align:left}
+.creditQuiz.type2 .btnSubmit{margin:2% auto 16%;text-align:center}
+
+.cqLayout{border:1px solid #858585}
+.cqLayout .winPrdWrap{padding:60px 0 24px}
+.cqLayout .prdBx {margin-bottom:30px}
+.cqLayout .prdBx .giftBx{position:relative;width:295px;height:209px;margin:0 auto 43px;background:url('../../img/rzm/event/20190712/bg_gift.png') 0 0 no-repeat;background-size:295px 209px}
+.cqLayout .prd{position:absolute;z-index:1}
+.cqLayout .prd01{left:100px;width:78px;height:115px;animation:motion_prd01 0.5s ease-out 0.2s forwards;opacity:0;background:url('../../img/rzm/event/20190712/prd_airpods.png') 0 0 no-repeat;background-size:78px 115px}
+    @keyframes motion_prd01{
+        0%{top:110px}
+        100%{top:13px;opacity:1}
+    }
+
+.cqLayout .prd02{left:85px;width:114px;height:64px;animation:motion_prd02 0.5s ease-out 0.2s forwards;opacity:0;background:url('../../img/rzm/event/20190712/prd_chicken.png') 0 0 no-repeat;background-size:114px 64px}
+    @keyframes motion_prd02{
+        0%{top:150px}
+        100%{top:65px;opacity:1}
+    }
+
+.cqLayout .prd03{left:100px;width:81px;height:73px;animation:motion_prd03 0.5s ease-out 0.2s forwards;opacity:0;background:url('../../img/rzm/event/20190712/prd_starbucks.png') 0 0 no-repeat;background-size:81px 73px}
+    @keyframes motion_prd03{
+        0%{top:150px}
+        100%{top:54px;opacity:1}
+    }
+
+.cqLayout .prd04{left:92px;width:100px;height:60px;animation:motion_prd04 0.5s ease-out 0.2s forwards;opacity:0;background:url('../../img/rzm/event/20190712/prd_cgv.png') 0 0 no-repeat;background-size:100px 60px}
+    @keyframes motion_prd04{
+        0%{top:150px}
+        100%{top:70px;opacity:1}
+    }
+
+.cqLayout .prdBx span{display:block;position:absolute}
+.cqLayout .prdBx .item0{left:39px;bottom:3px;width:258px;height:107px;background:url('../../img/rzm/event/20190712/gift.png') 0 0 no-repeat;background-size:258px 107px;z-index:2}
+.cqLayout .prdBx .item1{left:18px;top:-2px;width:22px;height:23px;background:url('../../img/rzm/event/20190712/item_01.png') 0 0 no-repeat;background-size:22px 23px;animation:motion_1 .5s linear infinite alternate}
+.cqLayout .prdBx .item2{left:2px;top:42px;width:4px;height:4px;background:url('../../img/rzm/event/20190712/item_02.png') 0 0 no-repeat;background-size:4px auto;animation:motion_2 2s ease-out infinite}
+.cqLayout .prdBx .item3{left:-11px;top:130px;width:15px;height:15px;background:url('../../img/rzm/event/20190712/item_03.png') 0 0 no-repeat;background-size:15px auto;animation:motion_1 .5s linear infinite alternate}
+.cqLayout .prdBx .item4{left:51px;top:65px;width:15px;height:15px;background:url('../../img/rzm/event/20190712/item_04.png') 0 0 no-repeat;background-size:15px auto}
+.cqLayout .prdBx .item5{left:244px;top:73px;width:13px;height:8px;background:url('../../img/rzm/event/20190712/item_05.png') 0 0 no-repeat;background-size:13px 8px;animation:motion_3 0.5s ease-out 0.8s forwards;opacity:0}
+.cqLayout .prdBx .item6{left:290px;top:44px;width:27px;height:16px;background:url('../../img/rzm/event/20190712/item_06.png') 0 0 no-repeat;animation:motion_3 0.8s ease-out 0.8s forwards;opacity:0}
+.cqLayout .prdBx .item7{left:333px;top:50px;width:18px;height:17px;background:url('../../img/rzm/event/20190712/item_07.png') 0 0 no-repeat;animation:motion_3 1s ease-out 0.8s forwards;opacity:0}
+.cqLayout .prdBx .item8{right:63px;top:53px;width:26px;height:26px;background:url('../../img/rzm/event/20190712/item_08.png') 0 0 no-repeat;background-size:26px auto;animation:motion_2 2s ease-out infinite;opacity:1}
+.cqLayout .prdBx .item9{right:23px;top:15px;width:16px;height:16px;background:url('../../img/rzm/event/20190712/item_03.png') 0 0 no-repeat;background-size:16px auto;animation:motion_1 .5s linear infinite alternate}
+.cqLayout .prdBx .item10{right:31px;top:66px;width:11px;height:11px;background:url('../../img/rzm/event/20190712/item_09.png') 0 0 no-repeat;background-size:11px auto;animation:motion_1 .5s linear infinite alternate}
+.cqLayout .prdBx .item11{right:-2px;top:89px;width:12px;height:12px;background:url('../../img/rzm/event/20190712/item_10.png') 0 0 no-repeat;background-size:12px auto;animation:motion_1 .5s linear infinite alternate}
+
+@keyframes motion_1{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+
+@keyframes motion_2{
+    50%{margin-top:-10px}
+}
+
+@keyframes motion_3{
+    0%{margin-top:-56px}
+    100%{margin-top:0;opacity:1}
+}
+
+.cqLayout .textBx{padding:0 23px;text-align:center;font-family:'NanumSquareRound';font-weight:500}
+.cqLayout .textBx .mText{margin-bottom:18px;line-height:1.2;font-size:17px;font-weight:700;letter-spacing:-0.75px;color:#0e0e0e;}
+.cqLayout .textBx .mText strong{color:#0155a7}
+.cqLayout .textBx .sText{line-height:1.2;font-size:9px}
+.cqLayout .adviceBx{padding:17px 0;margin:0 7px;border:1px solid #b5b5b5}
+.cqLayout .adviceBx.type2{margin:0 7px}
+.cqLayout .adviceBx .tit{margin:0 15px 19px;padding-left:23px;height:18px;line-height:18px;font-family:'NanumSquareRound';font-weight:700;font-size:15px;letter-spacing:-0.5px;color:#0155a7;background:url('../../img/rzm/event/20190712/ico_point.png') 0 0 no-repeat;background-size:18px auto}
+.cqLayout .adviceBx ul {margin:0 30px}
+.cqLayout .adviceBx ul li{margin-bottom:7px;font-family:'NanumSquareRound';font-size:9px;letter-spacing:-0.5px;color:#0e0e0e}
+.cqLayout .adviceBx ul li:last-child{margin-bottom:0}
+.cqLayout .adviceBx ul li .num{margin-left:-15px;margin-right:3px}
+.cqLayout .colorBlue{color:#0155a7 !important}
+.cqLayout .colorRed{color:#f81c12 !important}
+.cqLayout .tbWrap{position:relative;padding:0 7px 10px}
+.cqLayout .tbWrap.type2{padding:0 7px 30px}
+.cqLayout .tbWrap.type3{padding:0 0 30px}
+.cqLayout .tbWrap.type3 table th{border-top:1px solid #023a1a}
+.cqLayout .tbWrap.type3 table td{border-top:1px solid #023a1a}
+.cqLayout .tbWrap table{width:100%;}
+.cqLayout .tbWrap table th{text-align:center;padding:8px 5px;line-height:1.5;letter-spacing:-0.5px;border:1px solid #ddd;background:#fafafa;color:#333;font-size:12px}
+.cqLayout .tbWrap table td{text-align:left;padding:8px 10px;line-height:1.5;letter-spacing:-0.5px;border:1px solid #ddd;color:#333;font-size:12px}
+.cqLayout .tbWrap table .vt{vertical-align:top}
+.cqLayout .tbWrap table .addr1{margin:3px 0}
+.cqLayout .tbWrap table .addr1 input{width:50%;height:25px;line-height:25px;color:#333}
+.cqLayout .tbWrap table .addr2{margin-bottom:6px}
+.cqLayout .tbWrap table .addr2 input{width:95%;height:25px;line-height:25px;color:#333}
+.cqLayout .tbWrap table .btnZipcode{display:inline-block;width:42.5%;height:25px;line-height:25px;margin-left:5px;font-size:10px;text-align:center;background:#515151;color:#fff}
+.cqLayout .tbWrap table .tel{width:25%;height:25px;line-height:25px;font-size:12px}
+.cqLayout .tbWrap table .inpNum{width:75px;height:25px;line-height:25px;margin-right:10px}
+.cqLayout .tbWrap table .inpNum:read-only{background:#ddd}
+.cqLayout .tbWrap table .btnSend{display:block;width:80px;height:25px;line-height:25px;margin:5px 0 0;text-align:center;font-size:12px;border:1px solid #e8e8e8}
+.cqLayout .tbWrap table .confirmText{display:block;margin:5px 0 0;color:#0155a7}
+.cqLayout .tbWrap table .btnConfirm{display:inline-block;height:25px;line-height:25px;padding:0 10px;border:1px solid #ddd;vertical-align:middle}
+.cqLayout .tbWrap table label{font-size:12px;line-height:1.5}
+.cqLayout .tbWrap .tip ul li{margin-left:10px;padding-right:10px;line-height:20px;color:#333;font-size:11px}
+.cqLayout .tbWrap .tip ul li .star{margin-left:-10px}
+.cqLayout .tbWrap .chkBx{position:absolute;right:10px;bottom:20px}
+.cqLayout .tbWrap .inpName{width:70%;height:25px;line-height:25px;font-size:12px}
+.cqLayout .tbWrap .inpBxPhone > span:first-child{width:auto}
+.cqLayout .tbWrap .hp{width:65px;height:25px;line-height:25px;font-size:12px}
+.cqLayout .tbWrap .inpList li:first-child span{display:block;width:60%}
+.cqLayout .chkBx label{margin:0;font-family:'NanumSquareRound';}
+.cqLayout .tbWrap .desc{margin-bottom:28px;font-family:'NanumSquareRound';font-size:13px;font-weight:700;color:#0e0e0e;text-align:center;text-decoration:underline;letter-spacing:-0.9px}
+.cqLayout .btnWrap{margin:25px 0 0;text-align:center}
+.cqLayout .btnWrap a{display:inline-block;width:119px;height:27px;line-height:27px;background:#f15353;color:#fefefe;border-radius:5px;font-family:'NanumSquareRound';font-weight:700;font-size:12px}
+
+.cqLayout .eventIssue{position:relative}
+.cqLayout .eventIssue a {display:block;width:50%;height:11vh;position:absolute;}
+.cqLayout .eventIssue a em{font-size:0;text-indent:-9999px}
+
+.cqLayout .eventIssue a.link02{left:50%}
+
+.cqLayout02 .answerBx{padding:32px 8px 15px;text-align:center}
+.cqLayout02 .comments{color:#0e0e0e}
+.cqLayout02 .comments .ico{display:inline-block;width:23px;height:23px;margin-bottom:15px;background:url('../../img/rzm/event/20190712/ico_smile.png') 0 0 no-repeat;background-size:23px auto}
+.cqLayout02 .comments .mText{margin-bottom:16px;font-family:'NanumSquareRound';font-size:25px;font-weight:700;letter-spacing:-0.5px}
+.cqLayout02 .comments .mText em{font-style:italic}
+.cqLayout02 .comments.type2 {margin-bottom:25px}
+.cqLayout02 .comments.type2 .mText{font-size:19px}
+.cqLayout02 .comments.type2 .sText{font-size:12px}
+.cqLayout02 .comments.type2 .sText span{color:#0155a7}
+.cqLayout02 .comments .sText{font-family:'NanumSquareRound';font-size:10px;letter-spacing:-0.9px;line-height:18px}
+.cqLayout02 .comments .textBx{margin-bottom:80px}
+.cqLayout02 .characterBx{position:relative;display:inline-block;width:258px;height:259px;margin:0 5% 42px 15%}
+.cqLayout02 .characterBx .bubble{position:absolute;left:-60px;top:13px;width:111px;height:126px;z-index:2;animation:bubble 2.5s ease-out}
+.cqLayout02 .characterBx .imgText{position:absolute;left:70px;top:70px;width:90px;height:18px;z-index:2}
+.cqLayout02 .characterBx .character{position:absolute;left:25px;width:150px;height:150px;animation:motion1 0.5s ease-out 0.2s forwards;opacity:0}
+@keyframes motion1{
+    0%{top:120px}
+    100%{top:85px;opacity:1}
+}
+.cqLayout02 .characterBx span{display:block;position:absolute}
+.cqLayout02 .characterBx .item1{right:80px;top:126px;width:3px;height:3px;background:url('../../img/rzm/event/20190712/item_11.png') 0 0 no-repeat;background-size:3px auto;animation: motion_2 2s ease-out infinite}
+.cqLayout02 .characterBx .item2{right:65px;top:111px;width:7px;height:7px;background:url('../../img/rzm/event/20190712/item_12.png') 0 0 no-repeat;background-size:7px auto;animation:motion_2 3s ease-out infinite}
+.cqLayout02 .characterBx .item3{right:55px;top:82px;width:11px;height:11px;background:url('../../img/rzm/event/20190712/item_13.png') 0 0 no-repeat;background-size:11px auto;animation:motion_1 .5s linear infinite alternate}
+.cqLayout02 .characterBx .item4{right:35px;top:90px;width:4px;height:4px;background:url('../../img/rzm/event/20190712/item_14.png') 0 0 no-repeat;background-size:4px auto;animation:motion_2 2.5s ease-out infinite}
+.cqLayout02 .characterBx .item5{right:70px;top:64px;width:7px;height:7px;background:url('../../img/rzm/event/20190712/item_15.png') 0 0 no-repeat;background-size:7px auto;animation:motion_2 2.5s ease-out infinite}
+.cqLayout02 .characterBx .item6{right:33px;top:60px;width:11px;height:11px;background:url('../../img/rzm/event/20190712/item_16.png') 0 0 no-repeat;background-size:11px auto;animation:motion_1 .5s linear infinite alternate}
+.cqLayout02 .characterBx .gift{position:absolute;left:0;bottom:0;display:block;width:258px;height:107px;margin:0 auto;background:url('../../img/rzm/event/20190712/gift2.png') 0 0 no-repeat;background-size:258px 107px;z-index:2;}
+.cqLayout02 .answerBx .text{padding-bottom:15px;border-bottom:1px solid #222;font-family:'NanumSquareRound';font-size:11px;color:#0e0e0e;letter-spacing:-0.5px}
+.cqLayout02 .answerBx.type2{padding:32px 0 0;}
+.cqLayout02 .characterBx02{position:relative;padding-bottom:15%;background:url('../../img/rzm/event/20190712/bg02.jpg') 0 bottom no-repeat;background-size:100% auto}
+.cqLayout02 .characterBx02 .group{position:absolute;left:5%;top:0}
+.cqLayout02 .characterBx02 .bubble{display:inline-block;width:139px;height:114px;z-index:3;animation:bubble 2.5s ease-out}
+.cqLayout02 .characterBx02 .character{display:inline-block;width:150px;height:150px;margin-left:-5px;z-index:-1}
+.cqLayout02 .characterBx02  span{position:absolute;display:block}
+.cqLayout02 .characterBx02 .cloud01{left:0;bottom:70px;width:44px;height:25px;background:url('../../img/rzm/event/20190712/cloud01.png') 0 0 no-repeat;background-size:44px 25px;animation: cloudMotion1 2s linear infinite alternate;z-index:1 }
+.cqLayout02 .characterBx02 .cloud02{right:25px;top:-10px;width:34px;height:19px;background:url('../../img/rzm/event/20190712/cloud02.png') 0 0 no-repeat;background-size:34px 19px;animation: cloudMotion2 2s linear infinite alternate;z-index:1}
+.cqLayout02 .characterBx02 .cloud03{right:0;top:26px;width:26px;height:15px;background:url('../../img/rzm/event/20190712/cloud03.png') 0 0 no-repeat;background-size:26px 15px;animation:cloudMotion3 3s linear infinite alternate;z-index:1}
+
+
+@keyframes bubble{
+    100%{transform:rotateY(1080deg)}
+}
+
+
+@keyframes cloudMotion1{
+    from{left:0;} to{left:40px;  }
+
+ }
+
+ @keyframes cloudMotion2{
+     from{right:25px;} to{right:50px;  }
+
+  }
+
+ @keyframes cloudMotion3{
+     from{right:0;} to{right:30px;  }
+
+  }
+
+
+.cqLayout02 .entryWrap{position:relative;padding-bottom:20px}
+.cqLayout02 .entryWrap .inner{padding:22px 0 0;}
+.cqLayout02 .entryWrap .inner h2{padding-bottom:15px;padding-left:10px;letter-spacing:-0.5px;font-family:'NanumSquareRound';font-size:18px;font-weight:700;color:#f15353}
+.cqLayout02 .agreeWrap{padding:15px 20px 23px;max-height:250px;overflow-y:auto;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1}
+.cqLayout02 .agreeWrap h3{background:none;margin:0;margin-bottom:16px;padding:0;color:#0e0e0e;font-family:'NanumSquareRound';font-size:12px;font-weight:700}
+.cqLayout02 .agreeWrap p{font-family:'NanumSquareRound';font-size:10px;letter-spacing:-0.5px;line-height:20px;color:#0e0e0e}
+.cqLayout02 .agreeWrap .list{margin-top:22px}
+.cqLayout02 .agreeWrap  dl{margin-bottom:25px}
+.cqLayout02 .agreeWrap  dl:last-child{margin-bottom:0}
+.cqLayout02 .agreeWrap  dl dt{margin-bottom:8px;background:none;border:none;text-align:left;font-family:'NanumSquareRound';font-size:12px;font-weight:700;letter-spacing:-0.5px;color:#0e0e0e}
+.cqLayout02 .agreeWrap  dl dd{padding:0;padding:0 15px;text-align:left;font-family:'NanumSquareRound';font-size:10px;letter-spacing:-0.5px;color:#0e0e0e}
+.cqLayout02 .entryWrap .chkBx{float:right;position:relative;margin:15px 14px 0 0}
+.cqLayout02 .entryWrap .tbWrap{margin:0 15px;margin-top:60px}
+.cqLayout02 .entryWrap .btnWrap{margin:33px 0 0;padding:0 0 25px}
+.cqLayout02 .entryWrap .btnWrap a{width:114px;height:32px;line-height:32px;margin-right:10px;font-size:15px;font-weight:700}
+.cqLayout02 .entryWrap .btnWrap a:last-child{margin-right:0}
+.cqLayout02 .entryWrap .btnWrap a.type2{background:#dcdcdc;color:#030303}
+
+.cqLayout02 .resultWrap{text-align:center}
+.cqLayout02 .resultWrap .textTop{margin-bottom:24px;font-family:'NanumSquareRound';font-weight:700;letter-spacing:-0.5px}
+.cqLayout02 .resultWrap .textTop .mText{margin-bottom:15px;font-size:20px;color:#0155a7}
+.cqLayout02 .resultWrap .textTop .sText{font-size:12px;color:#0e0e0e}
+.cqLayout02 .resultWrap .textTop .star{font-size:10px}
+.cqLayout02 .resultWrap .btnWrap{margin:0px 0 37px}
+
+/* e: 190611 신용퀴즈 이벤트 추가 */
+
+
+/* s: 20191025 신용대란 이벤트 */
+.crChaosWrap .section{position:relative}
+.crChaosWrap .section img{width:100%}
+.crChaosWrap #section01 .item{position:absolute}
+.crChaosWrap #section01 .item01{width:18px;height:18px;left:30px;top:12px;animation:cr_ev_1 1s linear infinite alternate;background:url('../../img/rzm/event/20191107/item_01.png') 0 0 no-repeat;background-size:18px auto}
+.crChaosWrap #section01 .item02{width:22px;height:22px;left:10px;top:76px;background:url('../../img/rzm/event/20191107/item_02.png') 0 0 no-repeat;background-size:22px auto}
+.crChaosWrap #section01 .item03{width:6px;height:6px;left:27px;top:140px;animation:cr_ev_3 2s ease-out infinite;background:url('../../img/rzm/event/20191107/item_03.png') 0 0 no-repeat;background-size:6px auto}
+.crChaosWrap #section01 .item04{width:25px;height:25px;left:17px;top:224px;animation:cr_ev_1 2s linear infinite alternate;background:url('../../img/rzm/event/20191107/item_04.png') 0 0 no-repeat;background-size:25px auto}
+.crChaosWrap #section01 .item05{width:4px;height:4px;right:105px;top:27px;animation:cr_ev_1 1s linear infinite alternate;background:url('../../img/rzm/event/20191107/item_05.png') 0 0 no-repeat;background-size:4px auto}
+.crChaosWrap #section01 .item06{width:25px;height:25px;right:37px;top:20px;animation:cr_ev_1 3s ease-out infinite;background:url('../../img/rzm/event/20191107/item_06.png') 0 0 no-repeat;background-size:25px auto}
+.crChaosWrap #section01 .item07{width:4px;height:4px;right:20px;top:245px;animation:cr_ev_3 3s linear infinite alternate;background:url('../../img/rzm/event/20191107/item_05.png') 0 0 no-repeat;background-size:4px auto}
+.crChaosWrap #section01 .item08{width:99px;height:37px;right:46px;top:30px;background:url('../../img/rzm/event/20191107/item_07.png') 0 0 no-repeat;background-size:99px 37px}
+.crChaosWrap #section01 .item09{width:32px;height:29px;right:8%;top:46%;animation:cr_ev_2 1s 1s both linear infinite;transform-origin:80% 5%;transform:rotate(10deg);background:url('../../img/rzm/event/20191107/item_08.png') 0 0 no-repeat;background-size:32px 29px}
+.crChaosWrap #section04 .prdVis{opacity:0;position:absolute;bottom:0px;right:26px;width:122px;height:107px;background:url('../../img/rzm/event/20191107/prd_vis_01.png') 0 0 no-repeat;background-size:122px 107px}
+.crChaosWrap #section04 .prd{position:absolute;left:10px;bottom:0}
+.crChaosWrap #section04 .prd img{width:101px}
+.crChaosWrap #section04 .prdVis.active{opacity:1;transition:opacity 800ms ease}
+.crChaosWrap #section04 .prdVis.active .prd{bottom:10px; transition:bottom 400ms ease; transition-delay:800ms}
+.crChaosWrap #section05 .star img{width:14px}
+.crChaosWrap #section05 .star01{position:absolute;top:40px;left:35px;animation:cr_ev_1 1s linear infinite alternate}
+.crChaosWrap #section05 .star02{position:absolute;top:40px;left:17px;animation:cr_ev_1 2s linear infinite alternate}
+.crChaosWrap #section05 .star03{position:absolute;top:40px;right:35px;animation:cr_ev_1 1s linear infinite alternate}
+.crChaosWrap #section05 .star04{position:absolute;top:40px;right:17px;animation:cr_ev_1 2s linear infinite alternate}
+.crChaosWrap #section05 .item01{position:absolute;left:9px;bottom:80px;animation:cr_ev_2 1.5s 1.5s both linear infinite;transform-origin:80% 5%;transform:rotate(10deg);}
+.crChaosWrap #section05 .item01 img{width:58px}
+.crChaosWrap #section07 .motion{position:absolute;left:0;bottom:38px;width:100%;text-align:center}
+.crChaosWrap #section07 .motion img{max-width:65%}
+.crChaosWrap #section07 .bar{display:block;width:0;opacity:0;position:absolute}
+.crChaosWrap #section07 .bar.active{opacity:1;transition:opacity 700ms ease;}
+.crChaosWrap #section07 .bar01{left:0;bottom:152px;background:#efe4f9}
+.crChaosWrap #section07 .bar02{left:0;bottom:124px;background:#efe4f9}
+.crChaosWrap #section07 .bar03{right:0;bottom:120px;background:#e2eef7}
+.crChaosWrap #section07 .bar04{right:0;bottom:94px;background:#e2eef7}
+.crChaosWrap #section07 .bar01.active{opacity:1;width:45px;height:4px;transition:width 800ms ease; transition-delay:200ms}
+.crChaosWrap #section07 .bar02.active{opacity:1;width:128px;height:4px;transition:width 800ms ease; transition-delay:400ms}
+.crChaosWrap #section07 .bar03.active{opacity:1;width:197px;height:4px;transition:width 800ms ease; transition-delay:600ms}
+.crChaosWrap #section07 .bar04.active{opacity:1;width:120px;height:4px;transition:width 800ms ease; transition-delay:800ms}
+.crChaosWrap #section07 .bubble{position:absolute;left:90px;top:300px;}
+.crChaosWrap #section08 .item01{position:absolute;left:116px;top:198px;animation:cr_ev_2 1.5s 1.5s both linear infinite;transform-origin:80% 5%;transform:rotate(10deg);}
+.crChaosWrap #section10 .motion{position:absolute;left:30%;bottom:30px;width:100%}
+.crChaosWrap #section10 .motion img{max-width:65%}
+.crChaosWrap #section10 .item01{width:12px;height:16px;position:absolute;left:23px;bottom:55px;animation:cr_ev_1 .5s linear infinite alternate;background:url('../../img/rzm/event/20191107/star_02.png') 0 0 no-repeat;background-size:12px 16px}
+.crChaosWrap #section10 .item02{width:21px;height:28px;position:absolute;left:45px;bottom:33px;animation:cr_ev_1 .5s linear infinite alternate;background:url('../../img/rzm/event/20191107/star_02.png') 0 0 no-repeat;background-size:21px 28px}
+.crChaosWrap #section10 .item03{width:18px;height:23px;position:absolute;right:30px;bottom:192px;animation:cr_ev_1 .5s linear infinite alternate;background:url('../../img/rzm/event/20191107/star_02.png') 0 0 no-repeat;background-size:18px 23px}
+.crChaosWrap #section10 .item04{width:11px;height:14px;position:absolute;right:11px;bottom:167px;animation:cr_ev_1 .5s linear infinite alternate;background:url('../../img/rzm/event/20191107/star_02.png') 0 0 no-repeat;background-size:11px 14px}
+.crChaosWrap #section11 .item01{position:absolute;left:5px;bottom:130px;animation:cr_ev_2 1.5s 1.5s both linear infinite;transform-origin:80% 5%;transform:rotate(10deg);}
+.crChaosWrap #section11 .item01 img{width:58px}
+.crChaosWrap #section11 .coupon{position:absolute;right:2%;bottom:40%;opacity:0;transition:all 0.4s ease-out 1.2s;-webkit-transition:all 0.4s ease-out 1.2s;transform:scale(2);-webkit-transform:scale(2)}
+.crChaosWrap #section11 .coupon img{width:128px}
+.crChaosWrap #section11 .coupon.active {opacity:1;transform:scale(1);-webkit-transform:scale(1)}
+@keyframes cr_ev_1{
+   0%{opacity:0}
+   100%{opacity:1}
+}
+@keyframes cr_ev_2 {
+  0% {transform:rotate(3deg)}
+  50% {transform:rotate(-5deg)}
+  100% {transform:rotate(3deg)}
+}
+@keyframes cr_ev_3{
+    50%{margin-top:-10px}
+}
+/* e: 20191025 신용대란 이벤트 */
+
+
+@media (max-width:360px){
+  .appEventWrap.v03 .missionWrap {padding:50px 0 0;}
+  .appEventWrap .missionWrap .mission{height:260px;}
+}
+@media (max-width:320px){
+  .eventView .eventCont .new_event_box  dl.list01{margin-top:5%;}
+  .eventView .eventCont .new_event_box  dl.list02{margin-top:3%;}
+  .eventView .eventCont .new_event_box  dl.list03{margin-top:2%;}
+  .eventView .eventCont .new_event_box .bubble{top:-5px;}
+  .eventView .eventCont .new_event_box .bubble img{width:57px;}
+  .layerPopWrap.privateCollection .headerG .popTit{font-size:14px;}
+  .cqLayout02 .comments .sText br{display:none}
+
+}
+
+
+
+
+
+
+
+
+/* s: 20191119 신용등급계산기 */
+.calcGradeEv{}
+.calcGradeEv .calcGradeCg{display:table;table-layout:fixed;width:100%;max-width:400px;margin:0 auto;padding:30px 0 40px;background-color:#ffffff}
+.calcGradeEv .calcGradeCg > *{display:table-cell;text-align:center;vertical-align:middle}
+.calcGradeEv .calcGradeCg > *:nth-child(1){width:25%}
+.calcGradeEv .calcGradeCg > *:nth-child(2){width:50%;padding:0 10px}
+.calcGradeEv .calcGradeCg > *:nth-child(3){width:25%}
+.calcGradeEv .calcGradeCg .tit{margin:15px 0 35px;font-family:'NanumSquareRound';font-weight:800;font-size:15px}
+.calcGradeEv .calcGradeCg .grade{font-family:'NanumSquareRound';font-size:20px}
+.calcGradeEv .calcGradeCg .grade > *{display:inline-block;line-height:1.0;vertical-align:top}
+.calcGradeEv .calcGradeCg .current .grade strong{font-weight:800;font-size:25px}
+.calcGradeEv .calcGradeCg .current .grade span{margin-top:2px}
+.calcGradeEv .calcGradeCg .motion{position:relative;width:100%;height:98px}
+.calcGradeEv .calcGradeCg .motion .motionTxt{position:absolute;top:-10px;left:0;width:100%;line-height:1.4;padding:6px 0;border-radius:5px;background-color:#faedf4;color:#464646;font-family:'NanumSquareRound';font-size:12px;font-weight:700;opacity:0;transition:all 0.5s linear}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .motion .motionTxt{top:0;opacity:1}
+.calcGradeEv .calcGradeCg .motion .motionArea{position:absolute;bottom:0;left:50%;width:56px;height:36px;margin-left:-28px}
+.calcGradeEv .calcGradeCg .motion .motionArea:before,
+.calcGradeEv .calcGradeCg .motion .motionArea:after,
+.calcGradeEv .calcGradeCg .motion .motionArea > div{content:'';display:block;position:absolute;top:0;width:18px;height:36px;background:url("../../img/rzm/event/20191119/event_04_arrow.png") left top no-repeat;background-size:100% 100%;animation:calcFlowMt 2s linear infinite;opacity:0.3}
+.calcGradeEv .calcGradeCg .motion .motionArea > div{left:18px;animation-delay:0.4s}
+.calcGradeEv .calcGradeCg .motion .motionArea:after{left:36px;animation-delay:0.8s}
+@keyframes calcFlowMt{
+    0%{opacity:0.3}
+    40%{opacity:0.5}
+    70%{opacity:1}
+    100%{opacity:0.3}
+}
+
+.calcGradeEv .calcGradeCg .predictions .grade span{margin-top:5px}
+.calcGradeEv .calcGradeCg .predictions .noData{font-family:'NanumSquareRound';font-size:18px}
+.calcGradeEv .calcGradeCg .predictions .digit{display:inline-block;width:30px;height:31px;margin-right:5px;vertical-align:middle;font-size:0;text-indent:-9999px;background-image:url("../../img/rzm/event/20191119/numbers_sprites.png");background-size:30px auto;background-position:0 -299px}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit1{animation:digitSpin1 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit2{animation:digitSpin2 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit3{animation:digitSpin3 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit4{animation:digitSpin4 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit5{animation:digitSpin5 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit6{animation:digitSpin6 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit7{animation:digitSpin7 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit8{animation:digitSpin8 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit9{animation:digitSpin9 3s 1 forwards}
+.calcGradeEv .calcGradeSec.on .calcGradeCg .predictions .digit10{background-position:0 -299px}
+/* Animation */
+@keyframes digitSpin1{
+    from{background-position:0 0}
+    to{background-position:0 -569px}
+}
+@keyframes digitSpin2{
+    from{background-position:0 0}
+    to{background-position:0 -539px}
+}
+@keyframes digitSpin3{
+    from{background-position:0 0}
+    to{background-position:0 -509px}
+}
+@keyframes digitSpin4{
+    from{background-position:0 0}
+    to{background-position:0 -479px}
+}
+@keyframes digitSpin5{
+    from{background-position:0 0}
+    to{background-position:0 -449px}
+}
+@keyframes digitSpin6{
+    from{background-position:0 0}
+    to{background-position:0 -419px}
+}
+@keyframes digitSpin7{
+    from{background-position:0 0}
+    to{background-position:0 -389px}
+}
+@keyframes digitSpin8{
+    from{background-position:0 0}
+    to{background-position:0 -359px}
+}
+@keyframes digitSpin8{
+    from{background-position:0 0}
+    to{background-position:0 -329px}
+}
+
+
+.calcGradeEv .calcGradeDirect{position:relative;padding:20px 0 0;background:url('../../img/rzm/event/20191119/bg_calc_sec5.png') left top repeat;background-size:7px auto}
+.calcGradeEv .btnCalcDirect{position:relative;width:230px;margin:0 auto;padding:96px 0 20px;text-align:center}
+.calcGradeEv .btnCalcDirect a{display:block;position:relative;height:60px;line-height:60px;border-radius:50px;background-color:#ed4956;color:#ffffff;font-family:'NanumSquareRound';font-size:18px;font-weight:700;text-indent:-10px;box-shadow:0 2px 4px rgba(0,0,0,0.2)}
+.calcGradeEv .btnCalcDirect a:after{content:'';display:block;position:absolute;top:50%;right:20px;width:10px;height:14px;margin-top:-7px;background:url('../../img/rzm/event/20191119/btn_arrow.png') left top no-repeat;background-size:100% 100%;animation:calcDirectBtn 1s linear infinite}
+@keyframes calcDirectBtn{
+    0%{right:40px;opacity:0}
+    30%{opacity:1}
+    70%{opacity:1}
+    100%{right:20px;opacity:0}
+}
+.calcGradeEv .btnCalcDirect .motion{overflow:hidden;position:absolute;top:20px;left:50%;width:135px;height:76px;margin-left:-68px}
+.calcGradeEv .btnCalcDirect .motion > *{display:block;position:absolute}
+.calcGradeEv .btnCalcDirect .motion > *:nth-child(1){left:74px;bottom:-35px;width:60px;height:33px;background:url('../../img/rzm/event/20191119/img_direct_motion1.png') left top no-repeat;background-size:100% 100%}
+.calcGradeEv .btnCalcDirect .motion > *:nth-child(2){left:70px;bottom:-64px;width:42px;height:62px;background:url('../../img/rzm/event/20191119/img_direct_motion2.png') left top no-repeat;background-size:100% 100%}
+.calcGradeEv .btnCalcDirect .motion > *:nth-child(3){left:30px;bottom:-95px;width:60px;height:88px;background:url('../../img/rzm/event/20191119/img_direct_motion2.png') left top no-repeat;background-size:100% 100%}
+.calcGradeEv .calcGradeSec.on .btnCalcDirect .motion > *:nth-child(1){animation:calcDirectMt1 0.5s ease-out 0.8s forwards}
+.calcGradeEv .calcGradeSec.on .btnCalcDirect .motion > *:nth-child(2){animation:calcDirectMt2 0.5s ease-out 0.5s forwards}
+.calcGradeEv .calcGradeSec.on .btnCalcDirect .motion > *:nth-child(3){animation:calcDirectMt3 0.5s ease-out 0.2s forwards}
+@keyframes calcDirectMt1{
+    0%{bottom:-35px}
+    100%{bottom:-18px}
+}
+@keyframes calcDirectMt2{
+    0%{bottom:-64px}
+    100%{bottom:-6px}
+}
+@keyframes calcDirectMt3{
+    0%{bottom:-95px}
+    100%{bottom:-12px}
+}
+
+.calcGradeEv .btnCalcDirect2{display:block;position:relative;width:147px;height:32px;line-height:32px;margin:0 auto;border-radius:50px;background-color:#8957a1;color:#ffffff;font-family:'NanumSquareRound';font-size:15px;font-weight:700;text-align:center;text-indent:-20px}
+.calcGradeEv .btnCalcDirect2:after{content:'';display:block;position:absolute;top:50%;right:20px;width:10px;height:14px;margin-top:-7px;background:url('../../img/rzm/event/20191119/btn_arrow.png') left top no-repeat;background-size:100% 100%;animation:calcDirectBtn2 1s linear infinite}
+@keyframes calcDirectBtn2{
+    0%{right:30px;opacity:0}
+    30%{opacity:1}
+    70%{opacity:1}
+    100%{right:10px;opacity:0}
+}
+/* e: 20191119 신용등급계산기 */
+
+/* s: 191127 이름어때 오픈 이벤트 */
+.nsEvWrap .section{position:relative}
+.nsEvWrap .section01 .snow{position:absolute;top:0}
+.nsEvWrap .section01 .snow01{left:15px}
+.nsEvWrap .section01 .snow01 img{max-width:30px}
+.nsEvWrap .section01 .snow02{left:40px}
+.nsEvWrap .section01 .snow02 img{max-width:38px}
+.nsEvWrap .section01 .snow03{right:46px}
+.nsEvWrap .section01 .snow03 img{max-width:35px}
+.nsEvWrap .section01 .snow04{right:10px}
+.nsEvWrap .section01 .snow04 img{max-width:28px}
+
+.nsEvWrap{border:1px solid #bdbdbd}
+.nsEvWrap .smSnow{position:absolute;}
+.nsEvWrap .ball{position:absolute;background:#fff;border-radius:100%}
+.nsEvWrap .heart{position:absolute}
+.nsEvWrap .section01 .step{position:absolute}
+.nsEvWrap .section01 .step img{max-width:10px}
+.nsEvWrap .section01 .step01{position:absolute;right:94px;bottom:15px;opacity:0;animation:ns_step_motion 0.8s 0.5s ease-out forwards}
+.nsEvWrap .section01 .step02{position:absolute;right:111px;bottom:22px;opacity:0;animation:ns_step_motion 0.8s 0.7s ease-out forwards}
+.nsEvWrap .section01 .step03{position:absolute;right:125px;bottom:15px;opacity:0;animation:ns_step_motion 0.8s 0.9s ease-out forwards}
+.nsEvWrap .section01 .step04{position:absolute;right:140px;bottom:23px;opacity:0;animation:ns_step_motion 0.8s 1.2s ease-out forwards}
+.nsEvWrap .section01 .step05{position:absolute;right:153px;bottom:15px;opacity:0;animation:ns_step_motion 0.8s 1.4s ease-out forwards}
+.nsEvWrap .section01 .step06{position:absolute;right:167px;bottom:23px;opacity:0;animation:ns_step_motion 0.8s 1.6s ease-out forwards}
+.nsEvWrap .section01 .zikimi{position:absolute;left:34%;bottom:25px}
+.nsEvWrap .section01 .zikimi img{max-width:132px}
+.nsEvWrap .section01 .hat{position:absolute;right:0px;top:-10px;z-index:2}
+.nsEvWrap .section01 .hat img{max-width:47px}
+.nsEvWrap .section01 .ball01{width:5px;height:5px;left:82px;top:24px;animation:ns_circle_motion 3s 0.1s ease-in infinite }
+.nsEvWrap .section01 .ball02{width:5px;height:5px;left:25px;top:72px;animation:ns_circle_motion 2.5s 0.4s ease-in infinite }
+.nsEvWrap .section01 .ball03{width:5px;height:5px;left:53px;top:236px;animation:ns_circle_motion 3.2s 0.2s ease-in infinite }
+.nsEvWrap .section01 .ball04{width:4px;height:4px;left:36px;top:87px;animation:ns_circle_motion 2.8s 0.3s ease-in infinite }
+.nsEvWrap .section01 .ball05{width:6px;height:6px;left:75px;top:305px;animation:ns_circle_motion 2.6s 0.3s ease-in infinite }
+.nsEvWrap .section01 .ball06{width:5px;height:5px;right:34px;top:111px;animation:ns_circle_motion 2.5s 0.4s ease-in infinite }
+.nsEvWrap .section01 .ball07{width:4px;height:4px;right:50px;top:222px;animation:ns_circle_motion 2.8s 0.3s ease-in infinite }
+.nsEvWrap .section01 .ball08{width:4px;height:4px;right:150px;top:255px;animation:ns_circle_motion 3.2s 0.2s ease-in infinite }
+.nsEvWrap .section01 .ball09{width:6px;height:6px;left:75px;top:305px;animation:ns_circle_motion 2.6s 0.3s ease-in infinite }
+.nsEvWrap .section01 .smSnow01{right:58px;bottom:226px;opacity:0;animation:ns_circle_motion 2.8s 0.3s ease-in infinite}
+.nsEvWrap .section01 .smSnow02{right:150px;bottom:329px;opacity:0;animation:ns_circle_motion 2.6s 0.3s ease-in infinite}
+
+.nsEvWrap .section02 .ball{background:#e8e8e8}
+.nsEvWrap .section02 .ball01{width:4px;height:4px;left:30px;top:100px;animation:ns_circle_motion2 2.2s 0.1s ease-in infinite}
+.nsEvWrap .section02 .ball02{width:6px;height:6px;left:17px;top:92px;animation:ns_circle_motion2 2.8s 0.2s ease-in infinite}
+.nsEvWrap .section02 .ball03{width:4px;height:4px;left:42px;top:155px;animation:ns_circle_motion2 2.5s 0.3s ease-in infinite}
+.nsEvWrap .section02 .ball04{width:3px;height:3px;left:8px;top:225px;animation:ns_circle_motion2 2.7s 0.4s ease-in infinite}
+.nsEvWrap .section02 .ball05{width:3px;height:3px;left:34px;top:300px;animation:ns_circle_motion2 2.6s 0.5s ease-in infinite}
+.nsEvWrap .section02 .ball06{width:4px;height:4px;right:15px;top:107px;animation:ns_circle_motion2 2.2s 0.2s ease-in infinite}
+.nsEvWrap .section02 .ball07{width:3px;height:3px;right:20px;top:309px;animation:ns_circle_motion2 2.8s 0.3s ease-in infinite}
+.nsEvWrap .section02 .bgStar{position:absolute;left:50%;top:42%;transform:translateX(-50%);animation:cr_ev_1 1s linear infinite alternate;}
+.nsEvWrap .section02 .bgStar img{max-width:311px}
+.nsEvWrap .section02 .quizAnswer{position:absolute;right:7px;top:-40px;animation:ns_quizAnswer .8s  ease-in infinite alternate}
+.nsEvWrap .section02 .quizAnswer img{max-width:109px}
+@keyframes ns_quizAnswer {
+  100% {transform:translateY(-5px);}
+
+}
+.nsEvWrap .section02 .smSnow01{left:14px;top:193px;animation:ns_circle_motion2 2.8s 0.1s ease-in infinite}
+.nsEvWrap .section02 .smSnow01 img{max-width:11px}
+.nsEvWrap .section02 .smSnow02{right:20px;top:117px;animation:ns_circle_motion2 2.2s 0.2s ease-in infinite}
+.nsEvWrap .section02 .smSnow02 img{max-width:5px}
+.nsEvWrap .section02 .smSnow03{right:22px;top:312px;animation:ns_circle_motion2 2.5s 0.3s ease-in infinite}
+.nsEvWrap .section02 .smSnow03 img{max-width:19px}
+
+.nsEvWrap .section04 .heart01{left:305px;top:30px;animation:ns_heart_motion .8s .1s ease-out infinite alternate}
+.nsEvWrap .section04 .heart02{left:320px;top:35px;animation:ns_heart_motion .8s .3s ease-out infinite alternate}
+.nsEvWrap .section04 .heart03{right:300px;top:30px;animation:ns_heart_motion2 .8s .1s ease-out infinite alternate}
+.nsEvWrap .section04 .heart04{right:315px;top:35px;animation:ns_heart_motion2 .8s  .3s ease-out infinite alternate}
+
+.nsEvWrap .section05 .present{position:absolute;left:30%;bottom:5%;animation:swing 1s ease-out infinite;}
+.nsEvWrap .section05 .present img{max-width:30px;}
+.nsEvWrap .section06 .urlBox{display:table;position:absolute;right:8%;bottom:20%;width:140px;height:70px;font-size:11px;text-align:center;background:#fff;border-radius:3px}
+.nsEvWrap .section06 .urlBox .inner{display:table-cell;padding:0 6px;vertical-align:middle}
+.nsEvWrap .section06 .urlBox .txt1{margin-bottom:5px;font-weight:800}
+.nsEvWrap .section06 .urlBox .txt2{line-height:14px;font-weight:700}
+.nsEvWrap .section06 .urlBox .txt3{line-height:14px;font-weight:700}
+.nsEvWrap .section06 .copy{position:absolute;right:11%;bottom:7%}
+.nsEvWrap .section06 .copy img{max-width:120px}
+.nsEvWrap .section06 .hand{animation:nsHandMotion2 1s 1s ease-out forwards infinite;position:absolute;right:8px;top:7px}
+.nsEvWrap .section06 .hand img{max-width:20px}
+@keyframes nsHandMotion2{
+  from { transform:translate(-5px , -5px);}
+  to {transform:translateX(0, 0);}
+}
+.nsEvWrap .section06 .heart01{left:187px;top:80px;animation:ns_heart_motion .8s .1s ease-out infinite alternate;}
+.nsEvWrap .section06 .heart02{left:197px;top:90px;animation:ns_heart_motion .8s .3s ease-out infinite alternate;}
+.nsEvWrap .section06 .heart03{right:190px;top:80px;animation:ns_heart_motion2 .8s .1s ease-out infinite alternate;}
+.nsEvWrap .section06 .heart04{right:202px;top:90px;animation:ns_heart_motion2 .8s .3s ease-out infinite alternate;}
+
+.nsEvWrap .slideWrap {position:absolute;left:50%;top:45%;width:227px;height:177px;margin-left:-113px;text-align:center;cursor:pointer}
+.nsEvWrap .slideWrap .slick-slide {display:inline-block;width:110px;position:relative;top:30px;left:-11px;transition:all.25s;overflow:hidden}
+.nsEvWrap .slideWrap:focus{outline:none}
+.nsEvWrap .slideWrap  img {transition: all .25s;}
+.nsEvWrap .slideWrap .slick-current+.slick-active {left:-140px;overflow:visible;}
+.nsEvWrap .slideWrap .slick-current {position:relative;width:140px;z-index:100;left:-77px;top:0;overflow:visible}
+.nsEvWrap .slideWrap .slick-current img {}
+.nsEvWrap .slideWrap .slick-next{width:14px;height:25px;right:-35px;background:url("../../img/rzm/event/20191210/btn_right.png") no-repeat 0 0;background-size:100% 25px}
+.nsEvWrap .slideWrap .slick-prev{width:14px;height:25px;left:-35px;background:url("../../img/rzm/event/20191210/btn_left.png") no-repeat 0 0;background-size:100% 25px}
+.nsEvWrap .btnWrap{position:fixed;left:0;right:0;bottom:0;width:100%;z-index:4}
+.nsEvWrap .btnWrap a{position:relative;display:block}
+.nsEvWrap .btnWrap a:after{display:block;content:"";position:absolute;right:110px;top:50%;width:11px;height:15px;margin-top:-6px;animation:nsDirectBtn 1s linear infinite;background:url("../../img/rzm/event/20191210/arr_right.png") left top no-repeat;background-size:100% 15px}
+@keyframes nsDirectBtn{
+    0%{right:90px;opacity:0}
+    30%{opacity:1}
+    70%{opacity:1}
+    100%{right:110px;opacity:0}
+}
+
+
+@keyframes ns_step_motion {
+  100% {opacity:1;}
+}
+@keyframes ns_heart_motion {
+  100% {transform:translate3d(-5px, 5px, 5px);}
+}
+@keyframes ns_heart_motion2 {
+  100% {transform:translate3d(5px, 5px, 5px);}
+}
+@keyframes ns_circle_motion {
+  0 {transform:translateY(0);}
+  80% {opacity:0.7;}
+  100% {transform:translateY(200px);opacity:0;}
+}
+@keyframes ns_circle_motion2 {
+  0 {transform:translateY(0);}
+  70% {opacity:0.7;}
+  100% {transform:translateY(110px);opacity:0;}
+}
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+/* e: 191127 이름어때 오픈 이벤트 */
+
+/* s: 200210 카카오비즈 이벤트 */
+.kakoRdWrap {background:#f4f4f4}
+.kakoRdWrap .dataWrap *{letter-spacing:-0.5px}
+.kakoRdWrap .dataWrap{position:relative;padding:25px 25px 35px;margin:0 20px 20px;box-sizing:border-box;text-align:center;background:#fff;box-shadow: 1px 0 6px #e6e6e6, 0 1px 3px #c5c5c5;border-radius:3px}
+.kakoRdWrap .dataWrap .tit {margin-bottom:10px}
+.kakoRdWrap .dataWrap .txt {margin-bottom:25px}
+.kakoRdWrap .dataWrap .tit01 img{max-width:42px}
+.kakoRdWrap .dataWrap .tit02 img{max-width:15px}
+.kakoRdWrap .tit03 img{max-width:100%}
+.kakoRdWrap .dataWrap .txt01 img{max-width:162px}
+.kakoRdWrap .dataWrap .txt02 img{max-width:162px}
+.kakoRdWrap .dataWrap .line2{padding:23px 0 0;margin-bottom:20px;border-bottom:1px solid #d7d7d7}
+.kakoRdWrap .dataWrap .textArea .text{line-height:1.3;color:#2e2e2e}
+.kakoRdWrap .dataWrap .textArea .text strong{font-weight:800}
+.kakoRdWrap .dataWrap .textArea .tip{margin:9px 0 0;font-size:10px;color:#767676}
+.kakoRdWrap .dataWrap .textArea .stxt{font-size:12px}
+.kakoRdWrap .dataWrap .textArea .point01{font-weight:800;color:#2e81f8}
+.kakoRdWrap .dataWrap .textArea .point02{font-size:25px;font-weight:800;color:#2e81f8}
+.kakoRdWrap .dataWrap .textArea .per{font-size:14px}
+.kakoRdWrap .dataWrap .rolling{display:inline-block;text-align:left;}
+.kakoRdWrap .dataWrap .rolling01{width:38px;vertical-align:bottom}
+.kakoRdWrap .dataWrap .rolling02{width:auto;text-align:center;vertical-align:bottom}
+.kakoRdWrap .dataWrap .rolling01 .slick-list{height:19px !important}
+.kakoRdWrap .dataWrap .rolling02 .slick-list{height:29px !important}
+.kakoRdWrap .dataWrap .rolling02 .slick-slide{float:none !important;width:auto !important; }
+.kakoRdWrap .dataWrap01 .arrow{position:absolute;bottom:100px;right:-4px;opacity:0}
+.kakoRdWrap .dataWrap01 .img{position:absolute;bottom:-54px;right:-180px;z-index:2}
+.kakoRdWrap .dataWrap01.on .arrow{animation:ka_arrow_motion .8s .3s cubic-bezier(0.29, 0.49, 0.36, 1) forwards alternate}
+.kakoRdWrap .dataWrap01.on .img{animation:ka_img_motion .8s 1s cubic-bezier(0.29, 0.49, 0.36, 1)forwards alternate}
+.kakoRdWrap .dataWrap01 .arrow img{max-width:44px}
+.kakoRdWrap .dataWrap01 .img img{max-width:140px}
+.kakoRdWrap .dataWrap02{margin-bottom:84px}
+.kakoRdWrap .dataWrap02 .item01{position:absolute;left:-20px;top:25px}
+.kakoRdWrap .dataWrap02 .item01 img{max-width:65px}
+.kakoRdWrap .dataWrap02 .item02{position:absolute;right:-9px;top:35px}
+.kakoRdWrap .dataWrap02 .item02 img{max-width:42px}
+.kakoRdWrap .dataWrap02 .item03{position:absolute;right:5px;bottom:135px}
+.kakoRdWrap .dataWrap02 .item03 img{max-width:25px}
+.kakoRdWrap .dataWrap02 .arrow{position:absolute;right:-10px;bottom:-50px;opacity:0}
+.kakoRdWrap .dataWrap02 .arrow img{max-width:40px}
+.kakoRdWrap .dataWrap02 .img{position:absolute;right:-180px;bottom:-100px;z-index:2}
+.kakoRdWrap .dataWrap02 .img img{max-width:142px}
+.kakoRdWrap .dataWrap02.on .arrow{animation:ka_arrow_motion02 .8s 1.3s cubic-bezier(0.29, 0.49, 0.36, 1) forwards alternate}
+.kakoRdWrap .dataWrap02.on .img{animation:ka_img_motion .8s 2s cubic-bezier(0.29, 0.49, 0.36, 1) forwards alternate}
+.kakoRdWrap .btnLink01{display:block;position:absolute;right:9%;top:33%;width:42%;height:10%;opacity:0;text-indent:-9999px}
+.kakoRdWrap .btnLink02{display:block;position:absolute;right:9%;bottom:13%;width:42%;height:10%;opacity:0;text-indent:-9999px}
+
+
+@keyframes ka_arrow_motion {
+  100% {bottom:77px;opacity:1}
+}
+@keyframes ka_arrow_motion02 {
+  100% {bottom:2px;opacity:1}
+}
+@keyframes ka_img_motion {
+  100% {right:-20px}
+}
+/* e: 200210 카카오비즈 이벤트 */
+
+
+/* s: 20200225 신용 검진 이벤트 */
+.chEventWrap .section{position:relative}
+@keyframes chDirectBtn{
+    0%{right:60px;opacity:0}
+    30%{opacity:1}
+    70%{opacity:1}
+    100%{right:75px;opacity:0}
+}
+.creditWarningResult .conBox{padding:17px 15px;margin:0 20px;background:#e7f4f4;border-radius:4px}
+.creditWarningResult .conBox p{margin-bottom:15px;font-size:18px}
+.creditWarningResult .conBox p strong{font-weight:800}
+.creditWarningResult .conBox .infoList li{margin-bottom:25px;line-height:23px}
+.creditWarningResult .conBox .infoList li.last{margin-bottom:0}
+.creditWarningResult .conBox .infoList li .line{margin:0;padding:0;border:none;text-decoration:underline;font-weight:800}
+.creditWarningResult .conBox .infoList li .link{text-decoration:underline;font-style:italic;font-weight:800}
+.creditWarningResult .btnWrap{margin:15px 20px;height:45px;line-height:45px;background:#3376c7;text-align:center;border-radius:4px}
+.creditWarningResult .btnWrap a{display:block;color:#fff;font-weight:800;font-size:16px}
+
+/* s: 20200317 수정 */
+.cardSlideWrap.chEvent{padding:7px 0 0}
+.cardSlideWrap.chEvent .headWrap{padding:15px 0 13px;border-bottom:none}
+.cardSlideWrap.chEvent .slideCardList{margin:0}
+.cardSlideWrap.chEvent .slideCardList > ul{width:auto}
+.cardSlideWrap.chEvent .slideCardList > ul > li{float:none;padding:0;margin-bottom:20px}
+.cardSlideWrap.chEvent .slideCardList > ul > li:last-child{margin-bottom:0}
+/* e: 20200317 수정 */
+
+/* e: 20200225 신용 검진 이벤트 */
+
+@media (max-width:360px){
+
+  .receipt_box .avg_price em{display:block}
+}
+@media (max-width:320px){
+
+  .nsEvWrap .section06 .urlBox{right:5%;bottom:17%}
+  .nsEvWrap .section06 .copy{right:8%;bottom:5%}
+
+}
+
+/* 210119 웰뱅적금 랜딩 */
+.welbankWrap {width: 100%; max-width: 750px; margin: 0 auto; text-ailgn: center;}
+.welbankWrap section {position:relative; margin: 0; padding: 0;}
+.welbankWrap img { display: block; width: 100%; }
+.stickerImg {position: absolute; top: 10%; left: 0; max-width: 33%;}
+.welbankBtn {position: absolute; top: 83%; left: 0; right: 0; max-width: 90% ; margin: 0 auto;}
+/* //210119 웰뱅적금 랜딩 */

@@ -1,0 +1,78 @@
+@charset "euc-kr";
+
+/*가입신청*/
+.s_ask {background:#f4f9fc;border:1px solid #9ebdcd;padding:19px 0 20px 20px;color:#555555;font-size:13px;font-family:'NanumGothic';}
+.s_ask ul {}
+.s_ask ul li {line-height:20px;color:#0054a6;}
+
+
+.secured_agree {margin-top:49px;}
+.secured_agree h3 {color:#162e58;font-size:13px;font-family:'NanumGothic';font-weight:600;letter-spacing:-1px;background:url("../../img/bzw/secured/dot.gif") no-repeat left 4px;padding-left:12px;}
+.secured_agree .agree {height:148px;overflow-y:scroll;border:1px solid #dddddd;margin-top:11px;padding:20px;font-size:13px;letter-spacing:-1px;line-height:18px;}/*20150804 추가*/
+.agree_ok {margin:20px 0 20px 20px;}
+.agree_ok .a_txt {color:#555555;font-size:13px;font-family:'NanumGothic';}
+.agree_ok .s_check {margin-left:30px;}
+
+.t_info {margin-top:38px;}
+.t_info h3 {font-size:14px;color:#162e58;background:url("../../img/bzw/secured/dot.gif") no-repeat left 4px;padding-left:12px;height:24px;font-family:'NanumGothic';font-weight:600;}
+.t_info .ttxt {font-size:12px;color:#216ab1;font-family:'NanumGothic';padding-left:10px;}
+.t_info .btxt {margin:-20px 0 0 20px;font-size:13px;color:#555555;font-family:'NanumGothic';}
+.t_info .ttxt1 {color:#ef2323;background:url("../../img/bzw/secured/ico_mark.gif") no-repeat left top;padding-left:18px;margin-left:10px;letter-spacing:-1px;font-size:12px;font-family:'NanumGothic';}
+
+.tbl-list1{width:100%;border-collapse:inherit;border-spacing:0;border-top:1px solid #0081c8;border-left:1px solid #ddd;margin:0 0 40px 0}
+.tbl-list1 th,
+.tbl-list1 td{border-collapse:collapse;border-spacing:0;border-right:1px solid #ddd;border-bottom:1px solid #ddd;border-top:none;padding:10px 0;color:#555;font-size:13px;line-height:20px;text-align:center;}
+.tbl-list1 th{background:#fafafa;font-family:"NanumGothic";color:#333;font-weight:bold;}
+.tbl-list1 th span{font-weight:normal}
+.tbl-list1 .txt{text-align:left;padding:10px 20px;}
+.tbl-list1 .txtTop{text-align:left;padding:10px 20px;vertical-align:top;}
+.tbl-list1 .data{padding:7px 20px 6px;}
+.tbl-list1 .dataTxt{padding:7px 20px 8px;text-align:left}
+
+/*가입신청완료*/
+.b_complete  {border:1px solid #cccccc;background:url("../../img/bzw/secured/bg_img1.gif") no-repeat center 33px;text-align:center;}
+.b_complete .c_txt {padding-top:126px;height:48px;margin:0 30px;border-bottom:1px dashed #cccccc;font-family:"NanumGothic";color:#333;font-size:19px;font-weight:bold;}
+.b_complete .c_txt2 {padding:30px 0;font-family:"NanumGothic";color:#333;font-size:13px;}
+
+.b_complete1 {text-align:center;border:1px solid #cccccc;margin-top:20px;}
+.b_complete1 .c_txt {padding-top:49px;height:48px;margin:0 30px;border-bottom:1px dashed #cccccc;font-family:"NanumGothic";color:#333;font-size:19px;font-weight:bold;}
+.b_complete1 .c_txt2 {padding:30px 0;font-family:"NanumGothic";color:#333;font-size:13px;line-height:23px;letter-spacing:-1px;}
+
+
+/*로그인*/
+.login_box {overflow:hidden;border:1px solid #cccccc;margin-top:50px;padding:40px 0px 0px 159px;}
+
+.s_login {width:399px;float:left;}
+.s_login .login_pw {position:relative;}
+.s_login .login_pw dl {overflow:hidden;height:37px;}
+.s_login .login_pw dl dt {width:68px;float:left;margin-top:7px;font-family:"NanumGothic";color:#333;font-size:13px;font-weight:600;}
+.s_login .login_pw dl dd {width:218px;float:left;}
+.s_login .login_pw dl dd input {width:198px;}
+.btn_login {position:absolute;top:0;right:0;}
+.s_login .login_txt {margin:19px 0 25px 0;font-family:"NanumGothic";color:#555;font-size:13px;letter-spacing:-1px;}
+.s_login .login_txt span {padding-left:8px;line-height:23px;}
+.img_ad {width:360px;float:left;margin-left:50px;}
+
+
+/*사전관리*/
+.ind_super {height:367px;border:1px solid #dddddd;padding:60px 30px 44px 30px;}/*20150805 수정*/
+.ind_super .s_tit3 {height:122px;text-align:center;background:url("../../img/bzw/secured/bg_line1.gif") no-repeat left bottom;}
+.ind_super .g_text {overflow:hidden;margin-top:36px;}
+.ind_super .g_text dt {width:273px;float:left;margin:0 93px 0 164px;}
+.ind_super .g_text dd {width:387px;float:left;}
+.ind_super .g_text dd ul {}
+.ind_super .g_text dd ul li {margin-bottom:22px;}
+
+.real_tb {margin-top:80px;}
+.real_tb .s_tit4 {text-align:center;}
+
+
+
+
+
+
+
+
+
+
+

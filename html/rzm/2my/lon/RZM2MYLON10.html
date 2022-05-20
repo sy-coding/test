@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>NICE지키미</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=euc-kr" />
+	<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="format-detection" content="telephone=no" />
+
+	<!-- 180413 수정 -->
+	<link rel="stylesheet" type="text/css" href="../../../css/rzm/font.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/rzm/import_sub.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/rzm/mydata.css" />
+	<!-- //180413 수정 -->
+
+	<!-- s: 20200729 slick css 추가 -->
+	<link rel="stylesheet" type="text/css" href="../../../css/rzm/library_slick.css">
+	<!-- e: 20200729 slick css 추가 -->
+
+	<script type="text/javascript" src="../../../js/rzm/lib/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="../../../js/rzm/lib/style.js"></script>
+	<!-- s: 개발영역 20200610 추가 -->
+	<script type="text/javascript" src="../../../js/rzm/lib/slick.min-1.8.1.js"></script>
+	<!-- e: 개발영역 20200610 추가 -->
+</head>
+
+<body>
+	<!-- wrap -->
+	<!-- s: 개발영역 20190904 수정 -->
+	<div id="wrap02">
+		<!-- header -->
+		<header id="header">
+			<h1 class="logo"><a href="#"><img src="../../../img/rzm/logo.png" alt="NICE지키미" /></a></h1>
+			<a href="#" class="btnBack"><span class="blind">이전</span></a>
+			<h2 class="pageTit">
+				<span class=" btnQuickH">
+					예상대출한도 조회
+					<button type="button"><span class="blind"> 예상대출한도 조회 메뉴 열기</span></button>
+				</span>
+			</h2>
+			<!-- quick menu -->
+			<!-- <nav class="quickGnb">
+			</nav> -->
+			<!-- //quick menu -->
+			<button type="button" class="btnGnb on"><span class="blind">전체메뉴열기</span></button>
+			<!-- GNB -->
+			<nav id="gnb">
+				<!-- guide/layout.html -->
+			</nav>
+			<!-- //GNB -->
+		</header>
+		<!-- //header -->
+		<!-- (s) 20210303 맞춤대출수정 -->
+		<!-- container -->
+		<div id="container">
+			<!-- contents -->
+			<div class="contents">
+				<div class="myDataWrap type02">
+					<!-- 211227 마이데이터 배너 추가(여백 삭제) -->
+					<div class="itemGroup mB15">
+						<section class="sumInfoBx">
+							<h1 class="tit">신용/담보/장기카드대출</h1>
+							<div class="msgBx">
+								<p>보유 중인 <strong class="pointB">신용/담보/장기카드대출</strong>이 없습니다.</p>
+							</div>
+							<div class="inquiryDate02"><span>* 조회기준일 : 2021/12/27</span></div>
+						</section>
+						<!-- //sumInfoBx-->
+						<section class="dataWrap01">
+							<ul class="dataList">
+								<li>
+									<a href="javascript:goMenu('RZMDOLBAK01');">
+										<span class="ci loan"><img src="https://dimg.credit.co.kr/resource/img/rzm/ci/my_ci_loan_100x100.png" alt=""></span>
+										<span class="title"><em>실시간 대출가능진단</em><strong class="pointB">추천 대출 확인하기</strong></span>
+									</a>
+								</li>
+							</ul>
+						</section>
+						<!-- // 보유대출 -->
+					</div>
+					<!-- //신용/담보/장기카드대출 -->
+					<div class="itemGroup mB15">
+						<section class="sumInfoBx">
+							<h1 class="tit">단기카드대출</h1>
+							<div class="msgBx">
+								<p>보유 중인 <strong class="pointB">단기카드대출</strong>이 없습니다.</p>
+							</div>
+							<div class="inquiryDate02"><span>* 조회기준일 : 2021/12/27</span></div>
+						</section>
+						<!-- //sumInfoBx-->
+						<!-- // 보유대출 -->
+					</div>
+					<!--//단기카드대출 -->
+					<div class="itemGroup mB15">
+						<section class="sumInfoBx">
+							<h1 class="tit">학자금 대출</h1>
+							<div class="msgBx">
+								<p>보유 중인 <strong class="pointB">학자금대출</strong>이 없습니다.</p>
+							</div>
+							<div class="inquiryDate02"><span>* 조회기준일 : 2021/12/27</span></div>
+						</section>
+						<!-- //sumInfoBx-->
+						<!-- // 보유대출 -->
+					</div>
+					<!-- //학자금 대출 -->
+					<div class="loanAnalysis">
+						<h1 class="tit02">보유대출 분석</h1>
+						<div class="ntBanSlide" id="ntBanSlide">
+							<div class="slide">
+								<strong class="title">대출 내역이 없으시네요.</strong>
+								<p>연체없이 안정적으로 대출을 상환할 경우 신용평가 우량요인으로 반영될 수 있습니다.<br>연체 없는 건전한 대출거래를 통해 우량한 신용거래 이력을 쌓으시기 바랍니다.</p>
+							</div>
+							<div class="slide">
+								<strong class="title">최근 현금서비스를 이용하셨네요.</strong>
+								<p>현금서비스는 단기대출로 취급되어 신용평가 시 불리하게 반영되고 있사오니, 사용 전에 꼭 필요한 것인지 다시 한 번 생각해주시기 바랍니다.</p>
+							</div>
+							<div class="slide">
+								<strong class="title">최근 신용도가 개선되었네요.</strong>
+								<p>신용도가 개선된 경우 금리인하 요구권을 통해 현재 보유중인 대출금리를 낮출 수 있습니다. 금융사별 금리인하 요구권 기준을 확인해보세요.</p>
+							</div>
+						</div>
+						<section class="listWrap loanInfoBx">
+							<div class="sectWrap">
+								<ul class="infoListWrap">
+									<li>
+										<strong class="tit pointB">신용/담보/장기카드대출</strong>
+										<span class="cont"><strong>0</strong> 원</span>
+									</li>
+									<li>
+										<span class="cont">
+											<em class="">
+												전월 대비&nbsp;
+												미변동
+											</em>
+										</span>
+									</li>
+									<li>
+										<ul class="chgList">
+											<li>
+												<span class="">
+													신용대출&nbsp;
+													미변동
+												</span>
+											</li>
+											<li>
+												<span class="">
+													담보대출&nbsp;
+													미변동
+												</span>
+											</li>
+											<li>
+												<span class="">
+													장기카드대출&nbsp;
+													미변동
+												</span>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<strong class="tit pointB">단기카드대출<span class="fw500 pointB">(현금서비스)</span></strong>
+										<span class="cont"><strong>0</strong> 원</span>
+									</li>
+								</ul>
+							</div>
+						</section>
+						<div class="dsrBtnWrap">
+							<a href="#none" class="dsrInfoBtn" id="dsrCalBtn" title="새창 열림">
+								내 부동산 담보대출 한도는?<br>
+								<span class="dsrInfoTxt">DSR 계산하기<span class="dsrArrowIco"></span></span>
+							</a>
+						</div>
+						<section class="sumInfoBx">
+							<h1 class="tit02">보유대출 평균</h1>
+							<div class="msgBx">
+								<p>
+									<!-- 
+										보유대출 건수/금액 => 신정원 대출정보 기반 데이터
+										평균 대출금리 => 전은연 공시자료 데이터
+										- 대출건수/금액: 분기별 1회 업데이트 예정
+										- 대출금리: 월 1회 업데이트 예정
+										-->
+									홍*동님과 유사한 신용점수를 보유한 사람의 경우, <strong class="pointB">평균 1.4건, 108.9백만원</strong>의 대출을 보유하고 있습니다.
+								</p>
+								<p class="msg02">
+									(평균 대출금리 : 은행권 <strong>3.42%</strong> / 비은행권 <strong>11.36%</strong>)
+								</p>
+							</div>
+						</section>
+					</div>
+					<!-- // 보유대출분석 -->
+				</div>
+				<!-- s: 211227 마이데이터 배너 추가 -->
+				<div class="myDataBanner">
+					<a href="#void"><img src="../../../img/rzm/mydata/img_banner_mydata_card.png" alt="나만 이만큼 쓴거 아니죠? 내 깐부들의 카드값은?" class="bannerImg" /></a>
+				</div>
+				<!-- e: 211227 마이데이터 배너 추가 -->
+				<!-- //myDataWrap -->
+			</div>
+			<!-- //contents -->
+			<!-- (e) 20210303 맞춤대출수정     -->
+			<!-- footer -->
+			<footer id="footer"></footer>
+		</div>
+		<!-- //wrap -->
+		<!-- 퍼블화면에서 사용 -->
+		<script type="text/javascript" src="../../../js/rzm/gnb.js"></script>
+		<!-- <script type="text/javascript" src="../../../js/rzm/quickGnb01.js"></script> -->
+		<script type="text/javascript" src="../../../js/rzm/footer.js"></script>
+		<!-- s: 개발영역 20200610 추가 -->
+		<script>
+			// (s) 20210303 맞춤대출수정
+			$(document).ready(function () {
+				$(".agreeBx03").on("click", "#allCk", function () {
+					$(this).parents(".agreeBx03").find('input').prop("checked", $(this).is(":checked"));
+				});
+				// 체크박스 개별 선택
+				$(".agreeBx03").on("click", ".normal", function () {
+					var is_checked = true;
+					$(".agreeBx03 .normal").each(function () {
+						is_checked = is_checked && $(this).is(":checked");
+					});
+					$("#allCk").prop("checked", is_checked);
+				});
+			});
+			// (e) 20210303 맞춤대출수정
+		</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+var htmlQuickMenu = '<strong>신용보고서</strong>';
+htmlQuickMenu += '<div class="innerList">';
+htmlQuickMenu += '<ul>';
+htmlQuickMenu += '<li>';
+htmlQuickMenu += '<a href="#">구매보고서</a>';
+htmlQuickMenu += '<ul>';
+htmlQuickMenu += '<li><a href="#">보고서 내역</a></li>';
+htmlQuickMenu += '<li><a href="#">보고서 열람</a></li>';
+htmlQuickMenu += '</ul>';
+htmlQuickMenu += '</li>';
+htmlQuickMenu += '<li>';
+htmlQuickMenu += '<a href="#">수신된 보고서 열람</a>';
+htmlQuickMenu += '</li>';
+htmlQuickMenu += '<li>';
+htmlQuickMenu += '<a href="#">신용보고서 유효성 검증</a>';
+htmlQuickMenu += '</li>';
+htmlQuickMenu += '</ul>';
+htmlQuickMenu += '</div>';
+
+//console.log(htmlQuickMenu);
+$('#header .quickGnb').append(htmlQuickMenu);

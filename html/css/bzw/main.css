@@ -1,0 +1,124 @@
+@charset "euc-kr";
+
+/* nshop Main */
+#wrap{height:100%}
+
+.anythingSlider {display: block;overflow: visible !important;position: relative;}
+.anythingSlider .anythingWindow {overflow: hidden;position: relative;width: 100%;height: 100%;}
+.anythingSlider .anythingBase {background: transparent;list-style: none;position: absolute;overflow: visible !important;top: 0;left: 0;margin: 0;padding: 0;}
+.anythingSlider .arrow span {display: block;visibility: hidden;}
+.anythingSlider .arrow.disabled {display: none;}
+.anythingSlider .vertical .panel {float: none;}
+.anythingSlider .fade .panel {float: none;position: absolute;top: 0;left: 0;z-index: 0;}
+.anythingSlider .fade .activePage {z-index: 1;}
+
+.nshopMain .visualWrap .visual .anythingBase,
+.nshopMain .visualWrap .visual .anythingSlider,
+.nshopMain .visualWrap .visual .anythingSlider .panel{width:100% !important; height:410px;}
+.nshopMain .visualWrap .visual .anythingSlider .panel01{background:url(../../img/bzw/nshop/bg_main01.jpg) no-repeat center;}
+.nshopMain .visualWrap .visual .anythingSlider .panel02{background:url(../../img/bzw/nshop/bg_main02.jpg) no-repeat center;}
+.nshopMain .visualWrap .visual .anythingSlider .panel03{background:url(../../img/bzw/nshop/bg_main03.jpg) no-repeat center;}
+.nshopMain .visualWrap .visual .anythingSlider .panel04{background:url(../../img/bzw/nshop/bg_main04.jpg) no-repeat center;}
+.nshopMain .visualWrap .visual .anythingSlider .panel05{background:url(../../img/bzw/nshop/bg_main05.jpg) no-repeat center;}
+.nshopMain .visualWrap .visual .anythingSlider .panel06{background:url(../../img/bzw/nshop/bg_main06.jpg) no-repeat center;}
+.nshopMain .visualWrap .visual .anythingSlider .panel a.link{width:1180px;height:410px;display:block;margin:0 auto}
+
+.nshopMain .visualWrap .visual .anythingSlider{margin:0 auto;}
+.nshopMain .visualWrap .visual .controls-box{width:1180px; height:0; z-index:9; position:relative; margin:0 auto;}
+.nshopMain .visualWrap .visual .controls-box .anythingControls{position:absolute;bottom:60px;left:14px; height:30px; line-height:30px; background:url("../../img/bzw/nshop/bg_pagin_end.png") no-repeat right; padding-right:14px; display:inline-block; *width:64px;}
+.nshopMain .visualWrap .visual .anythingControls ul{text-align:center; background:url("../../img/bzw/nshop/bg_pagin.png") repeat-x left top; display:inline-block; float:left;}
+.nshopMain .visualWrap .visual .anythingControls ul li{float:left; margin-right:8px; height:30px; line-height:30px;}
+.nshopMain .visualWrap .visual .anythingControls ul li a{display:inline-block; background:url("../../img/bzw/nshop/paging_off.png") no-repeat; width:10px; height:10px; margin:10px 0;}
+.nshopMain .visualWrap .visual .anythingControls ul li a.cur{background-image:url("../../img/bzw/nshop/paging_on.png");}
+.nshopMain .visualWrap .visual .anythingControls a span{font-size:0; letter-spacing:-9999px; position:absolute; top:-999999px; left:-999999px;}
+.nshopMain .visualWrap .visual .anythingControls .first{background:url("../../img/bzw/nshop/bg_pagin_fir.png") no-repeat left top; margin-left:-14px; padding-left:14px;}
+.nshopMain .visualWrap .visual .anythingControls .btn{float:right; background:url("../../img/bzw/nshop/bg_pagin.png") repeat-x left top;}
+.nshopMain .visualWrap .visual .anythingControls .btn .start-stop{display:inline-block; background:url("../../img/bzw/nshop/btn_pause.png") no-repeat; width:10px; height:10px; margin:10px 0;}
+.nshopMain .visualWrap .visual .anythingControls .btn .start-stop{display:inline-block; background:url("../../img/bzw/nshop/btn_play.png") no-repeat; width:10px; height:10px; margin:10px 0;}
+.nshopMain .visualWrap .visual .anythingControls .btn .start-stop.playing{background:url("../../img/bzw/nshop/btn_pause.png") no-repeat;}
+
+.nshopMain .visualWrap .visual .anythingWindow ul li{text-align:center;}
+.nshopMain .visualWrap .visual .panel01{background:url(../../img/bzw/nshop/bg_mainVisual_01.jpg) repeat-x center;}
+
+.nshopMain .banner-wrap{width:1180px; height:0; z-index:9; position:relative; margin:0 auto;}
+.nshopMain .visualWrap .visualBanner .anythingBase,
+.nshopMain .visualWrap .visualBanner .anythingSlider,
+.nshopMain .visualWrap .visualBanner .anythingSlider .panel{width:280px !important; height:160px;}
+.nshopMain .visualWrap .visualBanner{position:absolute;overflow:hidden;right:0;bottom:30px;width:300px;height:350px;background:url("../../img/bzw/nshop/bg_banner.png") no-repeat left top; z-index:9;}
+.nshopMain .visualWrap .visualBanner .banner01{width:280px;height:160px;position:relative;margin:10px auto;overflow:hidden;}
+.nshopMain .visualWrap .visualBanner .banner02{width:280px;height:160px;position:relative;margin:0 auto;overflow:hidden;}
+.nshopMain .visualWrap .visualBanner .anythingWindow li a{display:inline-block;}
+.nshopMain .visualWrap .visualBanner .controls-box{position:absolute; top:15px; right:15px; z-index:9; display:inline-block;}
+.nshopMain .visualWrap .visualBanner .anythingControls{display:inline-block;}
+.nshopMain .visualWrap .visualBanner .anythingControls ul{float:left;}
+.nshopMain .visualWrap .visualBanner .anythingControls ul li{float:left; margin-right:5px;}
+.nshopMain .visualWrap .visualBanner .anythingControls ul li a{display:inline-block; background:url("../../img/bzw/nshop/roll_off.png") no-repeat; width:10px; height:12px;}
+.nshopMain .visualWrap .visualBanner .anythingControls ul li a.cur{background-image:url("../../img/bzw/nshop/roll_on.png");}
+.nshopMain .visualWrap .visualBanner .anythingControls a span{font-size:0; letter-spacing:-9999px; position:absolute; top:-999999px; left:-999999px;}
+
+.bestProd {width:100%;background:#c9dae5;padding:40px 0;overflow:hidden;margin:0 0 55px 0}
+.bestProd .nprodList dl{border:none;width:222px;background:url("../../img/bzw/nshop/bg_prod_list.gif") no-repeat left top;padding:29px 29px 30px 29px;height:276px}
+
+.nprodList{width:1180px;margin:0 auto;}
+.nprodList:after{content:'';clear:both;display:block}
+.nprodList .shopBanner{float:left;margin:0 20px 0 0;width:220px;text-align:center;background:#fff}
+.nprodList .shopBanner img+img{margin-top:10px}
+.nprodList dl{float:left;margin:0 20px 0 0;width:220px;border:1px solid #ddd;padding:29px 29px 0 29px;background:#fff;height:305px;}
+.nprodList dl.none{background:#fafafa;}
+.nprodList dl.none dd img{width:121px;height:40px;margin:93px 0 0 10px}
+.nprodList dl.none01{background:url(../../img/bzw/nshop/Nshop_01.jpg) no-repeat;}
+.nprodList dl.none02{background:url(../../img/bzw/nshop/Nshop_02.jpg) no-repeat;}
+.nprodList dl.last{margin:0}
+.nprodList dt{position:relative;font-size:19px;color:#333;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';margin:0 0 14px 0;text-align:center;}
+.nprodList dt .best{position:absolute;top:-18px;right:-35px;}
+.nprodList dd a{color:#555}
+.nprodList dt a{color:#333}
+.nprodList dd{font-size:15px;color:#555;text-align:center;}
+.nprodList dd .addTxt{font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';margin:-3px 0 19px 0}
+.nprodList dd .prodImg{margin:0 0 15px 0}
+.nprodList dd .prodImg img{width:220px;height:135px;}
+.nprodList dd .price{font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';color:#333;margin:0 0 13px 0;line-height:22px}
+.nprodList dd .price span{font-family:Tahoma;font-size:18px;line-height:22px;vertical-align:middle}
+.nprodList dd .tag{margin:0 0 15px 0;font-size:11px;font-family:'Nanum Gothic', '³ª´®°íµñ'}
+.nprodList dd .tag span{display:inline-block;margin:0 5px 0 0;padding:0 2px;vertical-align:middle;width:48px;height:18px;line-height:18px}
+.nprodList dd .tag .red{color:#d03e4b;border:1px solid #ecb2b7}
+.nprodList dd .tag .blue{color:#0054a6;border:1px solid #99bbdb;}
+.nprodList dd .tag .green{color:#3c833d;border:1px solid #b1cdb1;}
+.nprodList dd .service{position:relative;font-size:12px;color:#555;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';vertical-align:middle}
+.nprodList dd .service .more{position:absolute;top:0;right:0;}
+.nprodList dd .service .svcInfo{width:190px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;text-align:left}
+.nprodList dd .service .svcInfo img{margin:0 5px 0 0}
+.nprodList dd .service .detailView{position:absolute;top:0;right:0;background:#fff;text-align:left;border:1px solid #ddd;font-size:12px;color:#555;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';line-height:20px;padding:10px 30px 11px 15px;width:175px}
+.nprodList dd .service .detailView .close{position:absolute;bottom:-1px;right:-1px;}
+
+.allProd {width:1180px;margin:0 auto;}
+.allProd .nprodList{margin:0 auto 40px;}
+.allProd .shopTit{font-size:30px;color:#333;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';text-align:center;margin:0 0 27px 0}
+.allProd .shopTit span{color:#0054a6}
+.allProd .nTab {position:relative; padding-top:59px;}
+.allProd .nTab h3{font-size:15px; width:20%; position:absolute; top:0; left:auto;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';color:#555;margin:0;}
+.allProd .nTab h3.tit02{left:20%;}
+.allProd .nTab h3.tit03{left:40%;}
+.allProd .nTab h3.tit04{left:60%;}
+.allProd .nTab h3.tit05{left:80%;}
+.allProd .nTab h3.tit01 a{background:#fff url("../../img/bzw/nshop/tab_icon_01.gif") no-repeat 57px center;padding-left:89px;}
+.allProd .nTab h3.tit02 a{background:#fff url("../../img/bzw/nshop/tab_icon_02.gif") no-repeat 57px center;padding-left:89px}
+.allProd .nTab h3.tit03 a{background:#fff url("../../img/bzw/nshop/tab_icon_03.gif") no-repeat 73px center;padding-left:105px}
+.allProd .nTab h3.tit04 a{background:#fff url("../../img/bzw/nshop/tab_icon_04.gif") no-repeat 73px center;padding-left:105px}
+.allProd .nTab h3.tit05 a{background:#fff url("../../img/bzw/nshop/tab_icon_05.gif") no-repeat 73px center;padding-left:105px;border-right:1px solid #ddd;}
+
+.allProd .nTab h3.active.tit01 a{background:#0054a6 url("../../img/bzw/nshop/tab_icon_01_on.gif") no-repeat 57px center;padding-left:89px}
+.allProd .nTab h3.active.tit02 a{background:#0054a6 url("../../img/bzw/nshop/tab_icon_02_on.gif") no-repeat 57px center;padding-left:89px}
+.allProd .nTab h3.active.tit03 a{background:#0054a6 url("../../img/bzw/nshop/tab_icon_03_on.gif") no-repeat 73px center;padding-left:105px}
+.allProd .nTab h3.active.tit04 a{background:#0054a6 url("../../img/bzw/nshop/tab_icon_04_on.gif") no-repeat 73px center;padding-left:105px}
+.allProd .nTab h3.active.tit05 a{background:#0054a6 url("../../img/bzw/nshop/tab_icon_05_on.gif") no-repeat 73px center;padding-left:105px}
+
+.allProd .nTab h3 > a{text-decoration:none;border:1px solid #ddd;border-right:none;border-bottom:none;color:#555;padding:22px 0 21px 0;text-align:left;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ'; display:block;}
+.allProd .nTab h3 > a img{margin-right:10px}
+.allProd .nTab h3.active > a{background:#0054a6;color:#fff;border:1px solid #0054a6}
+.allProd .nTab .tabView{display:none;border-top:2px solid #0054a6;padding:40px 0 0 0}
+.allProd .nTab .tabView.active{display:block;}
+.allProd h4{font-size:21px;color:333;margin:0 0 20px 0;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';text-align:left;background:none;padding:0}
+.allProd h4 span{font-size:inherit;color:#0054a6; font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';}
+
+

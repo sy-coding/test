@@ -1,0 +1,82 @@
+@charset "euc-kr";
+
+/* 나눔스퀘어라운드 포트 */
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("font/NanumSquareRound.woff2") format("woff2"),
+    url("font/NanumSquareRound.woff") format("woff"),
+    url("font/NanumSquareRound.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("font/NanumSquareRoundR.woff2") format("woff2"),
+    url("font/NanumSquareRoundR.woff") format("woff"),
+    url("font/NanumSquareRoundR.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("font/NanumSquareRoundB.woff2") format("woff2"),
+    url("font/NanumSquareRoundB.woff") format("woff"),
+    url("font/NanumSquareRoundB.ttf") format("truetype");
+}
+/* s: 20190228 폰트 수정 */
+@font-face {
+  font-family: "NanumSquareRoundEB";
+  font-style: normal;
+  font-weight: 800;
+  src:
+    url("font/NanumSquareRoundEB.woff2") format("woff2"),
+    url("font/NanumSquareRoundEB.woff") format("woff"),
+    url("font/NanumSquareRoundEB.ttf") format("truetype");
+}
+/* e: 20190228 폰트 수정 */
+/* s: 20190228 폰트 추가 */
+@font-face {
+	font-family: 'NanumSquareEB';
+	src: url('font/NanumSquareEB.eot');
+	src: url('font/NanumSquareEB.eot?#iefix') format('embedded-opentype'),
+	url('font/NanumSquareEB.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+/* e: 20190228 폰트 추가 */
+@font-face {
+  font-family: "EastSeaDokdo";
+	src: url('font/east-sea-dokdo-v8-korean-regular.eot');
+	src:url('font/east-sea-dokdo-v8-korean-regular.eot?#iefix') format('embedded-opentype'),
+	url('font/east-sea-dokdo-v8-korean-regular.woff2') format('woff2'),
+	url('font/east-sea-dokdo-v8-korean-regular.woff') format('woff'),
+	url('font/east-sea-dokdo-v8-korean-regular.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+/* s: 2019 폰트 추가 opensans 작업 */
+@font-face {
+  font-family: "openSans";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("font/OpenSans-Regular.woff2") format("woff2"),
+    url("font/OpenSans-Regular.woff") format("woff"),
+    url("font/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "openSans";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("font/OpenSans-SemiBold.woff2") format("woff2"),
+    url("font/OpenSans-SemiBold.woff") format("woff"),
+    url("font/OpenSans-SemiBold.ttf") format("truetype");
+}
+/* e: 2019 폰트 추가 opensans 작업 */

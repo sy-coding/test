@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>NICE지키미</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=euc-kr" />
+	<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" type="text/css" href="../../../css/rzm/font.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/rzm/import_sub.css" />
+	<script type="text/javascript" src="../../../js/rzm/lib/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="../../../js/rzm/lib/swiper.min.js"></script>
+	<script type="text/javascript" src="../../../js/rzm/lib/style.js"></script>
+	<script type="text/javascript">
+		/* s: 개발영역 20190701 사업장 슬라이드*/
+		$(document).ready(function () {
+			if ($('#js_slide > ul > li').length < 2) { //리스트가 하나일 경우 슬라이드X
+				$('#js_slide > ul').css('width', '100%').find(' > li').css('width', '100%');
+			} else { //리스트가 하나이상일 경우 슬라이드O
+				var slideList = new bannerFn('#js_slide', {
+					slidesPerView: 'auto',
+					percentW: 79.68253968253968,
+					pageNav: true,
+					setMaxH: true
+				});
+			}
+		});
+		/* e: 개발영역 20190701 사업장 슬라이드*/
+	</script>
+</head>
+
+<body>
+	<!-- wrap -->
+	<div id="wrap">
+		<!-- header -->
+		<header id="header">
+			<h1 class="logo"><a href="#"><img src="../../../img/rzm/logo.png" alt="NICE지키미" /></a></h1>
+			<a href="#" class="btnBack"><span class="blind">이전</span></a>
+			<!-- s : 20220518 사장님 신용 신규 (header) -->
+      <h2 class="pageTit">
+				<span class="btnQuickH">
+					<span class="btnQuickH">신용정보 상세</span>
+					<button type="button" class=""><span class="blind">신용정보 상세 메뉴 닫기</span></button>
+				</span>
+			</h2>
+      <!-- e : 20220518 사장님 신용 신규 (header) -->
+			<!-- s : 20220518 사장님 신용 신규 (quick menu) -->
+			<nav class="quickGnb">
+				<strong>사장님 신용</strong>
+				<div class="innerList">
+					<ul>
+						<li><a href="javascript:goMenu('RZM2MYMCM01');">사업장 관리</a></li>
+						<li><a href="javascript:goMenu('RZM2MYMCT01');" class="on">사장님 신용</a></li>
+					</ul>
+				</div>
+			</nav>
+      <!-- e : 20220518 사장님 신용 신규 (quick menu) -->
+			<!-- //quick menu -->
+			<button type="button" class="btnGnb" data-pushYn="N" id="menuOpenBtn"><span class="blind">전체메뉴열기</span></button>
+			<!-- GNB -->
+			<nav id="gnb">
+				<div class="gnbInner" style="display:none">
+					<div class="gnbT">
+						<a href="#none" onClick="goMenu('RZM00000001');return false;" class="btnHome"><span class="blind">홈</span></a>
+						<a href="#none" onClick="doLogout();return false;" class="btnLogout"><span class="blind">로그아웃</span></a>
+						<a href="javascript:goNoticeDtl('2009205', '75', '4');" class="btnNotice"><span class="blind">공지사항</span></a>
+						<a href="#none" onClick="goMenu('RZMMYZSUI41');return false;" class="btnSetting"><span class="blind">환경설정</span></a>
+						<button type="button" id="close" class="gnbClose"><span class="blind">전체메뉴 닫기</span></button>
+						<div class="userInfo">
+							<p class="name"><span>김*미</span> 님</p>
+							<a href="#" onClick="goMenu('RZMMYZMYZ01');return false;">현재 이용중인 서비스는 <span>2</span>건입니다.</a>
+						</div>
+						<ul class="gnbEasy">
+							<li><a href="javascript:goMenu('RZMPCSCSM01');">신용점수<br />조회</a></li>
+							<li><a href="javascript:goMenu('RZMPCSICM02');">신용변동<br />내역</a></li>
+							<li><a href="javascript:goMenu('RZMCDSCDH01');">신용조회<br />확인</a></li>
+							<li><a href="javascript:goMenu('RZMPNSNSH01');">인증내역<br />확인</a></li>
+						</ul>
+					</div>
+					<div class="gnbList">
+						<ul class="depth01">
+							<li>
+								<a href="#">상품 &amp; 가입</a>
+								<ul class="depth02" >
+									<li>
+										<a href="javascript:void(0);">신용</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMZKMZPC01');" class='best'>종합신용지키미 <em>BEST</em></a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPC02');">신용지키미</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPC08');">내차 지키미</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPC09');">사업자 신용지키미</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPC04');">신용지키미 상품권</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPC06');">신용보고서</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPC07');">커플신용보고서</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZKM08');">비회원신용조회</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">정보</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMZKMZPI01');">명의도용지키미</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPC05');">신용명의지키미 V3 365</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPI02');">명의도용지키미 상품권</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">가족</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMZKMZPF01');">가족신용지키미</a></li>
+											<li><a href="javascript:goMenu('RZMZKMZPF02');">가족명의지키미</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="on">마이데이터</a>
+								<ul class="depth02" style="display:block;">
+									<li><a href="javascript:cstGoMenu('RZM2MYAST00');">MY자산</a></li>
+                  <li><a href="javascript:cstGoMenu('RZM2MYCAD00');">MY카드</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZM2MYCAD01');">카드현황</a></li>
+											<li><a href="javascript:goMenu('RZM2MYCAD02');">카드찾기</a></li>
+											<li><a href="javascript:goMenu('RZM2MYCAD03');">보유현황</a></li>
+											<li><a href="javascript:goMenu('RZM2MYCAD04');">이용현황</a></li>
+										</ul>
+                  </li>
+                  <li><a href="javascript:cstGoMenu('RZM2MYOVR00');">MY연체방지</a></li>
+									<li><a href="javascript:goMenu('RZM2MYCRD10');">MY크레딧</a></li>
+									<li>
+										<a href="javascript:void(0);">MY대출</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZM2MYLON10');">대출현황</a></li>
+											<li><a href="javascript:goMenu('RZM2MYLON20');">한도예측</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">MY체크업</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('#');">내역조회</a></li>
+											<li><a href="javascript:goMenu('#');">알람설정</a></li>
+										</ul>
+									</li>
+                  <!-- s : 20220518 사장님 신용 신규 (gnbList depth02, depth03) -->
+									<li>
+										<a href="javascript:void(0);">사장님 신용</a>
+										<ul class="depth03 default" style='display:block;'>
+											<li><a href="javascript:goMenu('RZM2MYMCM01');">사업장 관리</a></li>
+											<li><a href="javascript:goMenu('RZM2MYMCT01');">사장님 신용</a></li>
+										</ul>
+									</li>
+                  <!-- e : 20220518 사장님 신용 신규 (gnbList depth02, depth03) -->                  
+									<li>
+										<a href="javascript:void(0);">MY부스터</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('#');">MY부스터란?</a></li>
+											<li><a href="javascript:goMenu('#');">부스터 등록하기</a></li>
+                      <li><a href="javascript:goMenu('#');">부스터 결과확인</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">MY네임</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMOCCNAM10');">내 이름분석</a></li>
+											<li><a href="javascript:goMenu('RZMOCCNAM20');">관심이름 분석</a></li>
+											<li><a href="javascript:goMenu('RZMOCCNAM30');">이름 랭킹</a></li>
+											<li><a href="javascript:goMenu('RZMOCCNAM40');">이름 추천</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">MY펫</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMOCCDNH60');">MY펫 등록</a></li>
+											<li><a href="javascript:goMenu('RZMOCCDNH70');">MY펫 나이 계산기</a></li>
+											<li><a href="javascript:goMenu('RZMOCCDNH20');">이름 추천</a></li>
+											<li><a href="javascript:goMenu('RZMOCCDNH10');">이름 랭킹</a></li>
+											<li><a href="javascript:goMenu('RZMOCCDNH40');">색상별 랭킹</a></li>
+											<li><a href="javascript:goMenu('RZMOCCDNH50');">개 이름VS사람 이름</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">MY설정</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMOCCDNH60');">자산 연결 관리</a></li>
+											<li><a href="javascript:goMenu('RZMOCCDNH70');">개인신용정보 전송내역</a></li>
+											<li><a href="javascript:goMenu('RZMOCCDNH20');">이용약관 및 동의</a></li>
+											<li><a href="javascript:goMenu('RZMOCCDNH10');">마이데이터 해지</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">나의지키미</a>
+								<ul class="depth02">
+									<li><a href="javascript:goMenu('RZMMYZMYZ01');">지키미 한 눈에 보기</a></li>
+									<li>
+										<a href="javascript:void(0);">나의 진단이력</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMMYZMYZ02');">대출가능 상품</a></li>
+											<li><a href="javascript:goMenu('RZMMYZMYZ03');">발급가능 카드</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">이용내역</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMMYZSUI08');">이용중인 서비스</a></li>
+											<li><a href="javascript:goMenu('RZMMYZSUI07');">결제내역 조회</a></li>
+											<li><a href="javascript:goMenu('RZMMYZSUI09');">가족구성원 동의</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:goMenu('RZMMYZSUI10');">무료 신용변동 알람</a></li>
+									<li>
+										<a href="javascript:void(0);">신용상담</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMMYZMCH01');">신용상담 신청</a></li>
+											<li><a href="javascript:goMenu('RZMMYZMCH02');">신용상담 내역</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">할인쿠폰/상품권</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMMYZSUI12');">할인쿠폰 관리</a></li>
+											<li><a href="javascript:goMenu('RZMMYZSUI13');">상품권 등록</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">회원정보 관리</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMMYZSUI01');">회원정보 변경</a></li>
+											<li><a href="javascript:goMenu('RZMMYZSUI05');">비밀번호 변경</a></li>
+											<li><a href="javascript:goMenu('RZMMYZSUI06');">회원탈퇴</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">조회하기</a>
+								<ul class="depth02">
+									<li><a href="javascript:goMenu('RZMPCSMAI01');">신용정보 한 눈에 보기</a></li>
+									<li><a href="#">나의 신용정보</a>
+										<ul class="depth03">
+											<li>
+												<a href="javascript:void(0);">신용변동내역</a>
+												<ul class="depth04">
+													<li><a href="javascript:goMenu('RZMPCSICM02');">월간변동보고서</a></li>
+													<li><a href="javascript:goMenu('RZMPCSICM06');">신용명세서</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="javascript:void(0);">신용점수</a>
+												<ul class="depth04">
+													<li><a href="javascript:goMenu('RZMPCSCSM01');">신용점수조회</a></li>
+													<li><a href="javascript:goMenu('RZMPCSCCM99');" class='new'>신용점수 예측하기<em>NEW</em></a></li>
+												</ul>
+											</li>
+											<li><a href="javascript:goMenu('RZMPCSBCM01');">신용개설내역</a></li>
+											<li>
+												<a href="javascript:void(0);">카드관리</a>
+												<ul class="depth04">
+													<li><a href="javascript:goMenu('RZMPCSCRM02');">보유카드내역</a></li>
+													<li><a href="javascript:goMenu('RZMPCSCRM04');">카드이용실적</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="javascript:void(0);">대출관리</a>
+												<ul class="depth04">
+													<li><a href="javascript:goMenu('RZMPCSLCM02');">대출거래내역</a></li>
+													<li><a href="javascript:goMenu('RZMPCSLCM08');">채무조정내역</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="javascript:void(0);">연체관리</a>
+												<ul class="depth04">
+													<li><a href="javascript:goMenu('RZMPCSORM01');">단기연체내역</a></li>
+													<li><a href="javascript:goMenu('RZMPCSORM02');">장기연체내역</a></li>
+												</ul>
+											</li>
+											<li><a href="javascript:goMenu('RZMPCSLCM07');">채무보증관리</a></li>
+											<li><a href="javascript:goMenu('RZMPCSBCM05');">공공정보관리</a></li>
+											<li><a href="javascript:goMenu('RZMPCSBCM06');">금융질서문란정보 관리</a></li>
+											<li><a href="javascript:goMenu('RZMPCSCIM01');">신용조회관리</a></li>
+											<li><a href="javascript:goMenu('RZMPCSPIM00');">신상정보관리</a></li>
+											<li><a href="javascript:goMenu('RZMPCSPIM08');">상환능력정보</a></li>
+											<li>
+												<a href="javascript:void(0);">신용컨설팅</a>
+												<ul class="depth04">
+													<li><a href="javascript:goMenu('RZMPCSCCM01');">나이스한 신용코칭</a></li>
+													<li><a href="javascript:goMenu('RZMPCSCCM02');">신용구매력지수</a></li>
+													<li><a href="javascript:goMenu('RZMPCSCCM03');">대출거래지수</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="#">가족 신용정보</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMFCSFMM01');">가족구성원관리</a></li>
+											<li><a href="javascript:goMenu('RZMFCSFMR01');">가족구성원등록</a></li>
+											<li><a href="javascript:goMenu('RZMFCSFNS01');">가족신용변동 알람 설정</a></li>
+											<li><a href="javascript:goMenu('RZMFCSMCH01');">가족신용변동내역</a></li>
+											<li>
+												<a href="javascript:void(0);">가족신용정보</a>
+												<ul class="depth04">
+													<li><a href="javascript:goMenu('RZMFCSMCI01');">가족 신용요약정보</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI16');">가족 신용개설내역</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI02');">가족 신용점수</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI06');">가족 카드관리</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI05');">가족 대출관리</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI15');">가족 채무조정내역</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI04');">가족 연체관리</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI10');">가족 채무 보증관리</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI11');">가족 공공정보</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI12');">가족 금융질서문란</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI07');">가족 신용조회 관리</a></li>
+													<li><a href="javascript:goMenu('RZMFCSMCI03');">가족 신상정보 관리</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="#">신용보고서</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMCRSCRR00');">구매보고서</a></li>
+											<li><a href="javascript:goMenu('RZMCRSRRR01');">수신된 보고서 열람</a></li>
+											<li><a href="javascript:goMenu('RZMCRSRVC01');">신용보고서 유효성 검증</a></li>
+										</ul>
+									</li>
+									<li><a href="#">커플신용보고서</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMCPSCPR00');">커플신용보고서 열람</a></li>
+											<li><a href="javascript:goMenu('RZMCPSCPR02');">커플동의하기</a></li>
+										</ul>
+									</li>
+									<li><a href="#">사업자 신용보고서</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZM2SCREG00');">사업장 관리</a></li>
+											<li><a href="javascript:goMenu('');">사업장 등록</a></li>
+											<li><a href="javascript:goMenu('RZM2SCCRR00');">사업자 신용보고서 조회</a></li>
+											<li><a href="javascript:goMenu('RZM2SCRRR10');">수신보고서 조회</a></li>
+										</ul>
+									</li>
+									<li><a href="#">부동산정보</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZM2READR00');">집주소 관리</a></li>
+											<li><a href="javascript:goMenu('RZM2RERTR10');">우리집 실거래 시세</a></li>
+											<li><a href="javascript:goMenu('RZM2REMGG00');">부동산 대출관리</a></li>
+											<li><a href="javascript:goMenu('RZM2RETAX10');">부동산 세금관리</a></li>
+										</ul>
+									</li>
+									<li><a href="#">자동차정보</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZM2CIREG00');">내차 등록</a></li>
+											<li><a href="javascript:goMenu('RZM2CIOWN10');">내차 소유정보</a></li>
+											<li><a href="javascript:goMenu('RZM2CICLT10');">내차 저당정보</a></li>
+											<li><a href="javascript:goMenu('RZM2CIRTR10');">내차 시세</a></li>
+											<li><a href="javascript:goMenu('RZM2CIMGG10');">자동차 대출관리</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">보호하기</a>
+								<ul class="depth02">
+									<li><a href="javascript:goMenu('RZMPRTMAI00');">보호내역 한 눈에 보기</a></li>
+									<li><a href="#">금융사기방지</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMCDSNSM01');">금융사기방지 설정</a></li>
+											<li><a href="javascript:goMenu('RZMCDSCDH01');">신용조회차단/발생 내역</a></li>
+											<li><a href="javascript:goMenu('RZMCDSCDH02');">금융사기방지 타임라인</a></li>
+										</ul>
+									</li>
+									<li><a href="#">나의 명의보호</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMPNSNSS00');">명의보호설정</a></li>
+											<li><a href="javascript:goMenu('RZMPNSNSH01');">명의보호 내역 조회</a></li>
+											<li><a href="javascript:goMenu('RZMPNSNSC01');">명의보호 타임라인</a></li>
+											<li>
+												<a href="javascript:void(0);">명의보호컨설팅</a>
+												<ul class="depth04">
+													<li><a href="javascript:goMenu('RZMPNSIHA02');">빅데이터 패턴분석</a></li>
+													<li><a href="javascript:goMenu('RZMPNSIHA99');">위치기반 인증분석</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="#">나의 주차안심</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMPSSRCO01');">주차안심 연결관리</a></li>
+											<li><a href="javascript:goMenu('RZMPSSRCO02');">연락판 발급신청</a></li>
+										</ul>
+									</li>
+									<li><a href="#">V3 365 정보보호</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMVVVVVV01');">V3 제품번호 확인/등록</a></li>
+										</ul>
+									</li>
+									<li><a href="#">가족 명의보호</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMFPSFMM01');">가족구성원관리</a></li>
+											<li><a href="javascript:goMenu('RZMFPSFMR01');">가족구성원등록</a></li>
+											<li><a href="javascript:goMenu('RZMFPSFSS01');">가족명의보호설정</a></li>
+											<li><a href="javascript:goMenu('RZMFPSFSH01');">가족명의보호내역</a></li>
+											<li><a href="javascript:goMenu('RZMFPSNSC00');">가족명의보호 타임라인</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">체험하기</a>
+								<ul class="depth02">
+									<li><a href="javascript:goMenu('RZMOCCCSE00');">전국민 신용조회</a></li>
+									<li><a href="javascript:goMenu('RZMOCCREC00');">신용영수증</a></li>
+									<li><a href="javascript:goMenu('RZMOCCNSE00');">전국민 명의보호</a></li>
+									<li><a href="javascript:goMenu('RZMOCCPNS00');">개인정보유출 피해예방 안내</a></li>
+									<li><a href="javascript:goMenu('RZMOCCCRM00');">신용카드관리 컨설팅</a></li>
+									<li><a href="javascript:goMenu('RZMDOLBAK00');">대출가능진단</a></li>
+									<li><a href="javascript:goMenu('RZMIACCAD00');">카드발급진단</a></li>
+									<li><a href="javascript:goMenu('RZMIPNSUI00');">아이핀 관리</a></li>
+									<li><a href="javascript:goMenu('RZMMPNSUI00');">마이핀 관리</a></li>
+								</ul>
+							</li>
+							<li><a href="#">참여하기</a>
+								<ul class="depth02">
+									<li><a href="javascript:goMenu('RZMCSCEVT00');">이벤트</a></li>
+									<li>
+										<a href="javascript:void(0);">비금융정보 신용평가 반영</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMOCCNCA01');">서비스 소개</a></li>
+											<li><a href="javascript:goMenu('RZMOCCNCA04');">비금융정보 등록</a></li>
+											<li><a href="javascript:goMenu('RZMOCCNCA06');">비금융정보 등록현황 확인</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">신용정보 정정청구</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMOCCCCR01');">신용정보 정정청구 신청</a></li>
+											<li><a href="javascript:goMenu('RZMOCCCCR99');">신용정보 정정청구 확인</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">신용점수 이의신청</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMOCCCRC01');">신용점수 이의신청 신청</a></li>
+											<li><a href="javascript:goMenu('RZMOCCCRC99');">신용점수 이의신청 확인</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:void(0);">신용조회안심</a></li>
+								</ul>
+							</li>
+							<li><a href="#">알아보기</a>
+								<ul class="depth02">
+									<li>
+										<a href="javascript:void(0);">전국민 신용교육</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMOCCCPN10');">신용기초 멘토링</a></li>
+											<li><a href="javascript:goMenu('RZMOCCCPN20');">신용전략 멘토링</a></li>
+											<li><a href="javascript:goMenu('RZMOCCCPN30');">신용활용 멘토링</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:goMenu('RZMCACCCS03');">신용관리 꿀팁</a></li>
+									<li><a href="javascript:goMenu('RZMCACCCS04');">신용점수제 안내</a></li>
+								</ul>
+							</li>
+							<li><a href="#">고객센터</a>
+								<ul class="depth02">
+									<li><a href="javascript:goMenu('RZMCSCZSG01');">자주하는 질문(FAQ)</a></li>
+									<li>
+										<a href="javascript:void(0);">서비스 문의하기</a>
+										<ul class="depth03">
+											<li><a href="javascript:goMenu('RZMCSCOOQ02');">서비스 상담신청</a></li>
+											<li><a href="javascript:goMenu('RZMMYZSUI15');">서비스 상담내역</a></li>
+											<li><a href="javascript:goMenu('RZMCSCOOQ03');">비회원 문의</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:goMenu('RZMCSCNOT00');">공지사항</a></li>
+									<li><a href="javascript:goMenu('RZMCSCTAP08');">NICE지키미 이용가이드</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<button type="button" id="close" class="gnbClose last"><span class="blind">전체메뉴 닫기</span></button>
+				</div>
+			</nav>
+			<!-- //GNB -->
+		</header>
+		<!-- //header -->
+		<!-- container -->
+		<div id="container">
+      <!-- s : 20220518 사장님 신용 신규 (contents new) -->
+			<!-- contents -->
+			<div class="contents">
+        <div class="tabFixBox02 type02">
+          <ul class="tabWrapVr02">
+            <li><a href="#">카드</a></li>
+            <li><a href="#">대출</a></li>
+						<li class="on"><a href="#">연체</a></li>
+          </ul>
+        </div>
+				<div class="">
+					단기연체금액
+          단기연체 내역이 없습니다.
+          장기연체금액
+          단기연체 내역이 없습니다.
+          유의사항
+				</div>
+			</div>
+			<!-- //contents -->
+      <!-- e : 20220518 사장님 신용 신규 (contents new) -->
+		</div>
+		<!-- //container -->
+		<!-- footer -->
+		<footer id="footer"></footer>
+		<!-- //footer -->
+	</div>
+	<!-- //wrap -->
+	<!-- 퍼블화면에서 사용 -->
+	<!-- <script type="text/javascript" src="../../../js/rzm/quickGnb01.js"></script> -->
+	<script type="text/javascript" src="../../../js/rzm/footer.js"></script>
+</body>
+</html>

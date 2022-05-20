@@ -1,0 +1,30 @@
+20220518 PM 사장님(개인사업자) 신용산출 서비스 신규 작업
+
+==========================================================
+
+지키미 형상관리 https://dimg.credit.co.kr/uitest/@index.html
+
+지키미 폰트(공통)
+https://dimg.credit.co.kr/uitest/css/rzm/font.css
+
+지키미 css(공통/마이데이터)
+https://dimg.credit.co.kr/uitest/css/rzm/import_sub2.css
+https://dimg.credit.co.kr/uitest/css/rzm/base.css
+https://dimg.credit.co.kr/uitest/css/rzm/layout.css?v=20200818
+https://dimg.credit.co.kr/uitest/css/rzm/contents.css
+https://dimg.credit.co.kr/uitest/css/rzm/mydata.css
+
+지키미 js
+https://dimg.credit.co.kr/uitest/js/rzm/jquery-1.10.2.min.js
+https://dimg.credit.co.kr/uitest/js/rzm/lib/swiper.min.js (4.1.6)
+https://dimg.credit.co.kr/uitest/js/rzm/lib/style.js
+https://dimg.credit.co.kr/uitest/js/rzm/quickGnb11.js
+
+마이데이터 모바일 구조
+<wrap>
+<header>
+<containter>
+	<contents>
+	<footer>
+
+

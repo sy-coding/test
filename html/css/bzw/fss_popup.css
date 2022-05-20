@@ -1,0 +1,69 @@
+@charset "euc-kr";
+
+/* CSS Document */
+html,body{width:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button,input,label{margin:0;padding:0; list-style:none;}
+img,fieldset,iframe{border:0 none}
+input,select,button,textarea,pre{vertical-align:middle; font-family:"맑은 고딕", "굴림", "돋움";}
+img{vertical-align:middle; border:0;}
+table{border-collapse:collapse;border-spacing:0}
+iframe{margin:0;padding:0}
+hr{display:none;}
+.placeholder{vertical-align:middle; font-family:"맑은 고딕", "굴림", "돋움";}
+a{text-decoration:none; color:inherit; -webkit-tap-highlight-color:transparent;}
+body{color:#333; background:#fff; font-family:"맑은 고딕", "굴림", "돋움";font-size:14px;}
+caption,legend,
+.hidden {position:absolute;left:-9999px;margin:0;padding:0;font-size:0;line-height:0;overflow:hidden;}
+	*:first-child+html .hidden{display:none}
+.pointR{color:#d03e4b !important}
+.pointB{color:#0054a6 !important;}
+.clearfix{clear:both;}
+strong{font-family:"맑은 고딕", "굴림";font-weight:600;}
+caption{font-size : 15px  !important;line-height: 17px;color: #333;margin: 0 0 20px 0 ;text-align: left;font-weight: bold;background: #fff no-repeat left 0;padding-left: 22px;}
+/* popup */
+#popWrap{background:#fff;width:100%;}
+.popTop{background:#f8f8f8;padding:20px 0 20px;border-bottom:1px solid #dbdbdb;}
+.popTop h1{text-align:center;}
+.popCon{width:570px;margin:0 auto;padding-top:17px;}
+.popCon h2{font-size:14px;font-weight:600;letter-spacing:-1px;}
+.popCon .topTit{font-size:16px;color:#0e2b53;font-weight:600;letter-spacing:-1px;margin:5px 0 10px;}
+.conArea{width:570px;height:580px;box-sizing:border-box;border:1px solid #efecec;padding:4px;}
+/*신용관리 체험수기 부분*/
+.conArea.type2{background:url("../../img/bzw/fss_popup/bg_con_area_slide.jpg") 4px 4px no-repeat;}
+.conArea.type2 .slideArea{margin:26px 0px 0px 84px;}
+.videoComment{background-color:#f8f8f8;padding:20px 40px 20px 20px;height:216px;overflow-y:scroll;line-height:20px;}
+.videoComment h3{font-size:14px;font-weight:bold;letter-spacing:-1px;}
+.videoComment .tit{font-size:13px;font-weight:600;letter-spacing:-1px;color:#333333;margin-top:6px;}
+.videoComment .videoText{margin-top:13px;color:#666666;font-size:13px;letter-spacing:-0.5px;}
+.videoComment .videoText p{margin-top:10px;}
+/*상단 동영상 슬라이드 부분*/
+.slideArea1{position:relative;top:0;left:0;}
+.slideArea1 .slideWrap1{width:392px;height:100%;margin:26px auto 0;}
+.slideArea1 .slideInner span{display:inline-block;font-size:12px;color:#666666;letter-spacing:-1px;padding-top:12px;}
+.slideWrap1 .bx-wrapper{position: relative;top:0;left:0;margin:0 auto; padding: 0;}
+.slideArea1 .bx-wrapper img {max-width: 100%;display: block;}
+.slideArea1 .bxslider1{overflow:hidden;}/*20170607 수정*/
+.slideWrap1 .bx-pager, .slideWrap2 .bx-pager{display:none;text-indent:-9999px;height:0;width:0;}
+.slideWrap1 .bx-wrapper .bx-controls-direction a {position: absolute;top:227px;margin-top: 0px;outline: 0;width:25px;height:49px;text-indent: -9999px;z-index: 9999;}
+.slideWrap1 .bx-wrapper .bx-prev {left:-134px;background:url("../../img/bzw/fss_popup/img_bx_prev_big.png") no-repeat;}
+.slideWrap1 .bx-wrapper .bx-next {right:-134px;background:url("../../img/bzw/fss_popup/img_bx_next_big.png") no-repeat;}
+/*하단 동영상 리스트 슬라이드 부분 */
+.slideArea2{width:100%;position:relative;top:0;left:0;padding:24px 0;height:154px;box-sizing: border-box;overflow:hidden;}/*20170607 수정*/
+.slideWrap2{width:522px;padding:0 24px;height:100%;overflow: hidden;}
+/*하단 동영상 리스트 부분 슬라이드 */
+.slideWrap2 .slideInner span{display:inline-block;font-size:12px;color:#666666;letter-spacing:-1.2px;padding-top:12px;}
+.slideWrap2 .bx-viewport{overflow:visible !important;}
+.slideWrap2 .bx-wrapper img {max-width: 100%;display: block;}
+.slideWrap2 .bx-wrapper .bx-viewport {background: #fff;-webkit-transform: translatez(0);-moz-transform: translatez(0);-ms-transform: translatez(0);-o-transform: translatez(0);transform: translatez(0);}
+.slideWrap2 .bx-wrapper .bx-pager,.slideWrap2 .bx-wrapper .bx-controls-auto {position: absolute;bottom:-30px;width: 100%;}
+.slideWrap2 .bx-wrapper .bx-controls-direction a {position: absolute;top:47px;margin-top: 0px;outline: 0;width:8px;height:16px;text-indent: -9999px;z-index: 9999;}
+.slideWrap2 .bx-wrapper .bx-prev {left:0px;background:url("../../img/bzw/fss_popup/img_bx_prev.png") no-repeat;}
+.slideWrap2 .bx-wrapper .bx-next {right:0px;background:url("../../img/bzw/fss_popup/img_bx_next.png") no-repeat;}
+.moreArea{border-top:1px solid #b3b2b2;padding:20px 0 30px;overflow:hidden;}
+.moreArea .txtArea{float:left;font-size:14px;letter-spacing:-1px;}
+.moreArea .tit{color:#0e2b53;font-weight:600;}
+.moreBtn{float:right;}
+@media print{
+.popWrap,
+.printCar,
+.popCon {border:none !important;width:100% !important;padding:0 !important;margin:0 !important}

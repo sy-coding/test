@@ -1,0 +1,37 @@
+/* board */
+.tbl-board{width:100%;border-collapse:inherit;border-spacing:0;border-top:1px solid #0081c8;margin:0 0 40px 0}
+.tbl-board th,
+.tbl-board td{height:48px;vertical-align:middle;color:#555;text-align:center;border-bottom:1px solid #ddd;}
+.tbl-board .tit a {color:#555;}
+.tbl-board th{font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';background:#fafafa;font-size:15px;}
+.tbl-board td{background:#fff;font-size:13px;}
+.tbl-board td.tit{text-align:left}
+.tbl-board .detailView {display:none;}
+.tbl-board .detailView td {text-align:left;line-height:22px;background:#fafafa;padding:15px 0 35px 0;}
+.tbl-board .detailView .questions {background:#ffffff;padding:10px 0 0 92px;border-bottom:1px solid #e9e9e9;margin-top:-15px;}
+.tbl-board .detailView .answer {background:#fafafa;padding:10px 0 0 92px;}
+.tbl-board .detailView dt {font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';padding:5px 0;color:#333;}
+.tbl-board .detailView dd pre{white-space:pre-line; display:inline-block}
+.tbl-board .detailView .delay {text-align:center;font-size:15px;line-height:22px;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';color:#333;margin-top:35px;}
+.tbl-board .detailView .btn {text-align:right;padding:20px;}
+.tbl-board .detailView .viewCon{padding:15px 10px 35px 230px}
+img.new{margin-left:10px;}
+/*°Ô½ÃÆÇ ºä*/
+.boardDetail{width:100%;border-top:1px solid #0081c8;margin:0 0 40px 0;}
+.boardDetail dt{vertical-align:middle;color:#333;text-align:center;border-bottom:1px solid #ddd;background:#fafafa;font-size:13px;}
+.boardDetail dt span{display:inline-block;height:48px;line-height:48px;vertical-align:middle}
+.boardDetail dt .num{width:80px;color:#0054a6}
+.boardDetail dt .tit{width:650px;text-align:left;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';height:auto;line-height:20px;padding:13px 0}
+.boardDetail dt .date{width:180px}
+.boardDetail dd{color:#333;text-align:left;background:#fff;font-size:13px;padding:25px;line-height:26px}
+/*°Ô½ÃÆÇ ¸®½ºÆ®*/
+.boardList{width:100%;border-top:1px solid #ddd;border-bottom:1px solid #ddd;margin:0 0 40px 0}
+.boardList li{color:#333;text-align:center;}
+.boardList li span{display:inline-block;height:48px;line-height:48px;vertical-align:middle}
+.boardList li .item{width:65px;padding:0 0 0 30px;text-align:left;font-size:13px;font-family:'Nanum Gothic', '³ª´®°íµñ', '¸¼Àº °íµñ';color:#333}
+.boardList li .stit{color:#333;font-size:13px;text-align:left;width:640px;padding-left:40px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.boardList li .date{text-align:center;width:130px;font-size:13px;}
+.boardList li.prev{border-bottom:1px solid #e9e9e9}
+.boardList li.next{border-bottom:none}
+.boardList li.prev .item{background:url("../../img/bzw/common/bg_prev.gif") no-repeat right center;}
+.boardList li.next .item{background:url("../../img/bzw/common/bg_next.gif") no-repeat right center;}

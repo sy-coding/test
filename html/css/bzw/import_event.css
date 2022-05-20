@@ -1,0 +1,1042 @@
+@charset "euc-kr";
+
+/* 20200323 개발계 */
+@import "import_event_dump.css?20200323";
+
+/* s: 180830 푸시이벤트 추가 */
+.event_wrap{position:relative;}
+.mb60{margin-bottom:60px !important}
+.section{position:relative;min-height:auto;overflow:visible}
+
+.clearfix02 {zoom:1;}
+.clearfix02:before, .clearfix02:after {content:'';display:table;}
+.clearfix02:after {clear:both;}
+
+/* 이벤트 팝업 */
+.eventPopupWrap{/*margin-top:-1140px;margin-left:230px*/}
+.eventPop.secret{width:714px;height:860px;background:#fff;border-radius:20px;}
+.eventPop.secret .eventInner{height:860px;text-align:center;background:url("../../img/bzw/help/event/20180911/bg_line.png") 11px 13px no-repeat;}
+.eventPop.secret .eventInner .title{padding-top:136px;font-size:64px;background:url("../../img/bzw/help/event/20180911/crown.png") center center no-repeat;font-family:'나눔스퀘어';color:#000;}
+.eventPop.secret .eventInner .icon{margin:25px 0 40px;}
+.eventPop.secret .eventInner .conText .txt1{margin-bottom:23px;font-size:30px;letter-spacing:-0.25px;font-family:'나눔스퀘어';color:#222;}
+.eventPop.secret .eventInner .conText .txt1 em{display:block;font-style:normal;color:#000;font-weight:bold;  }
+.eventPop.secret .eventInner .conText .txt1 span{color:#f15353;font-weight:bold;}
+.eventPop.secret .eventInner .conText .txt2{font-size:28px;letter-spacing:-0.25px;font-family:'나눔스퀘어';color:#222;}
+.eventPop.secret .eventInner .link {margin:30px 0 40px}
+.eventPop.secret .eventInner .link a{display:block;font-size:30px;color:#a3824b;text-decoration: underline;font-family:'나눔스퀘어';}
+.eventPop.secret .eventInner .btnWrap{width:277px;margin:0 auto;text-align:center;}
+.eventPop.secret .eventInner .btnWrap a{display:block;height:70px;line-height:70px;text-align:center;background-color:#9a1818;color:#fff;border-radius:5px;font-size:32px;font-weight:bold;letter-spacing:-0.25px;font-family:'나눔스퀘어';}
+/* // 이벤트 팝업 */
+.input_secret::-webkit-input-placeholder {color: #cbcbcb;font-size:28px;font-family:'나눔스퀘어'}
+.input_secret::-moz-placeholder { color: #cbcbcb;font-size:28px;}
+.input_secret:-ms-input-placeholder { color: #cbcbcb;font-size:28px;}
+.input_secret:-moz-placeholder { color: #cbcbcb;font-size:28px;}
+
+/* e: 180830 푸시이벤트  추가*/
+
+/* s: 191216 신용영수증 이벤트 수정 */
+.receiptView{width:918px}
+.receiptView .directArea02 .receipt_wrap02 {position:relative;height:auto;padding:233px 0 80px;background: #f1f1f1 url("../../img/bzw/receipt/bg_zikimi.png") no-repeat center 700px;font-family:"나눔바른고딕"}
+.receiptView .directArea02 .receipt_wrap02  .mTitle{position:absolute;width:100%;top:90px;text-align: center;font-size:32px;font-weight:700;font-family: '나눔스퀘어','NanumSquareRound';line-height:44px;}
+.receiptView .directArea02 .receipt_wrap02  h4{text-align:center;background:none;margin:0;padding:0;}
+.receiptView .directArea02 .receipt_wrap02 .receipt_box{background:#fff;}
+.receiptView .directArea02 .receipt_wrap02 .icoBookMark{position: absolute;right:-8px;top:-8px;}
+.receiptView .directArea02 .receipt_wrap02 .sTitle span{display:block;margin-top:20px;font-size:30px;font-weight:700;}
+.receiptView .directArea02 .receipt_wrap02 .inner{padding:70px 40px 90px;box-shadow: 5px 20px 20px 5px #ccc;}
+.receiptView .directArea02 .receipt_wrap02 .inner .bgBottom{position:absolute;left:0;bottom:-26px;width:100%;}
+.receiptView .directArea02 .receipt_wrap02 .inner .bgBottom .tri{width:100%;height:27px;background:url("../../img/bzw/receipt/bg_bottom.png") repeat-x 0 0;position:absolute;bottom:0; }
+.receiptView .directArea02 .receipt_wrap02 .titArea li{width:33.33%;padding:0;}
+.receiptView .directArea02 .receipt_wrap02 .rank_list .tit{margin-bottom:32px;font-size:20px;}
+.receiptView .directArea02 .receipt_wrap02 .rank_list .tit span{font-size:20px;font-weight:700;}
+.receiptView .directArea02 .receipt_wrap02 .rank_list dl dt{font-size:18px;}
+.receiptView .directArea02 .receipt_wrap02 .rank_list dl dd{font-size:18px;}
+.receiptView .directArea02 .receipt_wrap02 .rank_list dl dd span.point{display:block;margin-bottom:5px;text-align:right;}
+.receiptView .directArea02 .receipt_wrap02 .rank_list dl dd span.point.up{color:#f43333;}
+.receiptView .directArea02 .receipt_wrap02 .rank_list dl dd span.point.down{color:#0081c8;}
+.receiptView .directArea02 .receipt_wrap02 .popupLayer{width:420px;top:50px;}
+.receiptView .directArea02 .receipt_wrap02 .rp_table > thead{border-top:1px dashed #ccc;border-bottom:1px dashed #ccc;}
+.receiptView .directArea02 .receipt_wrap02 .rp_table > thead > tr > th{padding:20px 0;border-top:1px dashed #ccc;border-bottom:1px dashed #ccc;font-size:24px;}
+.receiptView .directArea02 .receipt_wrap02 .rp_table > thead > tr > th.price{text-align:right;padding-right:30px;}
+.receiptView .directArea02 .receipt_wrap02 .rp_table > tbody > tr > td{padding:20px 0 5px;font-size:20px}
+.receiptView .directArea02 .receipt_wrap02 .rp_table > tbody > tr > td:nth-child(1){width:auto;}
+.receiptView .directArea02 .receipt_wrap02 .rp_table > tbody > tr > td:nth-child(2){width:auto;}
+.receiptView .directArea02 .receipt_wrap02 .avg_price {display:block;padding-left:40px;padding-top:16px;white-space:nowrap;background: url("../../img/bzw/receipt/bg_line_02.png") no-repeat 12px 5px;font-size:20px}
+.receiptView .directArea02 .receipt_wrap02 .avg_price .btnOpen{display:inline-block;width:20px;height:20px;vertical-align:top;background: url("../../img/bzw/receipt/arr_btn_02_off.png") no-repeat center 6px}
+.receiptView .directArea02 .receipt_wrap02 .avg_price .btnOpen.on{background: url("../../img/bzw/receipt/arr_btn_02_on.png") no-repeat center 6px}
+.receiptView .directArea02 .receipt_wrap02 .desc{margin-bottom:42px;}
+.receiptView .directArea02 .receipt_wrap02 .desc li {padding-left:10px;line-height:26px;font-size:15px;letter-spacing:-0.25px;background:url("../../img/bzw/receipt/bg_dot.gif") no-repeat 0 center;}
+.receiptView .directArea02 .receipt_wrap02 .desc li strong{font-weight:700;}
+.receiptView .directArea02 .receipt_wrap02 .graphWrap{display:none;margin:20px 0;}
+.receiptView .directArea02 .receipt_wrap02 .graphWrap .bx-controls-direction{}
+.receiptView .directArea02 .receipt_wrap02 .graphWrap .bx-controls-direction a{display:inline-block;width:14px;height:30px;}
+.receiptView .directArea02 .receipt_wrap02 .graphWrap .bx-prev{position:absolute;top:50%;left:0;margin:-15px 0 0;background:url("../../img/bzw/receipt/btn_prev.png") no-repeat 0 center;text-indent:-9999px;color:transparent;}
+.receiptView .directArea02 .receipt_wrap02 .graphWrap .bx-next{display:none;position:absolute;top:50%;left:auto;right:0;margin:-15px 0 0;background:url("../../img/bzw/receipt/btn_next.png") no-repeat 0 center;text-indent:-9999px;color:transparent;}
+.receiptView .directArea02 .receipt_wrap02 .graphWrap .bx-prev.disabled{display:none}
+.receiptView .directArea02 .receipt_wrap02 .graphWrap .bx-next.disabled{display:none}
+.receiptView .directArea02 .receipt_wrap02 .graphCont{position:relative;padding:30px 0 0;text-align:center;}
+.receiptView .directArea02 .receipt_wrap02 .graphCont .unit{position:absolute;right:55px;top:5px;font-size:12px;color:#bababa}
+.receiptView .directArea02 .receipt_wrap02 .graphCont .bx-wrapper{margin:0 auto}
+.receiptView .directArea02 .receipt_wrap02 .tip_tit{margin:40px 0 32px;font-weight:700;font-size:22px;color:#000;}
+.receiptView .directArea02 .receipt_wrap02 .tip_tit strong{color:#0083cb;}
+.receiptView .receipt_wrap02 .tipWrap {margin-bottom:58px;}
+.receiptView .receipt_wrap02 .tipWrap .tipCont{position:relative;padding:30px 15px 50px;border:1px solid #0081c8;}
+.receiptView .receipt_wrap02 .tipWrap .tipCont.on{padding-bottom:90px;}
+.receiptView .receipt_wrap02 .tipWrap .tipContTop p{font-size:15.5px;line-height:24px;letter-spacing:-0.25px;color:#000;}
+.receiptView .receipt_wrap02 .tipWrap .tipContTop p.secCon{margin-top:20px;color:#555;}
+.receiptView .receipt_wrap02 .tipWrap .tipContTop .btnArea{position:absolute;left:0;bottom:15px;width:100%;margin:0;text-align: center;}
+.receiptView .receipt_wrap02 .tipWrap .tipCont.on .tipContTop .btnArea{bottom:30px}
+.receiptView .receipt_wrap02 .tipWrap .tipContTop .btnOpen{display:block;width:26px;height:16px;text-align: center;margin:0 auto;background:url("../../img/bzw/receipt/arr_btn_off.png") no-repeat 0 center;}
+.receiptView .receipt_wrap02 .tipWrap .tipContTop .btnOpen.on{background:url("../../img/bzw/receipt/arr_btn_on.png") no-repeat 0 center;}
+.receiptView .receipt_wrap02 .tipWrap .tipContList{display:none;margin-top:20px;padding-top:20px;border-top:1px solid #dddd;}
+.receiptView .receipt_wrap02 .tipWrap .tipContList dl dt{margin-bottom:35px;font-size:16px;color:#555555}
+.receiptView .receipt_wrap02 .tipWrap .tipContList dl dd{margin-bottom:20px;font-size:16px;line-height:24px;letter-spacing:-0.5px;color:#555555}
+.receiptView .receipt_wrap02 .tipWrap .tipContList dl dd:last-child{margin-bottom:0;}
+.receiptView .receipt_wrap02 .tipWrap .tipContList dl dd .colorRed{color:#ef0000;text-decoration:underline}
+.receiptView .receipt_wrap02 .tipWrap .tipContList .txt{margin:50px 0 15px;text-align:center;font-size:28px;font-weight:700;font-family:'NanumSquareB';color:#0054a6}
+.receiptView .receipt_wrap02 .tipWrap .tipContList .txt .mark{font-style:italic;}
+.receiptView .receipt_wrap02 .tipWrap .tipContList .btnWrap{text-align:center}
+.receiptView .receipt_wrap02 .btnEntry{text-align:center}
+.receipt_box .btnEntry a{display:block;width:350px;height:65px;line-height:65px;margin:0 auto;animation:receiptBtn 1.5s ease-out infinite;font-size:24px;letter-spacing:-0.25px;border-radius:5px;color:#fff}
+.receipt_box .btnEntry a em{display:inline-block;text-indent:-2px;font-style:italic}
+@keyframes receiptBtn {
+  0%{background:#0054a6}
+  50%{background:#007cf3}
+  100%{background:#0054a6}
+}
+.receiptView .receipt_wrap02 .dataTbWrap{display:none;margin:23px 35px 10px}
+.receiptView .receipt_wrap02 .dataTbWrap table{width:100%;text-align:center}
+.receiptView .receipt_wrap02 .dataTbWrap thead th{padding:16px 0;background:#f1f1f1;font-size:18px;font-weight:500}
+.receiptView .receipt_wrap02 .dataTbWrap tbody td{width:50% !important;padding:10px 0 0;background:#f8f8f8;font-size:16px}
+.receiptView .receipt_wrap02 .dataTbWrap tbody tr:first-child td{padding:18px 0 0 ;}
+.receiptView .receipt_wrap02 .dataTbWrap tbody tr:last-child td{padding:10px 0 18px;}
+.receiptView .receipt_wrap02 .dataTbWrap tbody td.line{text-decoration:underline;}
+.receiptView .receipt_wrap02 .point{font-size:24px;font-weight:bold}
+.receiptView .receipt_wrap02 .point.up{color:#0081c8}
+.receiptView .receipt_wrap02 .point.keep{color:#ddbb00}
+.receiptView .receipt_wrap02 .point.down{color:#f21414}
+.receiptView .receipt_wrap02 .total{padding:18px 0;border-top:2px dashed #999;border-bottom:2px dashed #999}
+.receiptView .receipt_wrap02 .total span{font-size:24px}
+.receiptView .receipt_wrap02 .ico_tooltip{width:23px;height:23px;margin-left:10px;cursor:pointer;background:url('../../img/bzw/receipt/ico_tooltip.gif') no-repeat center center;vertical-align:middle;display: inline-block;}
+.receiptView .line{text-decoration:underline;}
+.receiptView .section{position:relative;min-height:auto}
+.receiptView .section img{border:0;vertical-align:top}
+.receiptView .section .gold{position:absolute}
+.receiptView .section .star{position:absolute}
+.receiptView .section .circle{position:absolute}
+.receiptView .section01 .receipt{position:absolute;right:0;top:375px;z-index:2}
+.receiptView .section01 .star01{left:70px;top:105px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section01 .star02{left:100px;top:132px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section01 .star03{left:96px;bottom:66px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section01 .star04{left:403px;bottom:105px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section01 .star05{left:430px;bottom:83px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section01 .star06{right:80px;bottom:74px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section01 .gold01{left:370px;bottom:-70px}
+.receiptView .section01 .gold02{left:458px;bottom:-120px}
+.receiptView .section01 .gold03{right:150px;bottom:-120px}
+.receiptView .section01.on .gold01{animation:rpGoldMotion .5s ease-out 1s forwards}
+.receiptView .section01.on .gold02{animation:rpGoldMotion2 .5s ease-out 1.5s forwards}
+.receiptView .section01.on .gold03{animation:rpGoldMotion3 .5s ease-out 2s forwards}
+.receiptView .section01 .circle01{left:67px;top:670px;width:14px;height:14px;background:#fff401;border-radius:100%;animation:cr_ev_3 2s 1s ease-out infinite}
+.receiptView .section01 .circle02{left:105px;top:700px;width:8px;height:8px;background:#fff401;border-radius:100%;animation:cr_ev_3 2s 1.5s ease-out infinite}
+.receiptView .section02 .circle01{right:163px;top:29px;width:9px;height:9px;background:#0edfe4;border-radius:100%;animation:cr_ev_3 2s 1s ease-out infinite}
+.receiptView .section02 .circle02{right:109px;top:87px;width:20px;height:20px;background:#b1adff;border-radius:100%;animation:cr_ev_3 2s 1.2s ease-out infinite}
+.receiptView .section02 .circle03{left:200px;top:107px;width:7px;height:7px;background:#b1adff;border-radius:100%;animation:cr_ev_3 2s 1.4s ease-out infinite}
+.receiptView .section02 .circle04{left:180px;top:137px;width:9px;height:9px;background:#0edfe4;border-radius:100%;animation:cr_ev_3 2s 1.6s ease-out infinite}
+.receiptView .section02 .gold01{left:90px;top:-70px;}
+.receiptView .section02.on .gold01{animation:rp_ev_2 .3s linear;transform:rotate(0deg);}
+.receiptView .section02 .star01{left:32px;top:0;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section03 .star01{right:54px;bottom:160px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section03 .gold01{right:40px;bottom:55px;}
+.receiptView .section03.on .gold01{animation:rp_ev_2 .3s both linear;transform:rotate(0deg);}
+.receiptView .section03 .btnWrap{position:absolute;left:158px;bottom:58px}
+.receiptView .section03 .btnWrap a{display:block;position:relative;width:599px;height:106px;line-height:106px;text-align:left;padding-left:75px;box-sizing:border-box;letter-spacing:-0.5px;font-size:42px;background:#3e63f2;color:#fff}
+.receiptView .section03 .btnWrap a strong{font-family:'나눔고딕Bold'}
+.receiptView .section03 .motionArea{display:block;position:absolute;top:50%;right:40px;width:49px;height:28px;margin:-14px 0 0}
+.receiptView .section03 .motionArea:before,
+.receiptView .section03 .motionArea:after,
+.receiptView .section03 .motionArea > span{content:'';display:block;position:absolute;bottom:0;width:16px;height:28px;background:url("../../img/bzw/help/event/20191231/bg_arrow.png") left top no-repeat;animation:calcFlowMt 2s linear infinite;opacity:0.3;}
+.receiptView .section03 .motionArea > span{left:15px;animation-delay:0.4s}
+.receiptView .section03 .motionArea:after{left:30px;animation-delay:0.8s}
+@keyframes calcFlowMt{
+    0%{opacity:0.3}
+    40%{opacity:0.5}
+    70%{opacity:1}
+    100%{opacity:0.3}
+}
+
+.receiptView .section04 .gold01{left:54px;top:640px}
+.receiptView .section04 .gold02{right:80px;bottom:490px}
+.receiptView .section04 .gold03{right:74px;bottom:390px}
+.receiptView .section04.on .gold01{animation: rp_ev_2 1s  linear;transform: rotate(0deg);}
+.receiptView .section04.on .gold02{animation: rp_ev_2 1s 1.5s  linear;transform: rotate(0deg);}
+.receiptView .section04.on .gold03{animation: rp_ev_2 1s 2s  linear;transform: rotate(0deg);}
+.receiptView .section04 .star01{right:47px;top:-20px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star02{right:62px;top:0px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star03{right:60px;top:170px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star04{left:33px;top:590px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star05{left:65px;top:630px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star06{left:73px;top:807px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star07{right:40px;top:1018px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star08{right:46px;bottom:484px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star09{right:105px;bottom:335px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .star10{right:60px;bottom:290px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section04 .circle01{left:35px;top:784px;width:15px;height:15px;background:#fff401;border-radius:100%;animation:cr_ev_3 2s 1s ease-out infinite}
+.receiptView .section04 .circle02{left:50px;top:867px;width:7px;height:7px;background:#fff401;border-radius:100%;animation:cr_ev_3 2s 1.5s ease-out infinite}
+.receiptView .section05 .star01{left:122px;bottom:57px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section05 .star02{right:42px;bottom:200px;animation: cr_ev_1 1s linear infinite alternate;}
+.receiptView .section05 .star03{right:108px;bottom:150px;animation: cr_ev_1 1s linear infinite alternate;}
+@keyframes rpGoldMotion {
+ 0%{
+   bottom:-70px;
+ }
+
+ 100%{
+  bottom:0
+ }
+}
+
+@keyframes rpGoldMotion2 {
+ 0%{
+  bottom:-120px
+ }
+
+ 100%{
+   bottom:0
+ }
+}
+@keyframes rpGoldMotion3 {
+ 0%{
+  bottom:-120px
+ }
+
+ 100%{
+   bottom:0
+ }
+}
+@keyframes rp_ev_2 {
+
+  0% {transform:rotate(20deg);}
+  100% {transform:rotate(0deg);}
+}
+/* e: 191216 신용영수증 이벤트 수정 */
+
+/* s: 191216 신용연말정산 팝업 이벤트 */
+.popWrap.report2.receiptEvPop{width:500px;height:266px;padding:0;border:none}
+.popWrap.report2.receiptEvPop .close{top:38px}
+.popWrap.report2.receiptEvPop .popCon{padding:60px 0 30px;text-align:center}
+.popWrap.report2.receiptEvPop .popCon .textBox{margin-bottom:44px}
+.popWrap.report2.receiptEvPop .popCon .txt1{margin-bottom:19px;line-height:24px;font-family:'나눔고딕Bold';font-size:24px;color:#363636}
+.popWrap.report2.receiptEvPop .popCon .txt2{line-height:24px;font-family:'나눔고딕Bold';font-size:18px;color:#363636}
+.popWrap.report2.receiptEvPop .popCon .btnArea{text-align:center}
+.popWrap.report2.receiptEvPop .popCon .btnArea a{display:inline-block;width:424px;height:62px;line-height:62px;font-family:'나눔고딕Bold';font-size:20px;color:#fff;background:#5c6bbe;font-family:'나눔고딕Bold';font-size:18px;}
+
+/* s: 181213 개인정보 활용동의 및 팝업 */
+.popWrap.privateCollection{width:510px;height:679px;}
+.popWrap.privateCollection .popCon{padding:25px 30px 0 30px;}
+.popWrap.privateCollection .popCon .comment{margin-bottom:30px;}
+.popWrap.privateCollection .agreeArea1{padding:30px 0 60px;border-top:1px dotted #ddd;text-align:center;}
+.popWrap.privateCollection .agreeArea1 .tit{margin-bottom:30px;font-size:15px;font-weight:700;}
+.popWrap.privateCollection .agreeArea1 label{font-size:15px;font-weight:700;color:#555;}
+.popWrap.privateCollection .lst_dot{margin-bottom:20px;}
+.popWrap.privateCollection .lst_dot li{line-height:20px;}
+.popWrap.privateCollection .tbl-list th, .popWrap.privateCollection .tbl-list .popCon .tbl-list td{padding:5px 0;font-weight:700;}/* 20201111 이용약관 수정 */
+.popWrap.privateCollection .tbl-title{padding-left:10px;margin-bottom:12px;font-size:13px;font-weight:700;background:url("../../img/bzw/common/bg_depth2.gif") no-repeat left center}
+.popWrap.privateCollection .tbl-list02 td{padding-left:14px;text-align:left;}
+.popWrap.privateCollection .tbl-list02 th.userName{word-spacing: 10px;}
+.popWrap.privateCollection .tbl-list02 select{width:85px;text-align:center;}
+.popWrap.privateCollection .tbl-list02 .i-tel{width:85px;}
+.popWrap.privateCollection .tbl-list02 th, .popCon .tbl-list02 td{padding:8px 0;}
+.popWrap.privateCollection .btnArea{margin:30px 0 30px;}
+/* e: 181213 신용영수증 이벤트 추가 */
+
+/* s: 190611 신용퀴즈 이벤트 추가 */
+.timerCount{width:920px !important}
+.timerCount span{display:inline-block;width:62px;height:91px;line-height:91px;margin-right:4px;color:#fff;border-radius:7px;font-size:0;background:#0e0e0e}
+.timerCount span:last-child{margin-right:0}
+.timerCount span em{display:block;width:36px;height:65px;margin:14px auto;background: url('../../img/bzw/help/event/20190712/nums.png') no-repeat}
+.timerCount .time-bullet{width:8px !important;height:25px !important;margin:0;padding:0 2px;background:url("../../img/bzw/help/event/20190712/bullet.png") no-repeat center center !important;color:#0e0e0e !important;vertical-align:-20px}
+.timerCount .data-num0 em{background-position:-10px -10px !important}
+.timerCount .data-num1 em{background-position:-10px -95px !important;}
+.timerCount .data-num2 em{background-position:-10px -180px !important;}
+.timerCount .data-num3 em{background-position:-10px -265px !important;}
+.timerCount .data-num4 em{background-position:-10px -350px !important;}
+.timerCount .data-num5 em{background-position:-10px -435px !important;}
+.timerCount .data-num6 em{background-position:-10px -520px !important;}
+.timerCount .data-num7 em{background-position:-10px -605px !important;}
+.timerCount .data-num8 em{background-position:-10px -690px !important;}
+.timerCount .data-num9 em{background-position:-10px -775px !important;}
+
+.creditQuizPrd{position:relative;width:920px;}
+.creditQuizPrd .prdList{position:absolute;left:14px;top:0}
+.creditQuizPrd .prdList li{float:left;width:208px;margin-right:20px;text-align:center}
+.creditQuizPrd .prdList li:last-child{margin-right:0}
+.creditQuizPrd .prdList li .prdImg{display:block;width:208px;height:208px;position:relative;margin-bottom:18px}
+.creditQuizPrd .prdList li.prd01 .prdImg{background:url('../../img/bzw/help/event/20190712/prd_01.png') 0 0 no-repeat}
+.creditQuizPrd .prdList li.prd02 .prdImg{background:url('../../img/bzw/help/event/20190712/prd_02.png') 0 0 no-repeat}
+.creditQuizPrd .prdList li.prd03 .prdImg{background:url('../../img/bzw/help/event/20190712/prd_03.png') 0 0 no-repeat}
+.creditQuizPrd .prdList li.prd04 .prdImg{background:url('../../img/bzw/help/event/20190712/prd_04.png') 0 0 no-repeat}
+.creditQuizPrd .prdList li .qty{position:absolute;left:0;bottom:24px;width:100%;text-align:center;color:#fff;font-family:'NanumSquareRound';font-size:48px;font-weight:800;letter-spacing:-0.75px}
+.creditQuizPrd .prdList li .qty em{font-size:22px}
+.creditQuizPrd .prdList li .cont{display:block;font-family:'NanumSquareRound';font-size:17px;line-height:22px;letter-spacing:-0.75px;color:#222}
+.creditQuizPrd .prdList li .cont em{display:block;color:#3d1d85;font-weight:800}
+
+.creditQuiz{position:absolute;left:0%;top:140px;width:920px;color:#fff;text-align:center;font-family:'NanumSquareRound'}
+.creditQuiz .inner{display:inline-block}
+.creditQuiz p{margin-bottom:20px;font-size:30px;line-height:1.3;text-align:center;letter-spacing:-0.5px}
+.creditQuiz ul {margin-left:85px;margin-bottom:30px;}
+.creditQuiz ul li{position:relative;margin-bottom:8px;text-align:left}
+.creditQuiz ul li:last-child{margin-bottom:0}
+.creditQuiz ul li input{position:absolute;left:-9999px;top:0}
+.creditQuiz ul li label{margin-left:20px;margin:0;line-height:1.5;font-size:18px;letter-spacing:-0.9px;text-align:left;cursor:pointer}
+.creditQuiz ul li label span{margin-left:-20px;}
+.creditQuiz ul li input:checked + label{position:relative;font-weight:700}
+.creditQuiz ul li input:checked + label:after{position:absolute;left:-20px;top:-13px;width:26px;height:24px;display:block;content:"";background:url('../../img/bzw/help/event/20190712/chk.png') no-repeat}
+.creditQuiz .btnSubmit{text-align:center}
+
+.creditQuiz.type2{top:150px}
+.creditQuiz.type2 p{margin-bottom:50px;font-size:26px}
+.creditQuiz.type2 .answerListWrap{margin-bottom:25px;margin-left:124px;display:inline-block;text-align:left}
+.creditQuiz.type2 .answerList{display:inline-block;margin:-22px 0 0}
+.creditQuiz.type2 .answerList:after{display:block;content:"";clear:both}
+.creditQuiz.type2 .answerList li{width:50%;float:left;margin-bottom:22px;text-align:left}
+.creditQuiz.type2 ul li label span{margin-right:5px}
+
+
+.cqLayout{width:918px;border:1px solid #858585}
+.cqLayout .winPrdWrap{padding:158px 0 57px}
+.cqLayout .prdBx{margin-bottom:55px}
+.cqLayout .prdBx .giftBx{position:relative;width:656px;height:464px;margin:0 auto 90px;background:url('../../img/bzw/help/event/20190712/bg_gift.jpg') 0 0 no-repeat}
+.cqLayout .prd{position:absolute;z-index:1}
+.cqLayout .prd01{left:224px;width:173px;height:256px;animation:motion_prd01 0.5s ease-out 0.2s forwards;opacity:0;opacity:1;\0/IE8+9;top:28px\0/IE8+9;background:url('../../img/bzw/help/event/20190712/prd_airpods.png') 0 0 no-repeat}
+    @keyframes motion_prd01{
+        0%{top:200px}
+        100%{top:28px;opacity:1}
+    }
+
+.cqLayout .prd02{left:200px;width:232px;height:140px;animation:motion_prd02 0.5s ease-out 0.2s forwards;opacity:0;opacity:1;\0/IE8+9;top:143px\0/IE8+9;background:url('../../img/bzw/help/event/20190712/prd_chicken.png') 0 0 no-repeat}
+    @keyframes motion_prd02{
+        0%{top:200px}
+        100%{top:143px;opacity:1}
+    }
+
+.cqLayout .prd03{left:237px;width:163px;height:159px;animation:motion_prd03 0.5s ease-out 0.2s forwards;opacity:0;opacity:1;\0/IE8+9;top:124px\0/IE8+9;background:url('../../img/bzw/help/event/20190712/prd_starbucks.png') 0 0 no-repeat}
+    @keyframes motion_prd03{
+        0%{top:200px}
+        100%{top:124px;opacity:1}
+    }
+
+.cqLayout .prd04{left:204px;width:235px;height:132px;animation:motion_prd04 0.5s ease-out 0.2s forwards;opacity:0;opacity:1;\0/IE8+9;top:153px\0/IE8+9;background:url('../../img/bzw/help/event/20190712/prd_cgv.png') 0 0 no-repeat}
+    @keyframes motion_prd04{
+        0%{top:200px}
+        100%{top:153px;opacity:1}
+    }
+.cqLayout .prdBx span{display:block;position:absolute}
+.cqLayout .prdBx .item0{left:88px;bottom:7px;width:577px;height:239px;background:url('../../img/bzw/help/event/20190712/gift.png') 0 0 no-repeat;z-index:5}
+.cqLayout .prdBx .item1{left:26px;top:-22px;width:49px;height:50px;background:url('../../img/bzw/help/event/20190712/item_01.png') 0 0 no-repeat;animation:motion_1 .5s linear infinite alternate}
+.cqLayout .prdBx .item2{left:-12px;top:78px;width:10px;height:10px;background:url('../../img/bzw/help/event/20190712/item_02.png') 0 0 no-repeat;animation:motion_2 2s ease-out infinite}
+.cqLayout .prdBx .item3{left:-46px;top:295px;width:37px;height:37px;background:url('../../img/bzw/help/event/20190712/item_03.png') 0 0 no-repeat;animation:motion_1 .5s linear infinite alternate}
+.cqLayout .prdBx .item4{left:153px;top:158px;width:33px;height:33px;background:url('../../img/bzw/help/event/20190712/item_04.png') 0 0 no-repeat}
+.cqLayout .prdBx .item5{left:244px;top:73px;width:27px;height:16px;background:url('../../img/bzw/help/event/20190712/item_05.png') 0 0 no-repeat;animation:motion_3 0.5s ease-out 0.8s forwards;opacity:0}
+.cqLayout .prdBx .item6{left:290px;top:44px;width:27px;height:16px;background:url('../../img/bzw/help/event/20190712/item_06.png') 0 0 no-repeat;animation:motion_3 0.8s ease-out 0.8s forwards;opacity:0}
+.cqLayout .prdBx .item7{left:333px;top:50px;width:18px;height:17px;background:url('../../img/bzw/help/event/20190712/item_07.png') 0 0 no-repeat;animation:motion_3 1s ease-out 0.8s forwards;opacity:0}
+.cqLayout .prdBx .item8{right:144px;top:118px;width:58px;height:57px;background:url('../../img/bzw/help/event/20190712/item_08.png') 0 0 no-repeat;animation:motion_2 2s ease-out infinite;opacity:1}
+.cqLayout .prdBx .item9{right:50px;top:32px;width:37px;height:37px;background:url('../../img/bzw/help/event/20190712/item_03.png') 0 0 no-repeat;animation:motion_1 .5s linear infinite alternate}
+.cqLayout .prdBx .item10{right:-22px;top:202px;width:25px;height:25px;background:url('../../img/bzw/help/event/20190712/item_09.png') 0 0 no-repeat;animation:motion_1 .5s linear infinite alternate}
+.cqLayout .prdBx .item11{right:-74px;top:307px;width:25px;height:25px;background:url('../../img/bzw/help/event/20190712/item_10.png') 0 0 no-repeat;animation:motion_1 .5s linear infinite alternate}
+
+@keyframes motion_1{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+
+@keyframes motion_2{
+    50%{margin-top:-10px}
+}
+
+@keyframes motion_3{
+    0%{margin-top:-56px}
+    100%{margin-top:0;opacity:1}
+}
+
+.cqLayout .textBx{text-align:center;font-family:'NanumSquareRound';font-weight:500}
+.cqLayout .textBx .mText{margin-bottom:18px;font-size:40px;font-weight:700;letter-spacing:-0.5px;color:#0e0e0e;}
+.cqLayout .textBx .mText strong{color:#0155a7}
+.cqLayout .textBx .sText{font-size:18px}
+.cqLayout .adviceBx{padding:32px 30px;margin:0 58px;border:1px solid #b5b5b5}
+.cqLayout .adviceBx.type2{margin:0 38px}
+.cqLayout .adviceBx .tit{margin:0 0 43px;padding:0;padding-left:46px;height:37px;line-height:37px;font-family:'NanumSquareRound';font-weight:700;font-size:30px;letter-spacing:-0.5px;color:#0155a7;background:url('../../img/bzw/help/event/20190712/ico_point.png') 0 0 no-repeat}
+.cqLayout .adviceBx ul li{margin-left:19px;margin-bottom:13px;font-family:'NanumSquareRound';font-size:16px;letter-spacing:-0.5px;color:#0e0e0e}
+.cqLayout .adviceBx ul li:last-child{margin-bottom:0}
+.cqLayout .adviceBx ul li .num{margin-left:-19px;margin-right:5px}
+.cqLayout .colorBlue{color:#0155a7 !important}
+.cqLayout .colorRed{color:#f81c12 !important}
+.cqLayout .tbWrap{position:relative;padding:0 38px 110px}
+.cqLayout .tbWrap.type2{padding:0 38px 40px}
+.cqLayout .tbWrap.type3{padding:0 0 40px}
+.cqLayout .tbWrap.type3 table th{border-top:1px solid #023a1a}
+.cqLayout .tbWrap.type3 table td{border-top:1px solid #023a1a}
+.cqLayout .tbWrap table{width:100%;}
+.cqLayout .tbWrap table th{text-align:center;padding:8px 20px;border:1px solid #ddd;background:#fafafa;color:#333;font-size:12px}
+.cqLayout .tbWrap table td{text-align:left;padding:8px 20px;border:1px solid #ddd;color:#333;font-size:12px}
+.cqLayout .tbWrap table .vt{vertical-align:top}
+.cqLayout .tbWrap table .addr1{margin:10px 0}
+.cqLayout .tbWrap table .addr1 input{width:448px;height:25px;line-height:25px;color:#333}
+.cqLayout .tbWrap table .addr2{margin-bottom:6px}
+.cqLayout .tbWrap table .addr2 input{width:610px;height:25px;line-height:25px;color:#333}
+.cqLayout .tbWrap table .btnZipcode{display:inline-block;width:140px;height:25px;line-height:25px;margin-left:20px;font-size:12px;text-align:center;background:#515151;color:#fff}
+.cqLayout .tbWrap table .tel{width:129px;height:25px;line-height:25px;margin-left:8px;text-align:center}
+.cqLayout .tbWrap table .inpNum{width:129px;height:25px;line-height:25px;margin-right:15px}
+.cqLayout .tbWrap table .inpNum:read-only{background:#ddd}
+.cqLayout .tbWrap table .inpName{width:157px}
+.cqLayout .tbWrap table .hp{width:96px;text-align-last:center}
+.cqLayout .tbWrap table .btnSend{display:inline-block;height:25px;line-height:25px;padding:0 8px;margin-left:15px;color:#005dad;border:1px solid #005dad;border-radius:3px;vertical-align:middle;font-weight:bold}
+.cqLayout .tbWrap table .confirmText{margin-left:15px;color:#0155a7}
+.cqLayout .tbWrap table .btnConfirm{display:inline-block;height:25px;line-height:25px;padding:0 10px;border:1px solid #005dad;color:#005dad;font-weight:bold;border-radius:3px;vertical-align:middle}
+.cqLayout .tbWrap table .text{padding:10px 0;margin:0;line-height:16px;text-align:left;font-size:13px;color:#555}
+.cqLayout .tbWrap table .dash{font-size:25px;padding:0 15px;vertical-align:middle}
+.cqLayout .tbWrap .tip ul li{line-height:20px;color:#333;}
+.cqLayout .tbWrap .chkBx{position:absolute;right:80px;bottom:55px}
+.cqLayout .chkBx input{width:20px;height:20px;position:absolute;left:-9999px;top:0}
+.cqLayout .chkBx label{padding-left:32px;margin:0;font-family:'NanumSquareRound';font-size:18px;background:url('../../img/bzw/join/check_box_off.gif') 0 0 no-repeat;cursor:pointer}
+.cqLayout .chkBx input:checked  + label{background:url('../../img/bzw/join/check_box_on.gif') 0 0 no-repeat}
+.cqLayout .tbWrap .desc{margin-bottom:28px;font-family:'NanumSquareRound';font-size:17px;font-weight:700;color:#0e0e0e;text-align:center}
+.cqLayout .btnWrap{margin:43px 0 0;text-align:center}
+.cqLayout .btnWrap a{display:inline-block;width:238px;height:55px;line-height:55px;background:#0155a7;color:#fefefe;border-radius:10px;font-family:'NanumSquareRound';font-size:24px}
+
+.cqLayout02 .answerBx{padding:94px 0 0;text-align:center}
+.cqLayout02 .comments{margin-bottom:80px;color:#0e0e0e}
+.cqLayout02 .comments .ico{display:inline-block;width:48px;height:46px;margin-bottom:30px;background:url('../../img/bzw/help/event/20190712/ico_smile.png') 0 0 no-repeat}
+.cqLayout02 .comments .mText{margin-bottom:30px;font-family:'NanumSquareRound';font-size:50px;font-weight:700;letter-spacing:-0.5px}
+.cqLayout02 .comments .mText em{font-style:italic}
+.cqLayout02 .comments .sText{font-family:'NanumSquareRound';font-size:20px;letter-spacing:-0.5px;line-height:28px}
+.cqLayout02 .comments .sText strong{font-family:'NanumSquareRound'}
+.cqLayout02 .comments .sText span{color:#0155a7}
+.cqLayout02 .comments .textBx{margin-bottom:80px}
+.cqLayout02 .comments.type2{margin-bottom:47px}
+.cqLayout02 .comments.type2 .mText{font-size:40px}
+.cqLayout02 .comments.type2 .sText{font-size:20px}
+.cqLayout02 .characterBx{position:relative;width:579px;height:423px;margin-left:219px;margin-bottom:65px}
+.cqLayout02 .characterBx .bubble{position:absolute;left:-145px;top:65px;z-index:5;animation:bubble 2.5s ease-out}
+.cqLayout02 .characterBx .imgText{position:absolute;left:160px;top:0;z-index:5}
+.cqLayout02 .characterBx .character{position:absolute;left:50px;animation:motion1 0.5s ease-out 0.2s forwards;opacity:0;opacity:1;\0/IE8+9;top:10px\0/IE8+9;}
+@keyframes motion1{
+    0%{top:70px}
+    100%{top:10px;opacity:1}
+}
+.cqLayout02 .characterBx span{display:block;position:absolute}
+.cqLayout02 .characterBx .item1{right:200px;top:155px;width:7px;height:7px;background:url('../../img/bzw/help/event/20190712/item_11.png') 0 0 no-repeat;animation: motion_2 2s ease-out infinite}
+.cqLayout02 .characterBx .item2{right:167px;top:125px;width:15px;height:15px;background:url('../../img/bzw/help/event/20190712/item_12.png') 0 0 no-repeat;animation:motion_2 3s ease-out infinite}
+.cqLayout02 .characterBx .item3{right:150px;top:66px;width:23px;height:23px;background:url('../../img/bzw/help/event/20190712/item_13.png') 0 0 no-repeat;animation:motion_1 .5s linear infinite alternate}
+.cqLayout02 .characterBx .item4{right:115px;top:80px;width:8px;height:8px;background:url('../../img/bzw/help/event/20190712/item_14.png') 0 0 no-repeat;animation:motion_2 2.5s ease-out infinite}
+.cqLayout02 .characterBx .item5{right:180px;top:30px;width:15px;height:14px;background:url('../../img/bzw/help/event/20190712/item_15.png') 0 0 no-repeat;animation:motion_2 2.5s ease-out infinite}
+.cqLayout02 .characterBx .item6{right:108px;top:40px;width:22px;height:22px;background:url('../../img/bzw/help/event/20190712/item_16.png') 0 0 no-repeat;animation:motion_1 .5s linear infinite alternate}
+.cqLayout02 .characterBx .gift{position:absolute;left:0;bottom:0;display:block;width:579px;height:246px;margin:0 auto;background:url('../../img/bzw/help/event/20190712/gift2.png') 0 0 no-repeat;z-index:5;}
+.cqLayout02 .answerBx .text{margin-bottom:48px;font-family:'NanumSquareRound';font-size:18px;color:#0e0e0e}
+.cqLayout02 .answerBx.type2{ padding:94px 0 48px;}
+.cqLayout02 .characterBx02{position:relative;height:461px;background:url('../../img/bzw/help/event/20190712/bg02.jpg') 0 bottom no-repeat}
+.cqLayout02 .characterBx02 .bubble{position:absolute;left:85px;top:0;z-index:5;animation:bubble 2.5s ease-out}
+.cqLayout02 .characterBx02 .character{position:absolute;left:330px;top:7px;z-index:1}
+.cqLayout02 .characterBx02  span{position:absolute;display:block}
+.cqLayout02 .characterBx02 .cloud01{left:0;bottom:240px;width:88px;height:50px;background:url('../../img/bzw/help/event/20190712/cloud01.png') 0 0 no-repeat; animation: cloudMotion1 2s linear infinite alternate }
+.cqLayout02 .characterBx02 .cloud02{right:170px;top:77px;width:71px;height:40px;background:url('../../img/bzw/help/event/20190712/cloud02.png') 0 0 no-repeat; animation: cloudMotion2 2s linear infinite alternate}
+.cqLayout02 .characterBx02 .cloud03{right:52px;top:177px;width:53px;height:30px;background:url('../../img/bzw/help/event/20190712/cloud03.png') 0 0 no-repeat; animation: cloudMotion3 2s linear infinite alternate }
+
+@keyframes bubble{
+    100%{transform:rotateY(1080deg)}
+}
+
+
+@keyframes cloudMotion1{
+    from{left:59px;} to{left:0;  }
+
+ }
+
+
+ @keyframes cloudMotion2{
+     from{right:150px;} to{right:100px;  }
+
+  }
+
+  @keyframes cloudMotion3{
+      from{right:52px;} to{right:80px;  }
+
+   }
+
+.cqLayout02 .entryWrap{position:relative;padding-bottom:20px;background:#eeeeee}
+.cqLayout02 .entryWrap .bgTop{position:absolute;left:0;top:0;width:918px;height:21px;background:#eeeeee url('../../img/bzw/help/event/20190712/bg.gif') 0 0 repeat-x}
+.cqLayout02 .entryWrap .inner{margin:0 15px;padding:60px 25px 0;background-color:#fff;box-shadow:2px 2px 3px rgba(215,215,215,0.9);}
+.cqLayout02 .entryWrap .inner h4{margin:0;margin-bottom:30px;background:none;padding:0;padding-left:45px;letter-spacing:-0.5px;font-family:'NanumSquareRound';font-size:36px;font-weight:700;color:#0155a7}
+.cqLayout02 .agreeWrap{padding:30px 65px 57px;max-height:340px;overflow-y:auto;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1}
+.cqLayout02 .agreeWrap h5{background:none;margin:0;margin-bottom:16px;padding:0;color:#0e0e0e;font-family:'NanumSquareRound';font-size:20px;font-weight:700}
+.cqLayout02 .agreeWrap p{font-family:'NanumSquareRound';font-size:16px;letter-spacing:-0.5px;line-height:26px;color:#0e0e0e}
+.cqLayout02 .agreeWrap .list{margin-top:50px}
+.cqLayout02 .agreeWrap  dl{margin-bottom:30px}
+.cqLayout02 .agreeWrap  dl:last-child{margin-bottom:0}
+.cqLayout02 .agreeWrap  dl dt{margin-bottom:10px;background:none;border:none;text-align:left;font-family:'NanumSquareRound';font-size:16px;font-weight:700;letter-spacing:-0.5px;color:#0e0e0e}
+.cqLayout02 .agreeWrap  dl dd{padding:0;padding-left:15px;text-align:left;font-family:'NanumSquareRound';font-size:16px;letter-spacing:-0.5px;color:#0e0e0e}
+.cqLayout02 .entryWrap .chkBx{float:right;position:relative;margin:27px 67px 0 0}
+.cqLayout02 .entryWrap .tbWrap{margin-top:74px}
+.cqLayout02 .entryWrap .btnWrap{margin:0;padding:0 0 50px}
+.cqLayout02 .entryWrap .btnWrap a{width:230px;height:64px;line-height:64px;margin-right:30px;font-size:30px;font-weight:700}
+.cqLayout02 .entryWrap .btnWrap a:last-child{margin-right:0}
+.cqLayout02 .entryWrap .btnWrap a.type2{background:#dcdcdc;color:#030303}
+
+.cqLayout02 .resultWrap{text-align:center}
+.cqLayout02 .resultWrap .textTop{margin-bottom:50px;font-family:'NanumSquareRound';font-weight:700;letter-spacing:-0.5px}
+.cqLayout02 .resultWrap .textTop .mText{margin-bottom:30px;font-size:40px;color:#0155a7}
+.cqLayout02 .resultWrap .textTop .sText{font-size:24px;color:#0e0e0e}
+.cqLayout02 .resultWrap .textTop .star{font-size:20px}
+.cqLayout02 .resultWrap .btnWrap{margin:30px 0 74px}
+/* e: 190611 신용퀴즈 이벤트 추가 */
+
+/* s: 20191025 신용대란 이벤트 */
+.crChaosWrap{width:920px;border:1px solid #b9b9b9;box-sizing:border-box}
+.crChaosWrap .section{position:relative;min-height:auto}
+.crChaosWrap #section01 .item{position:absolute}
+.crChaosWrap #section01 .item01{left:124px;top:60px;animation:cr_ev_1 1s linear infinite alternate}
+.crChaosWrap #section01 .item02{left:78px;top:175px;animation:cr_ev_3 2s ease-out infinite}
+.crChaosWrap #section01 .item03{left:92px;top:169px}
+.crChaosWrap #section01 .item04{left:57px;top:311px;animation:cr_ev_3 4s ease-out infinite}
+.crChaosWrap #section01 .item05{left:98px;bottom:99px;animation:cr_ev_1 1s linear infinite alternate}
+.crChaosWrap #section01 .item06{right:398px;top:48px;animation:cr_ev_3 2s ease-out infinite}
+.crChaosWrap #section01 .item07{right:196px;top:25px;z-index:0;animation:cr_ev_1 1s linear infinite alternate}
+.crChaosWrap #section01 .item08{right:67px;top:130px;animation:cr_ev_3 2s ease-out infinite}
+.crChaosWrap #section01 .item09{right:107px;top:215px;animation:cr_ev_3 4s ease-out infinite}
+.crChaosWrap #section01 .item10{right:67px;bottom:75px}
+.crChaosWrap #section01 .item11{right:278px;top:490px;animation:cr_ev_3 2s ease-out infinite}
+.crChaosWrap #section01 .item12{right:184px;top:242px;animation:cr_ev_2 1s 1s both linear infinite;transform-origin:80% 5%;transform:rotate(10deg);}
+.crChaosWrap #section01 .item13{right:211px;top:50px}
+.crChaosWrap #section03 .prdVis{opacity:0;position:absolute;bottom:0px;right:120px;width:254px;height:219px;background:url('../../img/bzw/help/event/20191107/prd_vis_01.png') 0 0 no-repeat}
+.crChaosWrap #section03 .prd{position:absolute;left:20px;bottom:0}
+.crChaosWrap #section03 .prdVis.active{opacity:1; transition: opacity 800ms ease;}
+.crChaosWrap #section03 .prdVis.active .prd{bottom:18px; transition:bottom 400ms ease; transition-delay:800ms}
+.crChaosWrap #section04 .star01{position:absolute;top:120px;left:114px;animation:cr_ev_1 1s linear infinite alternate}
+.crChaosWrap #section04 .star02{position:absolute;top:120px;left:154px;animation:cr_ev_1 2s linear infinite alternate}
+.crChaosWrap #section04 .star03{position:absolute;top:120px;right:123px;animation:cr_ev_1 1s linear infinite alternate}
+.crChaosWrap #section04 .star04{position:absolute;top:120px;right:160px;animation:cr_ev_1 2s linear infinite alternate}
+.crChaosWrap #section04 .item01{position:absolute;left:116px;bottom:107px;animation:cr_ev_2 1.5s 1.5s both linear infinite;transform-origin:80% 5%;transform:rotate(10deg);}
+.crChaosWrap #section05 .motion{position:absolute;bottom:275px;right:95px}
+.crChaosWrap #section07 .motion{position:absolute;left:330px;bottom:0;}
+.crChaosWrap #section07 .item01{position:absolute;left:100px;bottom:65px;animation:cr_ev_1 .5s linear infinite alternate}
+.crChaosWrap #section07 .item02{position:absolute;left:145px;bottom:14px;animation:cr_ev_1 .5s linear infinite alternate}
+.crChaosWrap #section07 .item03{position:absolute;right:140px;bottom:285px;animation:cr_ev_1 .5s linear infinite alternate}
+.crChaosWrap #section07 .item04{position:absolute;right:106px;bottom:230px;animation:cr_ev_1 .5s linear infinite alternate}
+.crChaosWrap #section07 .bar{display:block;width:0;opacity:0;position:absolute}
+.crChaosWrap #section07 .bar.active{opacity:1;transition:opacity 700ms ease;}
+.crChaosWrap #section07 .bar01{left:0;bottom:152px;background:#efe4f9}
+.crChaosWrap #section07 .bar02{left:0;bottom:124px;background:#efe4f9}
+.crChaosWrap #section07 .bar03{right:0;bottom:120px;background:#e2eef7}
+.crChaosWrap #section07 .bar04{right:0;bottom:94px;background:#e2eef7}
+.crChaosWrap #section07 .bar01.active{opacity:1;width:45px;height:4px;transition:width 800ms ease; transition-delay:200ms}
+.crChaosWrap #section07 .bar02.active{opacity:1;width:128px;height:4px;transition:width 800ms ease; transition-delay:400ms}
+.crChaosWrap #section07 .bar03.active{opacity:1;width:197px;height:4px;transition:width 800ms ease; transition-delay:600ms}
+.crChaosWrap #section07 .bar04.active{opacity:1;width:120px;height:4px;transition:width 800ms ease; transition-delay:800ms}
+.crChaosWrap #section07 .bubble{position:absolute;left:90px;top:300px;}
+.crChaosWrap #section08 .item01{position:absolute;left:116px;top:198px;animation:cr_ev_2 1.5s 1.5s both linear infinite;transform-origin:80% 5%;transform:rotate(10deg);}
+.crChaosWrap #section08 .coupon{position:absolute;right:115px;bottom:190px;opacity:0}
+.crChaosWrap #section08 .coupon {transition:all 0.4s ease-out 1.2s;-webkit-transition:all 0.4s ease-out 1.2s;transform:scale(2);-webkit-transform:scale(2);}
+.crChaosWrap #section08 .coupon.active {opacity:1;transform:scale(1);-webkit-transform:scale(1);}
+
+/* 신용대란 2차 */
+.crChaosWrap.type2 .section03.active .prdVis{opacity:1 !important;bottom:6px !important; transition: opacity 800ms ease;}
+.crChaosWrap.type2 .section03.active .prdVis .prd{bottom:18px !important; transition:bottom 400ms ease; transition-delay:800ms}
+.crChaosWrap.type2 .section08.active .coupon {opacity:1 !important;transform:scale(1)  !important;-webkit-transform:scale(1)  !important;}
+.crChaosWrap.type2 .section05 .txt{position:absolute;left:154px;bottom:168px;animation:cr_ev_1 1s ease-out infinite forwards;z-index:6}
+.crChaosWrap.type2 .section05 .arrow{position:absolute;left:297px;bottom:140px}
+.crChaosWrap.type2 .draw-arrow{opacity:0;stroke-width:40;stroke: #ED4956;fill:none;stroke-dasharray:2000;stroke-dashoffset:-2000}
+.crChaosWrap.type2 .tail-1 {animation-delay:.5s}
+.crChaosWrap.type2 .tail-2 {animation-delay:.9s}
+.crChaosWrap.type2 .arrow{width:200px;height:200px;z-index:1}
+.crChaosWrap.type2 .section07.active .bar01 {opacity:1 !important;width:45px !important;height:4px;transition:width 800ms ease; transition-delay:200ms}
+.crChaosWrap.type2 .section07.active .bar02 {opacity:1 !important;width:128px !important;height:4px;transition:width 800ms ease; transition-delay:400ms}
+.crChaosWrap.type2 .section07.active .bar03 {opacity:1 !important;width:197px !important;height:4px;transition:width 800ms ease; transition-delay:600ms}
+.crChaosWrap.type2 .section07.active .bar04 {opacity:1 !important;width:120px !important;height:4px;transition:width 800ms ease; transition-delay:800ms}
+.crChaosWrap.type2 .section05.active .draw-arrow{opacity:1;animation-duration:2.0s;animation-fill-mode:forwards;animation-name:draw}
+.crChaosWrap.type2 .section05 .btn{position:absolute;left:215px;bottom:110px;z-index:5}
+.crChaosWrap.type2 .section09 .btn{position:absolute;left:215px;top:145px;z-index:5}
+.crChaosWrap.type2 .section09 .txt{position:absolute;left:154px;top:79px;animation:cr_ev_1 1s ease-out infinite forwards;z-index:6}
+@keyframes draw {
+ to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes cr_ev_1{
+   0%{opacity:0}
+   100%{opacity:1}
+}
+
+@keyframes cr_ev_2 {
+  0% {transform:rotate(3deg)}
+  50% {transform:rotate(-5deg)}
+  100% {transform:rotate(3deg)}
+}
+
+@keyframes cr_ev_3{
+    50%{margin-top:-10px}
+}
+@keyframes cr_ev_4{
+    100%{margin-top:0px;opacity:1}
+}
+@keyframes motionBot{
+     100%{margin-bottom:0;opacity:1}
+}
+/* e: 20191025 신용대란 이벤트 */
+
+/* s: 20191111 신용등급 계산기 이벤트 */
+.simulatorWrap{width:920px;border:1px solid #b9b9b9;box-sizing:border-box}
+.simulatorWrap .section{position:relative;min-height:auto}
+.simulatorWrap .section04{border-top:1px solid #b9b9b9}
+.simulatorWrap .section04 .arrow{position:absolute;left:50%;top:186px;width:113px;height:73px;margin-left:-56px;background:url('../../img/bzw/help/event/20191119/bg_arrow.png') 0 0 no-repeat}
+.simulatorWrap .section04 .arrow01{display:block;width:37px;height:73px;background:url('../../img/bzw/help/event/20191119/bg_arrow_01.png') 0 0 no-repeat;}
+.simulatorWrap .section04 .arrow02{display:block;width:37px;height:73px;background:url('../../img/bzw/help/event/20191119/bg_arrow_02.png') 0 0 no-repeat;}
+.simulatorWrap .section04 .arrow03{display:block;width:37px;height:73px;background:url('../../img/bzw/help/event/20191119/bg_arrow_03.png') 0 0 no-repeat;}
+.simulatorWrap .section04 .gradeWrap {position:relative;padding:84px 0 77px;text-align:center}
+.simulatorWrap .section04 .gradeWrap ul{display:table;width:100%}
+.simulatorWrap .section04 .gradeWrap ul:after{display:block;clear:both;content:""}
+.simulatorWrap .section04 .gradeWrap ul li{display:table-cell;width:50%;}
+.simulatorWrap .section04 .gradeWrap ul li span{display:block}
+.simulatorWrap .section04 .gradeWrap ul li .tit{margin-bottom:70px;font-family:'NanumSquareRound';font-size:30px;font-weight:700;color:#252525}
+.simulatorWrap .section04 .gradeWrap ul li .grade{line-height:70px;font-family:'NanumSquareRound';font-size:40px;font-weight:700;color:#252525}
+.simulatorWrap .section04 .gradeWrap ul li .num{vertical-align:bottom;font-family:'NanumSquareRound';font-size:49px;font-weight:800;font-style:normal}
+.simulatorWrap .section04 .gradeWrap .txtBox{display:table;position:absolute;left:50%;top:65px;width:282px;height:84px;opacity:0;margin-left:-140px;margin-top:-20px;border-radius:10px;background:#faedf4}
+.simulatorWrap .section04 .gradeWrap .txtBox p {display:table-cell;vertical-align:middle;font-family:'NanumSquareRound';font-weight:700;font-size:24px;line-height:30px;color:#464646}
+.simulatorWrap .section04 .gradeWrap .txt{display:inline-block;vertical-align:-10px;font-family:'NanumSquareRound';font-size:40px;font-style:normal;color:#252525}
+.simulatorWrap .section04 .btnWrap{position:absolute;left:0;bottom:60px;width:100%;text-align:center}
+.simulatorWrap .section04 .btnWrap .bubble{position:absolute;right:102px;top:-80px;margin-top:-20px;opacity:0}
+.simulatorWrap .section04.active .gradeWrap .txtBox {animation:cr_ev_4 1s ease-out .2s forwards}
+.simulatorWrap .section04.active .btnWrap .bubble {animation:cr_ev_4 1s ease-out 1.5s forwards}
+.simulatorWrap .section04 .digit{display:inline-block;width:60px;height:60px;margin-right:9px;vertical-align:middle;font-size:0;text-indent:-9999px;color:#fff;background-image:url("../../img/bzw/help/event/20191119/numbers_sprites.png")}
+.simulatorWrap .section04.active .digit1 {background-position:0 -540px;animation:digitSpin1 3s 1}
+.simulatorWrap .section04.active .digit2 {background-position:0 -480px;animation:digitSpin2 3s 1}
+.simulatorWrap .section04.active .digit3 {background-position:0 -420px;animation:digitSpin3 3s 1}
+.simulatorWrap .section04.active .digit4 {background-position:0 -360px;animation:digitSpin4 3s 1}
+.simulatorWrap .section04.active .digit5 {background-position:0 -300px;animation:digitSpin5 3s 1}
+.simulatorWrap .section04.active .digit6 {background-position:0 -240px;animation:digitSpin6 3s 1}
+.simulatorWrap .section04.active .digit7 {background-position:0 -180px;animation:digitSpin7 3s 1}
+.simulatorWrap .section04.active .digit8 {background-position:0 -120px;animation:digitSpin8 3s 1}
+.simulatorWrap .section04.active .digit9 {background-position:0 -60px;animation:digitSpin9 3s 1}
+.simulatorWrap .section04 .motionArea{position:absolute;bottom:0;left:50%;width:112px;height:73px;margin-left:-56px}
+.simulatorWrap .section04 .motionArea:before,
+.simulatorWrap .section04 .motionArea:after,
+.simulatorWrap .section04 .motionArea > div{content:'';display:block;position:absolute;bottom:77px;width:37px;height:73px;background:url("../../img/bzw/help/event/20191119/event_04_arrow.png") left top no-repeat;animation:calcFlowMt 2s linear infinite;opacity:0.3}
+.simulatorWrap .section04 .motionArea > div{left:36px;animation-delay:0.4s}
+.simulatorWrap .section04 .motionArea:after{left:72px;animation-delay:0.8s}
+@keyframes calcFlowMt{
+    0%{opacity:0.3}
+    40%{opacity:0.5}
+    70%{opacity:1}
+    100%{opacity:0.3}
+}
+
+.simulatorWrap .section05 .star01{position:absolute;top:77px;left:114px;animation:cr_ev_1 1s linear infinite alternate}
+.simulatorWrap .section05 .star02{position:absolute;top:77px;left:154px;animation:cr_ev_1 2s linear infinite alternate}
+.simulatorWrap .section05 .star03{position:absolute;top:77px;right:123px;animation:cr_ev_1 1s linear infinite alternate}
+.simulatorWrap .section05 .star04{position:absolute;top:77px;right:160px;animation:cr_ev_1 2s linear infinite alternate}
+.simulatorWrap .section05 .motion{overflow:hidden;position:absolute;bottom:228px;left:50%;width:100%;height:150px;margin-left:-101px;}
+.simulatorWrap .section05.active .motion > *{display:block;position:absolute}
+.simulatorWrap .section05.active .motion > *:nth-child(1){left:0px;bottom:-150px;width:121px;height:150px;z-index:2;background:url('../../img/bzw/help/event/20191119/img_direct_motion1.png') left top no-repeat}
+.simulatorWrap .section05.active .motion > *:nth-child(2){left:80px;bottom:-140px;width:82px;height:124px;;z-index:1;background:url('../../img/bzw/help/event/20191119/img_direct_motion2.png') left top no-repeat}
+.simulatorWrap .section05.active .motion > *:nth-child(3){left:90px;bottom:-90px;width:117px;height:63px;background:url('../../img/bzw/help/event/20191119/img_direct_motion3.png') left top no-repeat}
+.simulatorWrap .section05.active .motion > *:nth-child(1){animation:calcDirectMt1 0.5s ease-out 0.2s forwards}
+.simulatorWrap .section05.active .motion > *:nth-child(2){animation:calcDirectMt2 0.5s ease-out 0.5s forwards}
+.simulatorWrap .section05.active .motion > *:nth-child(3){animation:calcDirectMt3 0.5s ease-out 0.8s forwards}
+@keyframes calcDirectMt1{
+    0%{bottom:-150px}
+    100%{bottom:0px}
+}
+@keyframes calcDirectMt2{
+    0%{bottom:-140px}
+    100%{bottom:-10px}
+}
+@keyframes calcDirectMt3{
+    0%{bottom:-90px}
+    100%{bottom:-32px}
+}
+
+
+.simulatorWrap .section05 .btnWrap{position:absolute;left:0;bottom:111px;width:100%;text-align:center}
+.simulatorWrap .section05 .btnWrap a{display:inline-block;position:relative;width:448px;height:116px;line-height:116px;text-indent:62px;animation:btnAnimate 1s ease-out infinite forwards;text-align:left;box-sizing:border-box;box-shadow:0 2px 4px rgba(0,0,0,0.2);background:#ed4956;border-radius:100px;color:#fff;font-size:40px;font-weight:700;font-family:'NanumSquareRound'}
+.simulatorWrap .section05 .btnWrap a:after{content: '';display:block;position:absolute;top:50%;right:20px;width:21px;height:28px;margin-top:-14px;background: url('../../img/bzw/help/event/20191119/arr_right.png') left top no-repeat;animation: calcDirectBtn 1s linear infinite;}
+@keyframes calcDirectBtn{
+    0%{right:40px;opacity:0}
+    30%{opacity:1}
+    70%{opacity:1}
+    100%{right:20px;opacity:0}
+}
+
+.simulatorWrap .section07 .btnWrap{position:absolute;left:0;bottom:155px;width:100%;text-align:center}
+.simulatorWrap .section07 .btnWrap a{display:inline-block;position:relative;width:293px;height:67px;line-height:67px;text-indent:40px;animation:btnAnimate02 1s ease-out infinite forwards;box-sizing:border-box;text-align:left;background:#8957a1;border-radius:100px;color:#fff;font-size:30px;font-weight:700;font-family:'NanumSquareRound'}
+.simulatorWrap .section07 .btnWrap a:after{content: '';display:block;position:absolute;top:50%;right:20px;width:21px;height:28px;margin-top:-14px;background: url('../../img/bzw/help/event/20191119/arr_right.png') left top no-repeat;animation: calcDirectBtn 1s linear infinite;}
+@keyframes calcDirectBtn2{
+    0%{right:30px;opacity:0}
+    30%{opacity:1}
+    70%{opacity:1}
+    100%{right:10px;opacity:0}
+}
+
+.simulatorWrap .section07 .coupon {position:absolute;left:50%;bottom:257px;margin-left:-127px;text-align:center;opacity:0;transition:all 0.4s ease-out 1s;-webkit-transition:all 0.4s ease-out 1s;transform:scale(2);-webkit-transform:scale(2);}
+.simulatorWrap .section07.active .coupon {opacity:1;transform:scale(1);-webkit-transform:scale(1);}
+.simulatorWrap .section07 .item01{position:absolute;left:116px;bottom:207px;animation: cr_ev_2 1.5s 1.5s both linear infinite;transform-origin: 80% 5%;transform: rotate(10deg);}
+/* Animation */
+@keyframes digitSpin1 {
+		from { background-position:0 0; }
+		to { background-position:0 -540px; }
+}
+@keyframes digitSpin2 {
+		from { background-position:0 0; }
+		to { background-position:0 -480px; }
+}
+@keyframes digitSpin3 {
+		from { background-position:0 0; }
+		to { background-position:0 -420px; }
+}
+@keyframes digitSpin4 {
+		from { background-position:0 0; }
+		to { background-position:0 -360px; }
+}
+@keyframes digitSpin5 {
+		from { background-position:0 0; }
+		to { background-position:0 -300px; }
+}
+@keyframes digitSpin6 {
+		from { background-position:0 0; }
+		to { background-position:0 -240px; }
+}
+@keyframes digitSpin7 {
+		from { background-position:0 0; }
+		to { background-position:0 -180px; }
+}
+@keyframes digitSpin8 {
+		from { background-position:0 0; }
+		to { background-position:0 -120px; }
+}
+@keyframes digitSpin9 {
+		from { background-position:0 0; }
+		to { background-position:0 -60px; }
+}
+
+/* s: 아프리카TV 이벤트 191015 */
+.afEventWrap * {font-family:'NanumSquareR';letter-spacing:-0.4px}
+.afEventWrap .layout{width:920px;background:#5a4b46}
+.afEventWrap .layout .inner{margin:0 60px;padding:60px 0 20px;text-align:center;background:#e7e4e3;border-radius:20px;box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box
+}
+.afEventWrap .conBx {position:relative;}
+.afEventWrap .conBx .imgStep {position:relative;z-index:1;margin:15px 0 40px;}
+.afEventWrap .conBx .aniBalloon {position:absolute;top:17px;right:17px;animation:balloon_infinite_y 0.8s 0.1s ease-in infinite alternate;}
+
+@keyframes balloon_infinite_y {
+  0% {transform:translateY(6px);}
+  100% {transform:translateY(-9px);}
+}
+.afEventWrap .layout.type2{padding-bottom:70px;background:#446291}
+.afEventWrap .layout.type2 .inner{background:#dae1eb}
+.afEventWrap strong{font-weight:800}
+.afEventWrap h4{padding:0;margin:0;background:none;text-align:center;font-size:26px;font-weight:800}
+.afEventWrap h5{background:none;padding:0;margin:0;line-height:1}
+.afEventWrap h6{padding:0;margin:0;line-height:1}
+.afEventWrap em{font-style:normal}
+.afEventWrap .pCo01{color:#ff0000 !important}
+.afEventWrap .pCo02{color:#d53d1a !important}
+.afEventWrap .pCo03{color:#006bff !important}
+.afEventWrap .pCo04{color:#333 !important}
+.afEventWrap .layout .tit{display:inline-block;padding:0 24px;letter-spacing:-0.75px;font-family:'NanumSquareRound'}
+.afEventWrap .layout .tit01{background-image:url('../../img/bzw/help/event/20191111/bg_tit_01.png'),url('../../img/bzw/help/event/20191111/bg_tit_01.png');
+    background-position:left 1px , right 1px;
+    background-repeat:no-repeat , no-repeat;
+}
+.afEventWrap .layout .tit02{background-image:url('../../img/bzw/help/event/20191111/bg_tit_02.png'),url('../../img/bzw/help/event/20191111/bg_tit_02.png');
+    background-position:left 1px , right 1px;
+    background-repeat:no-repeat , no-repeat;
+}
+.afEventWrap .layout .tit03{background-image:url('../../img/bzw/help/event/20191111/bg_tit_03.png'),url('../../img/bzw/help/event/20191111/bg_tit_03.png');
+    background-position:left 1px , right 1px;
+    background-repeat:no-repeat , no-repeat;
+}
+.afEventWrap .layout .tit.last{margin-bottom:16px}
+.afEventWrap .layout .conBx p{line-height:25px;letter-spacing:-0.75px;color:#666}
+.afEventWrap .layout .conBx p.txt1{font-size:20px}
+.afEventWrap .layout .conBx p.txt2{font-size:14px}
+.afEventWrap .layout .cardListWrap{margin:0 20px;background:#fff}
+.afEventWrap .layout .cardListWrap>ul>li{position:relative;padding:60px 0 36px}
+.afEventWrap .layout .cardListWrap>ul>li .cardImg{position:absolute;left:40px;top:60px;width:245px;text-align:center;}
+.afEventWrap .layout .cardListWrap>ul>li .img > img{max-width:100%;}
+.afEventWrap .layout .cardListWrap>ul>li:first-child {padding:50px 0 0}
+.afEventWrap .layout .cardListWrap>ul>li:first-child .cardImg{top:50px}
+.afEventWrap .layout .cardListWrap>ul>li .conText{padding:0 0 0 320px;text-align:left}
+.afEventWrap .layout .simTxt{display:block;margin:5px 0 0;text-align:left;font-size:14px;color:#aaa}
+.afEventWrap .layout .btnSubmit{display:block;position:absolute;right:35px;top:66px}
+.afEventWrap .layout .cardListWrap>ul>li:first-child .btnSubmit{top:56px}
+.afEventWrap .layout .conText ul>li{line-height:26px;letter-spacing:-0.75px;font-size:18px;font-family:'NanumSquareR';color:#666}
+.afEventWrap .layout .conText ul>li span{font-size:14px;color:#666}
+.afEventWrap .layout .conText ul>li strong{color:#333}
+.afEventWrap .layout .conText .logo{margin-bottom:15px}
+.afEventWrap .layout .conText .cardName{margin-bottom:18px;font-size:25px;font-weight:800;color:#333}
+.afEventWrap .prdListWrap{margin:0 20px}
+.afEventWrap .prdListWrap>ul:after{display:block;content:"";clear:both}
+.afEventWrap .prdListWrap>ul>li{width:379px;float:left;padding:40px 0 8px 40px;text-align:left;border-right:2px solid #dae1eb;border-bottom:2px solid #dae1eb;box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;background:#fff}
+.afEventWrap .prdListWrap>ul>li *{letter-spacing:-0.5px}
+.afEventWrap .prdListWrap>ul>li strong{font-weight:800;color:#333}
+.afEventWrap .prdListWrap>ul>li:last-child{}
+.afEventWrap .prdListWrap .logo{margin-bottom:40px}
+.afEventWrap .prdListWrap .title{margin-bottom:16px;font-size:25px;font-weight:800;color:#333}
+.afEventWrap .prdListWrap .desc{margin-bottom:33px}
+.afEventWrap .prdListWrap .desc p{line-height:26px;font-size:18px;color:#666}
+.afEventWrap .prdListWrap .btnSubmit02{display:block;margin-bottom:8px}
+.afEventWrap .tip{height:54px;line-height:54px;font-size:17px;font-family:'NanumSquareRound';font-weight:700;border-top:1px solid #e7e4e3;color:#d53d1a}
+.popWrap.report2.afAgreePop{width:720px;height:708px;padding:50px 0;text-align:center;border:1px solid #ddd}
+.popWrap.report2.afAgreePop .popCon{padding:0 30px}
+.popWrap.report2.afAgreePop .popCon *{letter-spacing:-0.4px}
+.popWrap.report2.afAgreePop .close{width:50px;height:50px;right:-20px;top:-80px}
+.popWrap.report2.afAgreePop .textWrap{margin-bottom:30px}
+.popWrap.report2.afAgreePop .textWrap h1{margin-bottom:30px}
+.popWrap.report2.afAgreePop .textWrap p{line-height:25px;font-size:17px;font-weight:700;font-family:'NanumSquareRound';color:#888;letter-spacing:-0.40px}
+.popWrap.report2.afAgreePop .textWrap span{color:#d53d1a}
+.popWrap.report2.afAgreePop .inpWrap{padding:0 20px;margin-bottom:36px;text-align:left}
+.popWrap.report2.afAgreePop .inpWrap input[type="text"]{width:205px;height:35px;line-height:35px;box-sizing:border-box;color:#666;font-size:15px;font-weight:700;font-family:'NanumSquareR'}
+.popWrap.report2.afAgreePop .inpWrap label{margin-right:8px;font-size:15px;font-family:'NanumSquareEB';font-weight:bold;color:#000}
+.popWrap.report2.afAgreePop .inpWrap .inpBxName{margin-right:35px}
+.popWrap.report2.afAgreePop .inpWrap .inpBxTel select{width:70px;height:35px;line-height:35px;padding:0 10px;color:#666;-webkit-appearance:none;font-size:15px;font-weight:700;font-family:'NanumSquareR';background:url('../../img/bzw/help/event/20191111/bg_select.png') 90% center no-repeat}
+.popWrap.report2.afAgreePop .inpWrap .inpBxTel select::-ms-expand{display:none;}
+.popWrap.report2.afAgreePop .inpWrap .inpBxTel input[type="text"]{width:70px;height:35px;line-height:35px;margin:0;color:#666;font-size:15px;font-weight:700}
+.popWrap.report2.afAgreePop .adviceBx{padding:20px;background:#fafafa;border:1px solid #e9e9e9;;box-sizing:border-box}
+.popWrap.report2.afAgreePop .adviceBx h2{padding:0;margin:0;margin-bottom:15px;background:none;text-align:center;font-family:'NanumSquareRound';font-size:20px !important;font-weight:800;color:#444}
+.popWrap.report2.afAgreePop .adviceBx .dotList{margin-bottom:15px;padding-left:10px;text-align:left}
+.popWrap.report2.afAgreePop .adviceBx .dotList li{position:relative;margin-bottom:5px;line-height:25px;padding-left:6px;letter-spacing:-0.75px;font-size:15px;font-family:'NanumSquareRound';font-weight:700;color:#888}
+.popWrap.report2.afAgreePop .adviceBx .dotList li:before{display:block;content:"";width:2px;height:2px;border-radius:100%;position:absolute;left:0;top:10px;background:#969696}
+.popWrap.report2.afAgreePop .adviceBx .dotList li:last-child{margin-bottom:0}
+.popWrap.report2.afAgreePop .adviceBx .dotList li strong{font-family:'NanumSquareRound';font-weight:800;color:#666}
+.popWrap.report2.afAgreePop .agreeArea{min-height:140px !important;margin:0;padding:22px 20px;background:#fff;box-sizing:border-box}
+.popWrap.report2.afAgreePop .agreeArea ul li{padding:0;margin-bottom:18px;text-indent:0}
+.popWrap.report2.afAgreePop .agreeArea ul li:last-child{margin-bottom:0}
+.popWrap.report2.afAgreePop .agreeArea ul li h3{padding:0;font-size:17px !important;margin-bottom:5px !important;background:none;font-family:'NanumSquareRound'}
+.popWrap.report2.afAgreePop .agreeArea ul li p{margin:0;padding:0;padding-left:5px;font-size:15px;text-align:left;font-family:'NanumSquareRound'}
+.popWrap.report2.afAgreePop .agreeArea table{width:100%;}
+.popWrap.report2.afAgreePop .agreeArea table th{padding:15px 10px;text-align:left;background:#f6f6f6;font-family:'NanumSquareRound';font-size:14px;font-weight:800;color:#666;border:1px solid #e9e9e9}
+.popWrap.report2.afAgreePop .agreeArea table td{padding:15px 10px;text-align:left;font-family:'NanumSquareRound';font-size:14px;font-weight:700;color:#666;border:1px solid #e9e9e9}
+.popWrap.report2.afAgreePop .chkBox:after{display:block;content:"";clear:both}
+.popWrap.report2.afAgreePop .chk{float:right;position:relative;margin:14px 0 0}
+.popWrap.report2.afAgreePop .chk input{position:absolute;left:-9999px;top:0}
+.popWrap.report2.afAgreePop .chk label{display:block;height:22px;line-height:22px;padding-left:32px;margin:0;font-size:17px;font-family:'NanumSquareRound';font-weight:800;color:#444;background:url('../../img/bzw/help/event/20191111/chk_off.png') 0 0 no-repeat}
+.popWrap.report2.afAgreePop .chk input:checked + label{background:url('../../img/bzw/help/event/20191111/chk_on.png') 0 0 no-repeat}
+.popWrap.report2.afAgreePop .btnWrap{margin:10px 0 0}
+.popWrap.report2.afAgreePop.type2 .textWrap span{color:#006bff}
+.popWrap.report2.afAgreePop.type2 .chk input:checked + label{background:url('../../img/bzw/help/event/20191111/chk_on_02.png') 0 0 no-repeat}
+/* e: 아프리카TV 이벤트 191015 */
+
+/* s: 191127 이름어때 오픈 이벤트 */
+.nsEvWrap .section{position:relative;min-height:auto;overflow:visible}
+.nsEvWrap .section01 .snow{position:absolute;top:0}
+.nsEvWrap .section01 .snow01{left:40px}
+.nsEvWrap .section01 .snow02{left:88px}
+.nsEvWrap .section01 .snow03{right:113px}
+.nsEvWrap .section01 .snow04{right:44px}
+
+.nsEvWrap{width:918px;border:1px solid #bdbdbd}
+.nsEvWrap .smSnow{position:absolute;}
+.nsEvWrap .circle{position:absolute;background:#fff;border-radius:100%}
+.nsEvWrap .heart{position:absolute}
+.nsEvWrap .section01 .step{position:absolute}
+.nsEvWrap .section01 .step01{position:absolute;right:306px;bottom:26px;opacity:0;animation:ns_step_motion 0.8s 0.5s ease-out forwards}
+.nsEvWrap .section01 .step02{position:absolute;right:342px;bottom:43px;opacity:0;animation:ns_step_motion 0.8s 0.7s ease-out forwards}
+.nsEvWrap .section01 .step03{position:absolute;right:368px;bottom:25px;opacity:0;animation:ns_step_motion 0.8s 0.9s ease-out forwards}
+.nsEvWrap .section01 .step04{position:absolute;right:399px;bottom:42px;opacity:0;animation:ns_step_motion 0.8s 1.2s ease-out forwards}
+.nsEvWrap .section01 .step05{position:absolute;right:427px;bottom:25px;opacity:0;animation:ns_step_motion 0.8s 1.4s ease-out forwards}
+.nsEvWrap .section01 .step06{position:absolute;right:454px;bottom:42px;opacity:0;animation:ns_step_motion 0.8s 1.6s ease-out forwards}
+.nsEvWrap .section01 .zikimi{position:absolute;left:343px;bottom:48px}
+.nsEvWrap .section01 .hat{position:absolute;right:310px;bottom:260px;z-index:2}
+.nsEvWrap .section01 .circle01{width:10px;height:10px;left:68px;top:234px;animation:ns_circle_motion 3s 0.1s ease-in infinite }
+.nsEvWrap .section01 .circle02{width:8px;height:8px;left:49px;top:272px;animation:ns_circle_motion 2.5s 0.4s ease-in infinite }
+.nsEvWrap .section01 .circle03{width:10px;height:10px;left:108px;top:373px;animation:ns_circle_motion 3.2s 0.2s ease-in infinite }
+.nsEvWrap .section01 .circle04{width:8px;height:8px;right:100px;top:287px;animation:ns_circle_motion 2.8s 0.3s ease-in infinite }
+.nsEvWrap .section01 .circle05{width:8px;height:8px;right:130px;top:369px;animation:ns_circle_motion 2.6s 0.3s ease-in infinite }
+.nsEvWrap .section01 .smSnow01{right:228px;bottom:226px;opacity:0;animation:ns_circle_motion 2.8s 0.3s ease-in infinite}
+.nsEvWrap .section01 .smSnow02{right:150px;bottom:329px;opacity:0;animation:ns_circle_motion 2.6s 0.3s ease-in infinite}
+
+.nsEvWrap .section02 .circle{background:#e8e8e8}
+.nsEvWrap .section02 .circle01{width:6px;height:6px;left:72px;top:236px;animation:ns_circle_motion2 2.8s 0.1s ease-in infinite}
+.nsEvWrap .section02 .circle02{width:12px;height:12px;left:97px;top:260px;animation:ns_circle_motion2 2.2s 0.2s ease-in infinite}
+.nsEvWrap .section02 .circle03{width:6px;height:6px;left:69px;top:423px;animation:ns_circle_motion2 3s 0.3s ease-in infinite}
+.nsEvWrap .section02 .circle04{width:6px;height:6px;left:117px;top:500px;animation:ns_circle_motion2 2.5s 0.4s ease-in infinite}
+.nsEvWrap .section02 .circle05{width:6px;height:6px;right:78px;top:223px;animation:ns_circle_motion2 2.6s 0.1s ease-in infinite}
+.nsEvWrap .section02 .circle06{width:12px;height:12px;right:82px;top:276px;animation:ns_circle_motion2 2.2s 0.1s ease-in infinite}
+.nsEvWrap .section02 .circle07{width:6px;height:6px;right:40px;top:519px;animation:ns_circle_motion2 2.8s 0.3s ease-in infinite}
+.nsEvWrap .section02 .bgStar{position:absolute;left:139px;top:177px;animation:cr_ev_1 1s linear infinite alternate;}
+.nsEvWrap .section02 .quizAnswer{position:absolute;right:43px;top:-98px;animation:ns_quizAnswer .8s  ease-in infinite alternate}
+@keyframes ns_quizAnswer {
+  100% {transform:translateY(-5px);}
+
+}
+.nsEvWrap .section02 .smSnow01{left:63px;top:300px;animation:ns_circle_motion2 2.8s 0.5s ease-in infinite}
+.nsEvWrap .section02 .smSnow02{right:40px;top:234px;animation:ns_circle_motion2 2.2s 0.7s ease-in infinite}
+.nsEvWrap .section02 .smSnow03{right:40px;top:422px;animation:ns_circle_motion2 2.5s 0.9s ease-in infinite}
+.nsEvWrap .section02 .smSnow04{right:126px;top:508px;animation:ns_circle_motion2 2.6s 1s ease-in infinite}
+
+.nsEvWrap .section04 .heart01{left:305px;top:30px}
+.nsEvWrap .section04 .heart02{left:320px;top:35px}
+.nsEvWrap .section04 .heart03{right:300px;top:30px}
+.nsEvWrap .section04 .heart04{right:315px;top:35px}
+.nsEvWrap .section04 .btnSubmit{width:100%;position:absolute;left:0;bottom:98px;text-align:center;}
+.nsEvWrap .section04 .btnSubmit a{display:inline-block;position:relative}
+.nsEvWrap .section04 .btnSubmit a:after{display:block;content:"";position:absolute;top:50%;right:45px;width:21px;height:31px;margin-top:-18px;animation:nsDirectBtn 1s linear infinite;background:url("../../img/bzw/help/event/20191210/arr_right.png") left top no-repeat;}
+@keyframes nsDirectBtn{
+    0%{right:80px;opacity:0}
+    30%{opacity:1}
+    70%{opacity:1}
+    100%{right:45px;opacity:0}
+}
+
+.nsEvWrap .section05 .present{position:absolute;left:380px;top:270px;animation:swing 1s ease-out infinite;}
+
+.nsEvWrap .section06 .heart01{left:187px;top:80px}
+.nsEvWrap .section06 .heart02{left:197px;top:90px}
+.nsEvWrap .section06 .heart03{right:190px;top:80px}
+.nsEvWrap .section06 .heart04{right:202px;top:90px}
+.nsEvWrap .section06 .urlBox{display:table;position:absolute;left:90px;bottom:250px;width:282px;height:114px;font-size:20px;letter-spacing:-0.25px;text-align:center;border-radius:5px;background:#fff;background-size:auto 59px}
+.nsEvWrap .section06 .urlBox .inner{display:table-cell;vertical-align:middle}
+.nsEvWrap .section06 .urlBox .txt1{margin-bottom:10px;font-weight:800}
+.nsEvWrap .section06 .urlBox .txt2{line-height:24px;font-weight:700}
+.nsEvWrap .section06 .urlBox .txt3{line-height:24px;font-weight:700}
+.nsEvWrap .section06 .copy{position:absolute;left:112px;bottom:184px}
+.nsEvWrap .section06 .hand{animation:nsHandMotion2 1s 1s ease-out forwards infinite;position:absolute;right:25px;top:13px}
+@keyframes nsHandMotion2{
+  from { transform:translate(-10px , -10px);}
+  to {transform:translateX(0, 0);}
+}
+.nsEvWrap .slideWrap {position:absolute;left:50%;top:188px;width:396px;height:350px;margin:0;margin-left:-198px;text-align:center;cursor:pointer}
+.nsEvWrap .slideWrap .slick-slide {display:inline-block;position:relative;top:30px;transition:all.25s;overflow:hidden}
+.nsEvWrap .slideWrap:focus{outline:none}
+.nsEvWrap .slideWrap  img {width:212px !important;transition: all .25s;}
+.nsEvWrap .slideWrap .slick-current+.slick-active {left:-75px;overflow:visible}
+.nsEvWrap .slideWrap .slick-current {position:relative;z-index: 100;left:-56px;top:0;overflow:visible}
+.nsEvWrap .slideWrap .slick-current img {width:250px !important}
+.nsEvWrap .slideWrap .slick-next{width:29px;height:51px;right:-160px;background:url("../../img/bzw/help/event/20191210/btn_right.png") no-repeat 0 0}
+.nsEvWrap .slideWrap .slick-prev{width:29px;height:51px;left:-160px;background:url("../../img/bzw/help/event/20191210/btn_left.png") no-repeat 0 0}
+@keyframes ns_step_motion {
+
+  100% {opacity:1;}
+
+}
+@keyframes ns_heart_motion {
+
+  100% {transform:translate3d(-5px, 5px, 5px);}
+
+}
+@keyframes ns_heart_motion2 {
+
+  100% {transform:translate3d(5px, 5px, 5px);}
+
+}
+@keyframes ns_circle_motion {
+  0 {transform:translateY(0);}
+  80% {opacity:0.7;}
+  100% {transform:translateY(200px);opacity:0;}
+}
+@keyframes ns_circle_motion2 {
+  0 {transform:translateY(0);}
+  70% {opacity:0.7;}
+  100% {transform:translateY(110px);opacity:0;}
+}
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+/* e: 191127 이름어때 오픈 이벤트 */
+
+/* s: 200914 지키미 5주년 이벤트*/
+.event_wrap .evtConBx{position:relative;width:100%}
+.event_wrap .evtConBx .evt{position:relative;width:920px;margin:0 auto}
+.event_wrap .evtConBx .evt a,.event_wrap .evtConBx .evt button{display:block;background:url(../../../resource/img/bzw/event/20200914/b.gif)}
+.event_wrap .evtConBx img{vertical-align:top}
+.event_wrap .evtConBx .evt .evtBtn01{position:absolute;top:1460px;left:258px;width:405px;height:102px}
+.event_wrap .evtConBx .evt .evtBtn02{position:absolute;top:1668px;left:218px;width:481px;height:100px}
+.event_wrap .evtConBx .evt .evtBtn03{position:absolute;top:1045px;left:258px;width:405px;height:101px}
+
+.evtPop{position:relative;overflow:hidden;width:510px}
+.evtPop .popHeader{padding:15px 30px;border-bottom:2px solid #f2f2f2}
+.evtPop .popHeader h1{font-size:24px;color:#385195;letter-spacing:-1px}
+.evtPop .popConbx{box-sizing:border-box;padding:27px 30px;text-align:center}
+.evtPop .popConbx .popConTxt{padding:0 10px 25px;border-bottom:2px solid #4667c2}
+.evtPop .popConbx .popConTxt h2{font-size:19px;line-height:30px;color:#000;letter-spacing: -1px}
+.evtPop .popConbx .popConTxt p{font-size:13px;margin-top:14px;font-family:'NanumSquareRound';color:#000;letter-spacing: -1px;font-weight: 600}
+.evtPop .popConbx .popConInfo{text-align:left}
+.evtPop .popConbx .popConInfo dt{margin-top:25px;font-size:20px;font-family:'NanumSquareRound';font-weight:600;color:#222;letter-spacing: -1px}
+.evtPop .popConbx .popConInfo dt label{font-size:20px;font-family:'NanumSquareRound';color:#222}
+.evtPop .popConbx .popConInfo dd{margin-top:10px;font-size:15px;line-height:1.2}
+.evtPop .popConbx .popConInfo .inputTxt{padding:15px 27px;border:2px solid #eee;font-size: 17px;font-family:'NanumSquareRound';vertical-align:top}
+.evtPop .popConbx .popConInfo .inputTxt::-webkit-input-placeholder{color:#ccc;font-size:17px}
+.evtPop .popConbx .popConInfo .inputTxt::-moz-placeholder{color:#ccc;font-size:17px}
+.evtPop .popConbx .popConInfo .inputTxt:-ms-input-placeholder{color:#ccc;font-size:17px}
+.evtPop .popConbx .popConInfo .inputTxt:-moz-placeholder{color: #ccc;font-size:17px}
+.evtPop .popConbx .popConInfo .inputNum{padding:12px 30px;border:2px solid #eee;font-size:17px;font-family:'NanumSquareRound';text-align:center}
+.evtPop .popConbx .popConInfo .addressBtn{display:inline-block;width:160px;height:60px;padding:19px 20px;margin-left:10px;box-sizing:border-box;background:#385195}
+.evtPop .popConbx .popConInfo .addressBtn span{font-size:18px;color:#fff;font-family:'NanumSquareRound'}
+.evtPop .popConbx .dataList{margin-top:20px}
+.evtPop .popConbx .dataList li{margin-top:10px;font-size:13px;font-family:'NanumSquareRound';font-weight:600;text-align:left;letter-spacing:-.5px}
+.evtPop .popBtnArea{width:100%}
+.evtPop .popBtnArea .popBtn{display:inline-block;width:100%;height:90px;line-height:90px;font-size:24px;color:#fff;background:#385195;text-align:center;font-family:'NanumSquareRound'}
+.evtPop .btnClose{position:absolute;top:17px;right:26px;font-size:0;line-height:0;background:inherit;border:0;cursor:pointer}
+.evtPop .btnClose .icoImg{display:block;width:30px;height:30px;background:url(../../../resource/img/bzw/event/20200914/btn_popup_close.png) no-repeat}
+/* e: 200914 지키미 5주년 이벤트*/
+
+/* s: 201218 신용새로고침 이벤트*/
+.event_wrap.refresh .evtConBx .evt .evtBtn01 {position: absolute; top: 0; left: 140px; width: 635px; height: 120px;}
+.event_wrap.refresh .evtConBx .evt .evtBtn02 {position:absolute; top: 0; left:150px; width:620px; height:120px}
+.event_wrap.refresh .evtConBx .evt .evtBtn03 {position: absolute; top: 640px; left: 522px; width: 60px; height: 50px;}
+
+/* 2021 신용등급 새로고침 사전동의 안내 팝업 */
+.popWrap.report2.cpAgree {width:620px;}
+.popWrap.report2.cpAgree .agreeBx{padding:34px 27px;background-color:#fafbfd;}
+.popWrap.report2.cpAgree .agreeBx ul li{margin-left:30px;line-height:32px;font-size:15px;color:#000;letter-spacing:-0.30px;}
+.popWrap.report2.cpAgree .agreeBx ul li .num{margin-left:-30px;margin-right:19px;color:#363636;}
+.popWrap.report2.cpAgree .tip{margin:20px 0 0;padding-left:32px;font-size:15px;color:#363636;line-height:32px;background:url("https://dimg.credit.co.kr/uitest/resource/img/bzw/sub/ico_help.png") no-repeat 0 6px}
+
+/* 신용등급 예측하기 사전동의 안내 팝업 */
+.popWrap.report2.cpAgree_refresh {position: relative; width: 510px !important; border: 0; padding: 25px; text-align: right;}
+.popWrap.report2.cpAgree_refresh h2, .popWrap.report2.cpAgree_refresh h3 {background: none;}
+.popWrap.report2.cpAgree_refresh h2 { font-size: 20px !important; line-height: 1.5;}
+.popWrap.report2.cpAgree_refresh .popTop {padding: 0 0 20px; border-bottom: 2px solid #f2f2f2; }
+.popWrap.report2.cpAgree_refresh .popTop h1 {font-family:'나눔고딕Bold'; font-size: 24px; color: #000; text-align: left; letter-spacing: -2px; }
+.popWrap.report2.cpAgree_refresh h3 { margin: 0 0 30px 0 !important; padding-left: 0 !important; font-family:'나눔고딕Bold';  font-size: 20px !important; color: #000 !important;letter-spacing: -2px; }
+.popWrap.report2.cpAgree_refresh .popTopSub_title { margin-bottom: 0; padding: 40px 0; font-family:'나눔스퀘어','NanumSquareR'; font-size: 20px; text-align: center; }
+.popWrap.report2.cpAgree_refresh .popCon {padding: 0 40px; text-align: left; }
+.popWrap.report2.cpAgree_refresh .btnTpl02 {background: #000 !important;}
+.popWrap.report2.cpAgree_refresh .popWrap.report2.cpAgree .tip { text-align: left; line-height: 25px;}
+
+.popWrap.report2.cpAgree_refresh .msgBx{padding: 0 25px; text-align:center;}
+.popWrap.report2.cpAgree_refresh .msgBx p{font-size:16px;color:#3d3d3d;letter-spacing:-0.8px;line-height:30px}
+.popWrap.report2.cpAgree_refresh .btnWrap{margin:45px 0 0;text-align:center;font-size:0}
+.popWrap.report2.cpAgree_refresh .btnWrap a{display:inline-block; height:55px;line-height:55px;color:#fff;font-size:16px;font-family:'나눔고딕Bold';background:#5061c9}
+.popWrap.report2.cpAgree_refresh .btnWrap.type2 a{display:inline-block;width:211px;height:55px;line-height:55px;background:#000}
+.popWrap.report2.cpAgree_refresh .btnWrap.type3 a{width:150px;height:55px;line-height:55px;margin-right:10px;background:#000}
+.popWrap.report2.cpAgree_refresh .btnWrap.type3 a.st1{background:#fff;border:1px solid #7fa8d1;color:#333;}
+.popWrap.report2.cpAgree_refresh .msgBx{text-align:center}
+
+.popWrap.report2.cpAgree_refresh .close {display: inline-block; right: 0;}
+/* e: 201218 신용새로고침 이벤트 */
+
+.popWrap.report2.cpAgree_refresh .closeBtn02 { display: inline-block; right: 15px; top: 15px; }
